@@ -4,6 +4,7 @@
 
 安装方法：
 
-复制所有文件到rime[用户配置目录](https://github.com/rime/home/wiki/UserData)(注意备份之前的文件)。
+1. 复制所有文件到rime[用户配置目录](https://github.com/rime/home/wiki/UserData)(注意备份之前的文件)。
+2. deploy
 
 本README文件可删。
