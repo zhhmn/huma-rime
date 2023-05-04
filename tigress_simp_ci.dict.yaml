@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.04.01"
+version: "2023.05.02"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2825,6 +2825,7 @@ encoder:
 常言道	117	ssh
 菲尔德	117	lxw
 杀人罪	117	bjy
+热烘烘	117	ucc
 亚文化	117	fvj
 快节奏	117	hla
 王心凌	117	nhw
@@ -3392,6 +3393,7 @@ encoder:
 广色域	102	xxg
 菟丝花	102	lil
 分辨率	102	hnz
+脚后跟	102	vxp
 爱国者	102	yrq
 教育局	102	qbc
 兔崽子	102	wvh
@@ -4227,7 +4229,6 @@ encoder:
 土特产	87	gqi
 变戏法	87	zrk
 绣花针	87	ilz
-白炽灯	87	ucc
 混合物	87	kjq
 北冰洋	87	awk
 信号灯	87	jdc

@@ -5,7 +5,7 @@ patch:
   #translator/enable_completion: true # 编码提示，默认关闭，删掉行首的#号，即可开启
   #speller/auto_select_pattern: ^;\w+|^\w{4}$  # 四码上屏功能，删掉行首的#号，即可开启
   #speller/alphabet: "['zyxwvutsrqponmlkjihgfedcba]" # 取消分号引导的快符功能（分号不作码元），删掉行首#号即可生效
-  #style/mark_text: " " #编号前标志，取消前面的#号可以去掉，也可在引号里可以自己加东西替换，如 "😅"
+  #style/mark_text: " " #编号前标志，删除前面的#号可以替换成空格，也可在引号里可以自己加东西替换，如 "😅"
   #style/layout/border_width: 2 #边框宽度，默认是0
   #style/layout/border_height: 2 #边框高度，默认是0
 
@@ -14,6 +14,7 @@ patch:
   #style/layout/candidate_spacing: 10 #候选框改为横排后,增加 候选与候选 的间距
   #style/layout/hilite_spacing: 8  #候选框改为横排后,增加 标号与候选 的间距
   #style/layout/min_width: 80 #候选框改为横排后，降低最小宽度
+  #style/layout/max_width: 1000 #横排后限制最大宽度，超长后能换行显示
   #横排显示建议把下面这行也注释掉，换成阿拉伯数字标号
   menu/alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  # 自定义候选序号显示符，可自定修改，如要显示阿拉伯数字，直接注释掉这行（在前面加#号）
   # 以下是备选样式（自行删除#号即可生效，只能生效一种）

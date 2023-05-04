@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.04.01"
+version: "2023.05.02"
 sort: by_weight
 columns:
   - text
@@ -2694,8 +2694,7 @@ import_tables:
 岳	397	tfvs
 黎	17543	xpj
 黎	397	xpjk
-浓	17542	kwt
-浓	397	kwti
+浓	17542	kwti
 酸	17541	yk
 酸	256	ykh
 酸	256	ykhh
@@ -4488,7 +4487,6 @@ import_tables:
 搅	397	ukwe
 汁	4433	kns
 凛	4428	wz
-凛	256	wzr
 凛	256	wzrf
 羡	4428	gwe
 羡	397	gweq
@@ -5712,7 +5710,8 @@ import_tables:
 竺	1883	rme
 嗖	1882	dpg
 嗖	397	dpgr
-淀	1880	kwts
+淀	1880	kwt
+淀	397	kwts
 烘	1879	clh
 烘	397	clhb
 痪	1879	axmm
@@ -5894,8 +5893,7 @@ import_tables:
 鲨	1653	kytw
 柿	1652	ezr
 柿	397	ezrj
-脓	1648	vwt
-脓	397	vwti
+脓	1648	vwti
 巅	1646	vnq
 巅	397	vnqw
 啄	1644	dji
@@ -8367,7 +8365,6 @@ import_tables:
 钺	479	znu
 峤	478	vtm
 峤	478	vtmp
-旃	478	lemz
 硒	478	mvx
 舸	478	izk
 疥	477	ajpd
@@ -8783,6 +8780,7 @@ import_tables:
 眇	419	qytp
 绔	419	imm
 绔	419	imma
+腚	419	vwt
 腚	419	vwts
 菅	419	lwk
 菅	419	lwki
@@ -8995,7 +8993,9 @@ import_tables:
 氘	399	vpd
 硌	399	msg
 箅	399	rqlc
+翀	399	zdgs
 苎	399	lwfi
+鲐	399	wkdk
 咴	398	dnc
 咴	398	dnch
 啫	398	dqor
@@ -9037,6 +9037,7 @@ import_tables:
 郃	396	jdte
 铄	396	zby
 铄	396	zbyx
+旃	395	lemz
 矬	395	ojj
 矬	395	ojjg
 砩	395	mtf
@@ -9697,7 +9698,6 @@ import_tables:
 嵛	334	vjvp
 樘	334	esg
 樘	334	esgt
-獍	334	mxp
 獍	334	mxpe
 祆	334	ffm
 祆	334	ffmd
@@ -10276,6 +10276,7 @@ import_tables:
 桴	266	eyhi
 氍	266	qquv
 災	266	och
+猁	266	mxp
 猁	266	mxpd
 瘐	266	apj
 瘐	266	apjr
@@ -10945,7 +10946,6 @@ import_tables:
 阢	258	tfpe
 骍	258	nnx
 骣	258	nchh
-鲐	258	wkdk
 鲒	258	wgd
 鲒	258	wgdk
 鲣	258	wpr
@@ -11037,6 +11037,7 @@ import_tables:
 㟤	257	vbks
 㠇	257	vgyo
 㠓	257	vlwj
+㠮	257	hcou
 㠯	257	ki
 㤅	257	dhx
 㤘	257	hxbj
@@ -11402,6 +11403,7 @@ import_tables:
 剚	257	fdbp
 剟	257	rrrp
 剳	257	ljdp
+剸	257	nqkp
 剹	257	zjep
 剺	257	ahxp
 劀	257	itmp
@@ -11955,6 +11957,7 @@ import_tables:
 幧	257	rdde
 幪	257	rlw
 幪	257	rlwj
+幵	257	eeg
 広	257	xks
 庤	257	xgk
 庤	257	xgkc
@@ -12684,6 +12687,7 @@ import_tables:
 瀞	257	kavb
 瀱	257	kyx
 瀱	257	kyxp
+瀺	257	kwvw
 瀼	257	ktd
 瀼	257	ktdf
 瀽	257	kwqp
@@ -13340,7 +13344,6 @@ import_tables:
 羱	257	gxuy
 羴	257	gggy
 羶	257	gzrf
-翀	257	zdgs
 翂	257	zhp
 翂	257	zhpd
 翃	257	nkz
@@ -13422,6 +13425,7 @@ import_tables:
 臝	257	fdvi
 臞	257	vqqu
 臺	257	gdwy
+臽	257	xpj
 臿	257	lpj
 舠	257	ipd
 舥	257	imb
@@ -13888,6 +13892,7 @@ import_tables:
 阰	257	tvvb
 陁	257	teey
 陎	257	ttaw
+陏	257	tnvy
 陑	257	tle
 陞	257	ttlg
 陻	257	tvg
@@ -14076,6 +14081,7 @@ import_tables:
 鳠	257	wlu
 鳠	257	wlur
 鳡	257	wnfh
+鳣	257	wzr
 鳣	257	wzrf
 鳤	257	wrw
 鳤	257	wrwk
@@ -15383,6 +15389,8 @@ import_tables:
 釦	44	zdk
 盧	43	zqa
 盧	43	zqam
+讬	43	str
+讬	43	strq
 貝	43	ob
 購	43	oqf
 購	43	oqfg
@@ -15395,7 +15403,6 @@ import_tables:
 導	42	houk
 掃	42	ubwr
 虛	42	zcy
-託	42	str
 託	42	strq
 飲	42	qeq
 凱	41	vzoj
@@ -16022,6 +16029,7 @@ import_tables:
 鶆	1	ejjx
 鼂	1	ofdm
 龝	1	xwg
+鿑	1	wnid
 𠬝	1	zry
 𰉄	1	dqpo
 𰪭	1	ppc
@@ -16638,7 +16646,6 @@ import_tables:
 剶	0	bjp
 剶	0	bjpd
 剷	0	ixlp
-剸	0	nqkp
 剻	0	vvvp
 剼	0	kkkp
 剾	0	nddp
@@ -18468,7 +18475,6 @@ import_tables:
 幯	0	rriz
 幰	0	rwah
 幱	0	raxh
-幵	0	eeg
 幷	0	tet
 幷	0	tete
 庁	0	xad
@@ -21286,7 +21292,6 @@ import_tables:
 瀶	0	kqed
 瀷	0	kzqh
 瀸	0	kjjf
-瀺	0	kwvw
 瀻	0	knph
 瀿	0	keki
 灀	0	kteq
@@ -24347,7 +24352,6 @@ import_tables:
 臷	0	npyi
 臸	0	yyi
 臹	0	ynae
-臽	0	xpj
 舃	0	pfac
 舋	0	pmff
 舎	0	jgdk
@@ -26167,7 +26171,6 @@ import_tables:
 讞	0	szn
 讞	0	sznm
 讟	0	sgys
-讬	0	strq
 谉	0	swo
 谉	0	swog
 谸	0	lhg
@@ -27926,7 +27929,6 @@ import_tables:
 阾	0	tjks
 陃	0	tfmj
 陊	0	tllx
-陏	0	tnvy
 陒	0	txxz
 陓	0	tmma
 陖	0	tkhh
@@ -29772,7 +29774,6 @@ import_tables:
 鿌	0	kzoy
 鿐	0	wky
 鿐	0	wkyy
-鿑	0	wnid
 鿒	0	lwy
 鿓	0	lwy
 鿕	0	wmzt
@@ -31027,7 +31028,6 @@ import_tables:
 㠫	0	uoih
 㠬	0	udhf
 㠭	0	uuuu
-㠮	0	hcou
 㠰	0	sdvj
 㠱	0	vzhb
 㠲	0	rvb
@@ -41045,7 +41045,7 @@ import_tables:
 𠵄	0	dyfn
 𠵅	0	dljv
 𠵇	0	dmzk
-𠵈	0	dbfe
+𠵈	0	dbaw
 𠵉	0	dezo
 𠵊	0	gcg
 𠵋	0	duug
@@ -41471,7 +41471,7 @@ import_tables:
 𠻉	0	dauc
 𠻊	0	dxlr
 𠻋	0	dltt
-𠻌	0	elma
+𠻌	0	ddda
 𠻍	0	dxpr
 𠻎	0	dvqe
 𠻏	0	dgcp
@@ -41668,7 +41668,7 @@ import_tables:
 𠾀	0	dbvh
 𠾁	0	dghu
 𠾂	0	ejjd
-𠾃	0	vmmd
+𠾃	0	zmmd
 𠾄	0	yyoc
 𠾅	0	dddd
 𠾆	0	dxpq
@@ -83411,7 +83411,7 @@ import_tables:
 𪛛	0	cid
 𪛜	0	ug
 𪛝	0	oid
-𪛞	0	nlwm
+𪛞	0	nlwe
 𪛟	0	qnw
 𪜀	0	nae
 𪜁	0	fzj

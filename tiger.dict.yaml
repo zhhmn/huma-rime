@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.04.01"
+version: "2023.05.02"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1669,7 +1669,7 @@ columns:
 枝	eci	17555
 岳	tfv	17553
 黎	xpj	17543
-浓	kwt	17542
+浓	kwti	17542
 酸	yk	17541
 酸	ykh	17541
 污	kma	17532
@@ -2783,7 +2783,6 @@ columns:
 搅	ukw	4435
 汁	kns	4433
 凛	wz	4428
-凛	wzr	4428
 羡	gwe	4428
 伺	jaf	4423
 蚁	cib	4417
@@ -3540,7 +3539,7 @@ columns:
 卉	nlc	1889
 竺	rme	1883
 嗖	dpg	1882
-淀	kwts	1880
+淀	kwt	1880
 烘	clh	1879
 痪	axmm	1879
 炊	ce	1877
@@ -3655,7 +3654,7 @@ columns:
 惰	hnu	1653
 鲨	kytw	1653
 柿	ezr	1652
-脓	vwt	1648
+脓	vwti	1648
 巅	vnq	1646
 啄	dji	1644
 娄	pbn	1644
@@ -5274,7 +5273,6 @@ columns:
 钺	znu	479
 峤	vtm	478
 峤	vtmp	478
-旃	lemz	478
 硒	mvx	478
 舸	izk	478
 疥	ajpd	477
@@ -5690,6 +5688,7 @@ columns:
 眇	qytp	419
 绔	imm	419
 绔	imma	419
+腚	vwt	419
 腚	vwts	419
 菅	lwk	419
 菅	lwki	419
@@ -5900,7 +5899,9 @@ columns:
 氘	vpd	399
 硌	msg	399
 箅	rqlc	399
+翀	zdgs	399
 苎	lwfi	399
+鲐	wkdk	399
 咴	dnc	398
 咴	dnch	398
 啫	dqor	398
@@ -6456,7 +6457,6 @@ columns:
 辑	ydqe	397
 岳	tfvs	397
 黎	xpjk	397
-浓	kwti	397
 污	kmae	397
 垂	llgs	397
 炼	cryx	397
@@ -7564,6 +7564,7 @@ columns:
 椒	eyfr	397
 瞳	qidl	397
 嗖	dpgr	397
+淀	kwts	397
 烘	clhb	397
 髦	pevm	397
 稠	xmgd	397
@@ -7630,7 +7631,6 @@ columns:
 辗	yclt	397
 惰	hnuv	397
 柿	ezrj	397
-脓	vwti	397
 巅	vnqw	397
 啄	djid	397
 琛	nwhe	397
@@ -8523,6 +8523,7 @@ columns:
 郃	jdte	396
 铄	zby	396
 铄	zbyx	396
+旃	lemz	395
 矬	ojj	395
 矬	ojjg	395
 砩	mtf	395
@@ -9184,7 +9185,6 @@ columns:
 嵛	vjvp	334
 樘	esg	334
 樘	esgt	334
-獍	mxp	334
 獍	mxpe	334
 祆	ffm	334
 祆	ffmd	334
@@ -9759,6 +9759,7 @@ columns:
 桴	eyhi	266
 氍	qquv	266
 災	och	266
+猁	mxp	266
 猁	mxpd	266
 瘐	apj	266
 瘐	apjr	266
@@ -10431,7 +10432,6 @@ columns:
 阢	tfpe	258
 骍	nnx	258
 骣	nchh	258
-鲐	wkdk	258
 鲒	wgd	258
 鲒	wgdk	258
 鲣	wpr	258
@@ -10521,6 +10521,7 @@ columns:
 㟤	vbks	257
 㠇	vgyo	257
 㠓	vlwj	257
+㠮	hcou	257
 㠯	ki	257
 㤅	dhx	257
 㤘	hxbj	257
@@ -10877,6 +10878,7 @@ columns:
 剚	fdbp	257
 剟	rrrp	257
 剳	ljdp	257
+剸	nqkp	257
 剹	zjep	257
 剺	ahxp	257
 劀	itmp	257
@@ -11425,6 +11427,7 @@ columns:
 幧	rdde	257
 幪	rlw	257
 幪	rlwj	257
+幵	eeg	257
 広	xks	257
 庤	xgk	257
 庤	xgkc	257
@@ -12150,6 +12153,7 @@ columns:
 瀞	kavb	257
 瀱	kyx	257
 瀱	kyxp	257
+瀺	kwvw	257
 瀼	ktd	257
 瀼	ktdf	257
 瀽	kwqp	257
@@ -12800,7 +12804,6 @@ columns:
 羱	gxuy	257
 羴	gggy	257
 羶	gzrf	257
-翀	zdgs	257
 翂	zhp	257
 翂	zhpd	257
 翃	nkz	257
@@ -12882,6 +12885,7 @@ columns:
 臝	fdvi	257
 臞	vqqu	257
 臺	gdwy	257
+臽	xpj	257
 臿	lpj	257
 舠	ipd	257
 舥	imb	257
@@ -13346,6 +13350,7 @@ columns:
 阰	tvvb	257
 陁	teey	257
 陎	ttaw	257
+陏	tnvy	257
 陑	tle	257
 陞	ttlg	257
 陻	tvg	257
@@ -13533,6 +13538,7 @@ columns:
 鳠	wlu	257
 鳠	wlur	257
 鳡	wnfh	257
+鳣	wzr	257
 鳣	wzrf	257
 鳤	wrw	257
 鳤	wrwk	257
@@ -15542,6 +15548,8 @@ columns:
 釦	zdk	44
 盧	zqa	43
 盧	zqam	43
+讬	str	43
+讬	strq	43
 貝	ob	43
 購	oqf	43
 購	oqfg	43
@@ -15554,7 +15562,6 @@ columns:
 導	houk	42
 掃	ubwr	42
 虛	zcy	42
-託	str	42
 託	strq	42
 飲	qeq	42
 凱	vzoj	41
@@ -16204,6 +16211,7 @@ columns:
 鶆	ejjx	1
 鼂	ofdm	1
 龝	xwg	1
+鿑	wnid	1
 𠬝	zry	1
 𰉄	dqpo	1
 𰪭	ppc	1
@@ -16820,7 +16828,6 @@ columns:
 剶	bjp	0
 剶	bjpd	0
 剷	ixlp	0
-剸	nqkp	0
 剻	vvvp	0
 剼	kkkp	0
 剾	nddp	0
@@ -18650,7 +18657,6 @@ columns:
 幯	rriz	0
 幰	rwah	0
 幱	raxh	0
-幵	eeg	0
 幷	tet	0
 幷	tete	0
 庁	xad	0
@@ -21468,7 +21474,6 @@ columns:
 瀶	kqed	0
 瀷	kzqh	0
 瀸	kjjf	0
-瀺	kwvw	0
 瀻	knph	0
 瀿	keki	0
 灀	kteq	0
@@ -24529,7 +24534,6 @@ columns:
 臷	npyi	0
 臸	yyi	0
 臹	ynae	0
-臽	xpj	0
 舃	pfac	0
 舋	pmff	0
 舎	jgdk	0
@@ -26349,7 +26353,6 @@ columns:
 讞	szn	0
 讞	sznm	0
 讟	sgys	0
-讬	strq	0
 谉	swo	0
 谉	swog	0
 谸	lhg	0
@@ -28108,7 +28111,6 @@ columns:
 阾	tjks	0
 陃	tfmj	0
 陊	tllx	0
-陏	tnvy	0
 陒	txxz	0
 陓	tmma	0
 陖	tkhh	0
@@ -29954,7 +29956,6 @@ columns:
 鿌	kzoy	0
 鿐	wky	0
 鿐	wkyy	0
-鿑	wnid	0
 鿒	lwy	0
 鿓	lwy	0
 鿕	wmzt	0
@@ -31209,7 +31210,6 @@ columns:
 㠫	uoih	0
 㠬	udhf	0
 㠭	uuuu	0
-㠮	hcou	0
 㠰	sdvj	0
 㠱	vzhb	0
 㠲	rvb	0
@@ -41227,7 +41227,7 @@ columns:
 𠵄	dyfn	0
 𠵅	dljv	0
 𠵇	dmzk	0
-𠵈	dbfe	0
+𠵈	dbaw	0
 𠵉	dezo	0
 𠵊	gcg	0
 𠵋	duug	0
@@ -41653,7 +41653,7 @@ columns:
 𠻉	dauc	0
 𠻊	dxlr	0
 𠻋	dltt	0
-𠻌	elma	0
+𠻌	ddda	0
 𠻍	dxpr	0
 𠻎	dvqe	0
 𠻏	dgcp	0
@@ -41850,7 +41850,7 @@ columns:
 𠾀	dbvh	0
 𠾁	dghu	0
 𠾂	ejjd	0
-𠾃	vmmd	0
+𠾃	zmmd	0
 𠾄	yyoc	0
 𠾅	dddd	0
 𠾆	dxpq	0
@@ -83593,7 +83593,7 @@ columns:
 𪛛	cid	0
 𪛜	ug	0
 𪛝	oid	0
-𪛞	nlwm	0
+𪛞	nlwe	0
 𪛟	qnw	0
 𪜀	nae	0
 𪜁	fzj	0

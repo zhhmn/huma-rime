@@ -33,7 +33,7 @@ local function exe(key, env)
   elseif (context.input == "/wangpan" or context.input == "/whpj" or context.input == "/mbia") then
     generic_open("http://huma.ysepan.com")
     context:clear()
-  elseif (context.input == "/genda" or context.input == "/gfda" or context.input == "/piua") then
+  elseif (context.input == "/genda" or context.input == "/gfda" or context.input == "/piua" or context.input == "/muyi" or context.input == "/emon" ) then
     generic_open("https://typer.owenyang.top")
     context:clear()
   end

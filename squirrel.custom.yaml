@@ -294,4 +294,7 @@ patch:
     hilite_spacing: 6
     spacing: 12
     color_scheme: win11light
-    style/color_scheme_dark: easy_dark
+    color_scheme_dark: easy_dark
+    # 鼠须管盲打，嵌入首选，删除下面两行的#号，即可生效
+    #alpha: 0.0001
+    #inline_candidate: true

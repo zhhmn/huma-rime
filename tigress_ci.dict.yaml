@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.04.01"
+version: "2023.05.02"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -12470,6 +12470,7 @@ encoder:
 不支	930	cbci
 无意义	930	dxib
 也非	930	eyrf
+神态自若	930	fmol
 下跪	928	fypx
 深藏	928	kwln
 有眼	928	nvqi
@@ -15303,6 +15304,7 @@ encoder:
 并对	775	hlrk
 努力奋斗	775	bsmj
 没有问题	775	knao
+故技重施	775	cull
 赛场	772	wqga
 船只	772	iodh
 华美	772	jvgm
@@ -23691,6 +23693,7 @@ encoder:
 钱袋	521	zfjp
 可亲	521	zkie
 寡言	521	wwsy
+霍然	521	tuvm
 运到	521	buyp
 中分	521	dghp
 决一	521	wnfi
@@ -24037,6 +24040,7 @@ encoder:
 三遍	516	tsmi
 别拿	516	dsjd
 种田	516	xdqt
+跳跳	516	pppp
 青春年华	516	aaej
 弄个	516	nljg
 万户	516	fpmh
@@ -28095,6 +28099,7 @@ encoder:
 厌食	450	xmqs
 濒危	450	ksxx
 填表	450	gnat
+热烘烘	450	uccl
 铜锈	450	zmzx
 流年不利	450	kecx
 墨索里尼	450	pndc
@@ -28108,6 +28113,7 @@ encoder:
 水浅	450	kskf
 二版	450	meax
 呼啸山庄	450	ddvx
+眨眨眼睛	450	qqqq
 内翻	450	mjtp
 桶子	450	ekhi
 奥匈帝国	450	tnir
@@ -28225,6 +28231,11 @@ encoder:
 托育	450	utbv
 乡村教师	450	ieqp
 虾屎	450	cfcp
+曱甴	450	sjdy
+车万	450	ycfp
+妖梦	450	btee
+雨濛濛	450	tkkl
+夯莪	450	mslt
 女鬼	448	bnag
 上岗	448	yfvm
 居室	448	ccwy
@@ -28339,6 +28350,7 @@ encoder:
 之间的	447	raun
 和田	446	xdqt
 阶下	446	tjfy
+女拳	446	bnhh
 增长率	446	gpzi
 客运	446	wsbu
 打响	446	uadt
@@ -28437,7 +28449,6 @@ encoder:
 怕事	446	hufd
 劈头	446	cdwm
 天崩地裂	446	fvgg
-女眷	446	bnhh
 所闻	446	mtaq
 封死	446	gggv
 甩头	446	tawm
@@ -36032,6 +36043,7 @@ encoder:
 更了	367	forl
 撞了	367	uirl
 宝具	367	wnqh
+没改	367	krvh
 虎家	367	zhwj
 德味	367	wnda
 遣回	367	ckrd
@@ -36059,7 +36071,6 @@ encoder:
 标顶	367	efaw
 键法	367	zbkg
 校验码	367	enmn
-女拳	367	bnhh
 男拳	367	qshh
 记混	367	svko
 斗字	367	jdwh
@@ -36202,6 +36213,7 @@ encoder:
 菟丝花	367	lilj
 降智	367	thod
 小丑竟是我自己	367	yaxv
+女眷	367	bnhh
 图个	367	rhjg
 国运	367	rnbu
 剪掉	367	hvuy
@@ -43886,6 +43898,7 @@ encoder:
 造影	317	qdog
 单相	317	hqeq
 淙淙	317	kwkw
+枪栓	317	ejej
 竟自	317	xpoi
 钟乳	317	zdyh
 温言	317	kosy
@@ -43965,7 +43978,6 @@ encoder:
 弱爆	317	bwco
 工商行政管理	317	uipn
 在心	317	nghx
-见见	317	ejej
 了一会	316	rfjb
 了一眼	316	rfqi
 老头儿	315	qwpe
@@ -68769,7 +68781,6 @@ encoder:
 小鼓	251	yxhc
 两面派	251	mbkx
 易学	251	onkw
-热烘烘	251	uccl
 未卜先知	251	ayqo
 荣格	251	lwes
 息息相通	251	ooek
@@ -69031,6 +69042,7 @@ encoder:
 想起了	251	eprl
 放弃了	251	lbrl
 我喜欢	251	thre
+巭孬嫑夯莪	251	uccl
 人见	250	jrej
 同体	250	mfje
 飘逝	250	vfut
@@ -75709,7 +75721,6 @@ encoder:
 小喇叭	227	yddh
 劳损	227	lwud
 清誉	227	kakh
-枪栓	227	ejej
 交行	227	abpx
 个人电脑	227	jjov
 二月份	227	mvjh
@@ -75763,6 +75774,7 @@ encoder:
 东西部	227	rvid
 手脚并用	227	uvht
 滴水之恩	227	kkrr
+相依相偎	227	ejej
 西部大开发	227	vims
 禽类	227	jzpm
 佛罗里达州	227	jydo
@@ -79652,6 +79664,7 @@ encoder:
 法律规定	217	kwhw
 催动	216	jvbs
 淋漓	216	kekz
+天星	216	fmol
 拆法	216	utkg
 火遁	216	chxn
 旭光	216	komg
@@ -79948,6 +79961,7 @@ encoder:
 白化病	216	ujaf
 银亮	216	zigo
 辩才	216	nsnt
+李代桃僵	216	ejej
 格物致知	216	eqyo
 鹰犬	216	xjmq
 亲故	216	iech
@@ -80152,7 +80166,6 @@ encoder:
 挑头	216	upwm
 疯牛病	216	aqaf
 兔爷	216	wthb
-相依相偎	216	ejej
 毛孩子	216	vhhi
 创纪录	216	jibk
 电信业	216	ojcy
@@ -80186,7 +80199,6 @@ encoder:
 五四青年节	216	wyal
 心存芥蒂	216	hnll
 补台	216	tykd
-神态自若	216	fmol
 知心话	216	ohsa
 晒谷	216	ovhg
 皱折	216	xbut
@@ -83461,6 +83473,7 @@ encoder:
 说不出	207	scsm
 青莲	206	avly
 它从	206	wvjj
+还多	206	cull
 后主	206	xfin
 土司	206	gtaf
 英剧	206	lmcc
@@ -84127,7 +84140,6 @@ encoder:
 过氧化	206	kvjv
 金融资本	206	znwe
 丛林法则	206	jeko
-故技重施	206	cull
 革命先烈	206	tjqg
 氧化铝	206	vjzd
 反政府	206	xfxj
@@ -94854,7 +94866,6 @@ encoder:
 多见	109	llej
 赵国	109	pbrn
 红着脸	109	igvj
-李代桃僵	108	ejej
 有没有人	108	nknj
 很自然	108	wovm
 该怎样	108	sweg
@@ -94879,6 +94890,7 @@ encoder:
 喝多了	108	dlrl
 现代人	108	njjr
 爬出	108	ymsm
+见见	108	ejej
 旗舰店	108	lixy
 恢复正常	107	hefs
 夏禹	107	fotd
@@ -139784,7 +139796,6 @@ encoder:
 无法割舍	51	dkwj
 有所耳闻	51	nmqa
 看电视剧	51	uofc
-眨眨眼睛	51	qqqq
 精神层面	51	pfcb
 轰然倒塌	51	yvjg
 两个问题	51	mjao
@@ -139903,6 +139914,7 @@ encoder:
 需要知道	51	tvoh
 提供一个	51	ujfj
 她就知道	51	bgoh
+睡眼矇眬	51	qqqq
 石景山区	50	movn
 富力	50	wfsl
 公立学校	50	hike
