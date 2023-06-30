@@ -7,6 +7,7 @@ from shutil import copytree, rmtree
 from urllib.request import urlretrieve
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 URL = "http://huma.ysepan.com"
 ZIP_FILE = 'huma.zip'
@@ -16,8 +17,14 @@ try:
 except Exception:
     pass
 
-os.environ['MOZ_HEADLESS'] = '1'
-browser = webdriver.Firefox() # type: ignore
+# options = Options()
+# options.headless = True
+# os.environ['MOZ_HEADLESS'] = '1'
+# browser = webdriver.Firefox(options=options) # type: ignore
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--no-sandbox")
+browser = webdriver.Chrome(options=chrome_options)
 
 timeout = 10
 
@@ -66,13 +73,18 @@ while True:
 
 url = None
 name = None
-items = ul.find_elements(by='tag name', value='li')
-for item in items:
-    if item.text.startswith('虎码秃版 鼠须管'):
-        a = item.find_element(by='tag name', value='a')
-        url = a.get_attribute('href')
-        name = item.text
-        break
+i = 0
+while url is None and i < timeout:
+    items = ul.find_elements(by='tag name', value='li')
+    for item in items:
+        if item.text.startswith('虎码秃版 鼠须管'):
+            a = item.find_element(by='tag name', value='a')
+            url = a.get_attribute('href')
+            name = item.text
+            break
+    time.sleep(1)
+    i += 1
+
 
 if url is None:
     print("can't find zip file entry")
@@ -86,7 +98,7 @@ if m is None:
     exit(1)
 date = m.group('date')
 
-print(f'v{date}')
+print(f'tag=v{date}')
 print(f'downloading {name}', file=sys.stderr)
 
 urlretrieve(url, ZIP_FILE)

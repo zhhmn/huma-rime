@@ -2,44 +2,35 @@ name: Automated Workflow
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
   automate-task:
     runs-on: ubuntu-latest
-    
     container:
-      image: selenium/standalone-firefox  # Use a selenium-ready image to support Firefox.
-    
+      image: c4r50nz/selenium-chrome:v20230701
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        
-      - name: Setup Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x  # Assuming the script needs python 3.x
-        
+      - name: Clone repository
+        run: |
+          git clone https://x-access-token:${{ secrets.PAT }}@github.com/zhhmn/huma-rime
+          cd huma-rime
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+
       - name: Run script and capture output
         id: script
-        run: echo "::set-output name=tag::$(python crawler.py)"
-        
+        run: |
+          cd huma-rime
+          python crawler.py >> $GITHUB_OUTPUT
+
       - name: Commit and push if there are changes
         run: |
-          git config user.name "Frefreak"
-          git config user.email "frefreak.zxy@gmail.com"
-          git add -A
+          cd huma-rime
+          git status
           DATE=$(date +"%Y-%m-%d")
-          git commit -m "Automated update on $DATE" || exit 0  # commit doesn't fail the action if no changes
-          git push
-      
-      - name: Create GitHub Release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.script.outputs.tag }}
-          release_name: ${{ steps.script.outputs.tag }}
-          draft: false
-          prerelease: false
+          git commit --all --verbose -m "Automated update on $DATE" || exit 0
+          git tag ${{ steps.script.outputs.tag }}
+          git tag
+          git push --tags
