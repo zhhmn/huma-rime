@@ -80,11 +80,11 @@ if url is None:
 
 browser.close()
 assert name is not None
-m = re.match(r'.*(?P<file>\d{4}\.\d{2}\.\d{2}\.zip)', name)
+m = re.match(r'.*(?P<date>\d{4}\.\d{2}\.\d{2})\.zip', name)
 if m is None:
     print(f"failed to extract filename: {name}")
     exit(1)
-date = m.group('file')
+date = m.group('date')
 
 print(f'v{date}')
 print(f'downloading {name}', file=sys.stderr)
