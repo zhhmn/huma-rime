@@ -2,3 +2,4 @@ build
 *.userdb
 installation.yaml
 user.yaml
+geckodriver.log
