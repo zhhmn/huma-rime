@@ -1,4 +1,4 @@
-来自虎码[网盘](http://huma.ysepan.com/) —— **04 虎码 新小狼毫 鼠须管 中文输入法** / **虎码秃版 小狼毫 鼠须管（Win Mac）**
+来自虎码[网盘](http://huma.ysepan.com/) —— **05 虎码 鼠须管 iRime 仓输入法 挂接** / **虎码秃版 鼠须管 仓输入法（Mac ios）2023.06.26.zip**
 
 放一份在git上用于版本管理和更方便的安装。
 
@@ -7,4 +7,4 @@
 1. 复制所有文件到rime[用户配置目录](https://github.com/rime/home/wiki/UserData)(注意备份之前的文件)。
 2. deploy
 
-本README文件可删。
+本`README`和`crawler.py`文件可删。
