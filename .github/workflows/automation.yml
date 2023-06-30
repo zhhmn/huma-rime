@@ -1,0 +1,45 @@
+name: Automated Workflow
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  automate-task:
+    runs-on: ubuntu-latest
+    
+    container:
+      image: selenium/standalone-firefox  # Use a selenium-ready image to support Firefox.
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x  # Assuming the script needs python 3.x
+        
+      - name: Run script and capture output
+        id: script
+        run: echo "::set-output name=tag::$(python crawler.py)"
+        
+      - name: Commit and push if there are changes
+        run: |
+          git config user.name "Frefreak"
+          git config user.email "frefreak.zxy@gmail.com"
+          git add -A
+          DATE=$(date +"%Y-%m-%d")
+          git commit -m "Automated update on $DATE" || exit 0  # commit doesn't fail the action if no changes
+          git push
+      
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.script.outputs.tag }}
+          release_name: ${{ steps.script.outputs.tag }}
+          draft: false
+          prerelease: false
