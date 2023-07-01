@@ -33,4 +33,4 @@ jobs:
           git commit --all --verbose -m "Automated update on $DATE" || exit 0
           git tag ${{ steps.script.outputs.tag }}
           git tag
-          git push --tags
+          git push origin HEAD:master
