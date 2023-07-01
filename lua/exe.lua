@@ -25,9 +25,9 @@ local function exe(key, env)
     context:clear()
   elseif (context.input == "/baidu" or context.input == "/bddu" or context.input == "/fuxl") then
     generic_open("https://www.baidu.com")
-  elseif (context.input == "/biying" or context.input == "/biyk" or context.input == "/htxk") then
+  elseif (context.input == "/biying" or context.input == "/bing" or context.input == "/biyk" or context.input == "/htxk") then
     generic_open("https://cn.bing.com")
-  elseif (context.input == "/guge" or context.input == "/guge" or context.input == "/hgzz") then
+  elseif (context.input == "/guge" or context.input == "/google" or context.input == "/hgzz") then
     generic_open("https://www.google.com")
     context:clear()
   elseif (context.input == "/wangpan" or context.input == "/whpj" or context.input == "/mbia") then
@@ -35,6 +35,12 @@ local function exe(key, env)
     context:clear()
   elseif (context.input == "/genda" or context.input == "/gfda" or context.input == "/piua" or context.input == "/muyi" or context.input == "/emon" ) then
     generic_open("https://typer.owenyang.top")
+    context:clear()
+  elseif (context.input == "/zitong" or context.input == "/zits" or context.input == "/whib") then
+    generic_open("https://zi.tools")
+    context:clear()
+  elseif (context.input == "/yedian" or context.input == "/yedm" or context.input == "/dnih") then
+    generic_open("http://www.yedict.com")
     context:clear()
   end
   return kNoop

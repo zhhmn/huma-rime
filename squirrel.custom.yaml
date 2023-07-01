@@ -287,7 +287,7 @@ patch:
     label_font_point: 16 #标号字号
     #label_format: "%s."
     layout:
-      min_width: 90
+      min_width: 85
     corner_radius: 5
     hilited_corner_radius: 5
     line_spacing: 8

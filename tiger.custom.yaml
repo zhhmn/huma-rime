@@ -11,11 +11,11 @@ patch:
 
   menu/page_size: 9 # 自定义候选个数，可修改。若要改成5个，行首加上#号注释即可（Rime默认就是5个）
   #style/horizontal: true # 默认是false竖排显示，删掉行首的#号，可横排显示（横排建议把上面这行注释掉）
-  #style/layout/candidate_spacing: 10 #候选框改为横排后,增加 候选与候选 的间距
+  #style/layout/candidate_spacing: 17 #候选框改为横排后,增加 候选与候选 的间距
   #style/layout/hilite_spacing: 8  #候选框改为横排后,增加 标号与候选 的间距
-  #style/layout/min_width: 80 #候选框改为横排后，降低最小宽度
-  #style/layout/max_width: 1000 #横排后限制最大宽度，超长后能换行显示
-  #横排显示建议把下面这行也注释掉，换成阿拉伯数字标号
+  #style/layout/min_width: 80  #候选框改为横排后,增加最小宽度
+  #style/layout/max_width: 1000 #候选框改为横排后，限制最大宽度，超长自动换行
+  # 横排显示建议把下面这行也注释掉，换成阿拉伯数字标号
   menu/alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  # 自定义候选序号显示符，可自定修改，如要显示阿拉伯数字，直接注释掉这行（在前面加#号）
   # 以下是备选样式（自行删除#号即可生效，只能生效一种）
   #menu/alternative_select_labels: [ ①,②,③,④,⑤,⑥,⑦,⑧,⑨,⑩ ]
@@ -38,10 +38,10 @@ patch:
   #style/layout/round_corner: 0 #高亮圆角
 
   # #候选字体
-  #style/font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  #style/font_face: "Consolas, Segoe UI Emoji, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
   #style/font_point: 15 #主字体字号
   # #滤镜内容字体
-  #style/comment_font_face: "Consolas, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
+  #style/comment_font_face: "Consolas, Segoe UI Emoji, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
   #style/comment_font_point: 15 # 滤镜内容字号
   # #候选前编号标志字体
   #style/label_font_face: "LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16, FSung-1, FSung-2, FSung-3, FSung-F, FSung-X"
@@ -54,9 +54,9 @@ patch:
   #style/label_font_face: LXGW WenKai GB Screen R
 
   # 去除拼音滤镜的括号，如对括号有需求，可在下面5行前面加上#号注释掉
-  pinyin/comment_format:
-   - 'xform/&nbsp;/ /'
-   - 'xform/^/ /'
-   - 'xform/（//'
-   - 'xform/）//'
+  #pinyin/comment_format:
+   #- 'xform/&nbsp;/ /'
+   #- 'xform/^/ /'
+   #- 'xform/（//'
+   #- 'xform/）//'
   # 也可自己把 （ 替换成别的，比如 'xform/（/〔/'

@@ -166,6 +166,7 @@ key_binder:
     - { accept: "Control+u", toggle: charset_comment_filter, when: composing }  # PC Unicode分区开关
     - { accept: "Control+y", toggle: udpf_switch, when: composing }  #PC Unicode编码开关
     - { accept: "Control+h", toggle: extended_char, when: composing } # PC 自定字集开关
+    - { accept: "Control+Shift+H", toggle: extended_char, when: composing } # PC 自定字集开关2
     - { accept: "Control+j", toggle: chaifen, when: composing } # PC 拆分滤镜开关
     # - { when: composing, accept: '&', toggle: emoji_cn } # 手机 emoji开关
     # - { when: composing, accept: '*', toggle: simplification } # 手机 繁简开关
@@ -180,6 +181,7 @@ key_binder:
     - { when: has_menu, accept: Right, send: Down } # 右方向键 向后移动焦点
     - { when: has_menu, accept: Left, send: Up } # 左方向键 向前移动焦点
     - { when: always, accept: "Control+period" , toggle: ascii_punct } # 中英标点切换
+    - { when: always, accept: "Shift+space" , toggle: full_shape } # 全半角切换
 
 recognizer:
   import_preset: default

@@ -1858,6 +1858,10 @@ local function translator(input, seg)
     candidate = Candidate("date", seg.start, seg._end, date, num_year)
     yield(candidate)
 
+    date = os.date("%Y%m%d")
+    candidate = Candidate("date", seg.start, seg._end, date, num_year)
+    yield(candidate)
+
     date = lunarJzl(os.date("%Y%m%d%H"))
     candidate = Candidate("date", seg.start, seg._end, date, " ")
     yield(candidate)
