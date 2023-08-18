@@ -99,7 +99,7 @@ if m is None:
 date = m.group('date')
 
 print(f'tag=v{date}')
-print(f'downloading {name}', file=sys.stderr)
+print(f'downloading {name} with url {url}', file=sys.stderr)
 
 urlretrieve(url, ZIP_FILE)
 with zipfile.ZipFile(ZIP_FILE, 'r', metadata_encoding='cp936') as zip_ref:
