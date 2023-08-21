@@ -2,6 +2,7 @@ import os
 import re
 import sys
 import time
+import socket
 import zipfile
 from shutil import copytree, rmtree
 from urllib.request import urlretrieve
@@ -101,6 +102,7 @@ date = m.group('date')
 print(f'tag=v{date}')
 print(f'downloading {name} with url {url}', file=sys.stderr)
 
+socket.setdefaulttimeout(300)
 urlretrieve(url, ZIP_FILE)
 with zipfile.ZipFile(ZIP_FILE, 'r', metadata_encoding='cp936') as zip_ref:
     folder = zip_ref.filelist[0].filename[:-1]
