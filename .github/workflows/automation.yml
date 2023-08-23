@@ -7,7 +7,7 @@ on:
 
 jobs:
   automate-task:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     container:
       image: c4r50nz/selenium-chrome:v20230701
 
