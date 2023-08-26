@@ -95,7 +95,7 @@ browser.close()
 assert name is not None
 m = re.match(r'.*(?P<date>\d{4}\.\d{2}\.\d{2})\.zip', name)
 if m is None:
-    print(f"failed to extract date from filename: {name}")
+    print(f"failed to extract date from filename: {name}", file=sys.stderr)
     if '.zip' in name and name.endswith('MB'):
         date = datetime.now().strftime("%Y.%m.%d")
     else:
