@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.07.01"
+version: "2023.08.26"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1854,6 +1854,7 @@ encoder:
 经济学	222	ikk
 北京市	222	agz
 走过去	219	pkg
+卡耐基	219	ylz
 一整天	219	fxf
 大不了	219	mcr
 第三次	219	rtw
@@ -2447,7 +2448,7 @@ encoder:
 听得见	135	dwe
 另一面	135	dfb
 社会学	135	fjk
-盖茨比	135	glv
+袁世凯	135	glv
 辛迪加	135	nds
 好运气	135	bbv
 做好事	135	jbf
@@ -2634,7 +2635,6 @@ encoder:
 大哥哥	123	mzz
 大踏步	123	mps
 研究员	123	med
-卡耐基	123	ylz
 不好过	123	cbk
 本地区	123	egn
 回娘家	123	rbw
@@ -2826,6 +2826,7 @@ encoder:
 杀人罪	117	bjy
 热烘烘	117	ucc
 亚文化	117	fvj
+急救站	117	xfi
 快节奏	117	hla
 王心凌	117	nhw
 座头鲸	117	xww
@@ -2854,8 +2855,14 @@ encoder:
 蒸虾头	117	lcw
 下头男	117	fwq
 虾头男	117	cwq
-虾头女	117	cwb
+下头女	117	fwb
 小红薯	117	yil
+暖羊羊	117	ogg
+天川空	117	foe
+上羽绚	117	yzi
+奥德赛	117	tww
+塞尔达	117	wxm
+罗刹海	117	ybk
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -3287,6 +3294,7 @@ encoder:
 集中营	102	udl
 植物人	102	eqj
 古罗马	102	cyn
+服务区	102	vhn
 打印机	102	ube
 癌细胞	102	aiv
 不成器	102	cnd
@@ -3672,7 +3680,6 @@ encoder:
 彼此间	96	wsa
 一切都	96	frq
 继承者	96	iaq
-连云港	96	ybk
 祖师爷	96	fph
 记者会	96	sqj
 不愧为	96	chi
@@ -3834,7 +3841,6 @@ encoder:
 太多的	93	mlu
 常用字	93	stw
 电磁波	93	omk
-百家姓	93	fwb
 鲜红色	93	wix
 雇佣军	93	mjw
 快餐店	93	hgx
@@ -3878,7 +3884,6 @@ encoder:
 小儿科	93	ypx
 建议书	93	bsa
 回形针	93	rfz
-连锅端	93	yzi
 联交所	93	qam
 原生态	93	xlm
 敌占区	93	ayn
@@ -4145,6 +4150,7 @@ encoder:
 十分之	90	nhr
 之日起	90	rop
 社会的	90	fju
+黑神话	90	pfs
 我已经	90	tvi
 真实的	90	nwu
 下来的	90	fau
