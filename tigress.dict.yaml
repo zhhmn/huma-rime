@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.08.26"
+version: "2023.10.02"
 sort: by_weight
 columns:
   - text
@@ -11393,6 +11393,7 @@ import_tables:
 凓	257	wve
 凓	257	wvem
 凘	257	wzht
+凪	257	osi
 凵	257	mk
 刂	257	pd
 刌	257	kpd
@@ -11568,6 +11569,7 @@ import_tables:
 嗱	257	djdu
 嗻	257	dxl
 嗻	257	dxlc
+嗼	257	dlom
 嘅	257	did
 嘅	257	didu
 嘑	257	dzt
@@ -16623,7 +16625,6 @@ import_tables:
 凧	0	orj
 凨	0	oby
 凩	0	oem
-凪	0	osi
 凬	0	ofor
 凮	0	ofu
 凮	0	ofub
@@ -17094,7 +17095,6 @@ import_tables:
 嗹	0	dyuc
 嗺	0	dvu
 嗺	0	dvui
-嗼	0	dlom
 嗿	0	djao
 嘂	0	ddid
 嘃	0	dxbt
@@ -112600,6 +112600,10 @@ import_tables:
 ⿹	0	rae
 ⿺	0	rae
 ⿻	0	rrk
+⿼	0	rnk
+⿽	0	rgfi
+⿾	0	rfdd
+⿿	0	radk
 ㄅ	0	ae
 ㄆ	0	hi
 ㄇ	0	mk
@@ -113209,6 +113213,7 @@ import_tables:
 愐	255	hbmx
 舁	255	plcj
 忮	255	hcix
+茑	255	lxnc
 微	255	wvfo
 赢	255	fdvo
 徽	255	wvfi

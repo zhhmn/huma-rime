@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.08.26"
+version: "2023.10.02"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1667,6 +1667,7 @@ encoder:
 不重要	288	clv
 一分钟	285	fhz
 班主任	285	nij
+行动力	285	pbs
 更重要	285	flv
 一点儿	282	fyp
 另一种	282	dfx
@@ -2819,6 +2820,7 @@ encoder:
 高强度	117	gbx
 初学者	117	tkq
 谷爱凌	117	hyw
+梁羽生	117	kzl
 数十万	117	pnf
 满世界	117	klq
 常言道	117	ssh
@@ -2829,6 +2831,7 @@ encoder:
 急救站	117	xfi
 快节奏	117	hla
 王心凌	117	nhw
+张嘉倪	117	bhj
 座头鲸	117	xww
 罗宾汉	117	ywk
 碧绿色	117	nix
@@ -2858,11 +2861,24 @@ encoder:
 下头女	117	fwb
 小红薯	117	yil
 暖羊羊	117	ogg
+橘玛丽	117	enf
 天川空	117	foe
 上羽绚	117	yzi
 奥德赛	117	tww
 塞尔达	117	wxm
 罗刹海	117	ybk
+韩蛛俐	117	ncj
+金佰莉	117	zjl
+幸运咖	117	gbd
+是的吧	117	oud
+谢震业	117	stc
+苏炳添	117	lck
+许幻山	117	siv
+洪世贤	117	klp
+张楚岚	117	bev
+绘丽奈	117	ifm
+水川润	117	kok
+千寺狐	117	lgm
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -3231,7 +3247,6 @@ encoder:
 容不得	105	wcw
 公安厅	105	hwx
 陈奕迅	105	tza
-好心人	105	bhj
 正义感	105	fin
 方面军	105	lbw
 实打实	105	wuw
@@ -3348,7 +3363,6 @@ encoder:
 次密接	102	wwu
 客制化	102	wqj
 算术题	102	reo
-波斯菊	102	kzl
 拓展坞	102	ucg
 腱鞘炎	102	vtc
 刷新率	102	ciz
@@ -3425,7 +3439,6 @@ encoder:
 简单化	102	rhj
 小红书	102	yia
 排除法	102	utk
-油菜籽	102	klp
 穷光蛋	102	emt
 时间差	102	oag
 二手房	102	mum
@@ -3458,6 +3471,7 @@ encoder:
 人贩子	102	joh
 寄件人	102	wjj
 国际上	102	rty
+李泽锋	102	ekz
 不符合	102	crj
 流眼泪	102	kqk
 分界线	102	hqi
@@ -3597,7 +3611,6 @@ encoder:
 综合症	99	ija
 高富帅	99	gwp
 扑克牌	99	uca
-而不能	99	lck
 件事情	99	jfh
 是这样	99	ove
 抚恤金	99	uhz
@@ -3779,7 +3792,6 @@ encoder:
 是你的	96	oju
 金牛座	93	zqx
 参谋长	93	ksp
-电话线	93	osi
 少先队	93	yqt
 随大流	93	tmk
 出头鸟	93	swx
@@ -4201,7 +4213,6 @@ encoder:
 维克多	90	icl
 察觉到	90	wky
 承包人	87	anj
-金创药	87	zjl
 巨无霸	87	ndt
 排泄物	87	ukq
 陆战队	87	tyt
@@ -4448,6 +4459,7 @@ encoder:
 玩艺儿	84	nlp
 南天门	84	nfa
 我发现	84	tsn
+张小斐	84	byr
 反对派	84	xrk
 离退休	84	zij
 饲养员	84	qgd

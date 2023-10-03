@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.08.26"
+version: "2023.10.02"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -5082,6 +5082,7 @@ encoder:
 场合	2001	gajd
 就是这样	2001	gove
 成形	2001	nafl
+行动力	2000	pbsl
 塌房	2000	goml
 聊骚	2000	qbnr
 懵圈	2000	hlrh
@@ -27970,6 +27971,7 @@ encoder:
 定调	452	wtsm
 道里	450	hodl
 下个月	450	fjvy
+阿丑	450	tzag
 男拳	450	qshh
 选民	450	qpdm
 滑雪	450	kftb
@@ -28078,10 +28080,13 @@ encoder:
 谷爱凌	450	hywg
 潮红	450	kniu
 造林	450	qdee
+每期	450	ekzh
 仙姑	450	jvbc
 砝码	450	mgmn
 老泪纵横	450	qkie
 暗爽	450	oxmb
+煲汤	450	jdka
+梁羽生	450	kzls
 数十万	450	pnfp
 满世界	450	klqj
 蓬勃发展	450	lnsc
@@ -28099,9 +28104,11 @@ encoder:
 娇笑	450	btrt
 粗话	450	pfsa
 香艳	450	xoax
+阿迪	450	tzdu
 厌食	450	xmqs
 濒危	450	ksxx
 填表	450	gnat
+妙笔	450	byrv
 蛇女	450	cwbn
 热烘烘	450	uccl
 国耻	450	rnqs
@@ -28109,6 +28116,7 @@ encoder:
 主菜	450	inly
 流年不利	450	kecx
 墨索里尼	450	pndc
+杀鸡给猴看	450	briu
 卢克	450	yccp
 亚文化	450	fvjv
 急救站	450	xfiy
@@ -28119,9 +28127,13 @@ encoder:
 萌新	450	loie
 用枪	450	tyej
 弄弄	450	nlnl
+江总	450	kuhd
 水浅	450	kskf
 二版	450	meax
 呼啸山庄	450	ddvx
+王也	450	nwey
+黄卡	450	nhyf
+古域	450	cggp
 眨眨眼睛	450	qqqq
 内翻	450	mjtp
 桶子	450	ekhi
@@ -28131,6 +28143,7 @@ encoder:
 另外一个	450	dlfj
 一两个	450	fmjg
 王心凌	450	nhwg
+张嘉倪	450	bhjp
 一拳	450	fihh
 每一个人	450	efjj
 只不过是	450	dcko
@@ -28288,6 +28301,9 @@ encoder:
 懒羊羊	450	hggy
 暖羊羊	450	oggy
 夏目彩春	450	fqya
+白峰美羽	450	uvgz
+橘玛丽	450	enfv
+小凑四叶	450	ywyd
 天川空	450	foeu
 鬼头桃菜	450	awel
 上羽绚	450	yzin
@@ -28309,6 +28325,36 @@ encoder:
 精彩绝伦	450	pyij
 串流	450	ddkb
 引战	450	bgyd
+韩蛛俐	450	ncjx
+杰米	450	ecpm
+曼侬	450	oyjw
+桑吉尔夫	450	rgxh
+嘉米	450	hspm
+达尔西姆	450	mxvb
+金佰莉	450	zjlx
+古茗	450	cgll
+幸运咖	450	gbds
+库迪	450	xydu
+酱香拿铁	450	axjz
+是的吧	450	oudm
+吴艳妮	450	dabc
+谢震业	450	stcy
+苏炳添	450	lckf
+卫明	450	zfov
+许幻山	450	sivs
+林双	450	eerr
+洪世贤	450	klpr
+冯宝宝	450	wwwn
+张楚岚	450	bevo
+绘丽奈	450	ifmf
+苍山爱奈	450	lvym
+水川润	450	koka
+有栖花绯	450	neli
+凪光	450	osmg
+千寺狐	450	lgmy
+奢香	450	mqxo
+悦听	450	hhdt
+保益悦听	450	jkhd
 女鬼	448	bnag
 上岗	448	yfvm
 居室	448	ccwy
@@ -36131,7 +36177,6 @@ encoder:
 小仙男	367	yjqs
 九敏	367	kjek
 夹总	367	hhhd
-阿丑	367	tzag
 废文	367	xsvw
 长佩	367	pcjo
 塔读	367	glsn
@@ -36571,6 +36616,7 @@ encoder:
 排除法	367	utkg
 书城	367	aagn
 油菜籽	367	klph
+阿鬼	367	tzag
 滚滚	366	ktkt
 贩子	366	oxhi
 奇观	366	mzre
@@ -37113,7 +37159,6 @@ encoder:
 所设	362	mtsr
 合为	362	jdis
 作客	362	jwws
-每期	362	ekzh
 拐进	362	udqu
 必败	362	htoh
 早间	362	onao
@@ -37209,6 +37254,7 @@ encoder:
 白胖	362	ubvh
 纵轴	362	ijyd
 会是	362	jbot
+李泽锋	362	ekzh
 了一声	361	rfgc
 她不	361	becb
 不符合	360	crjd
@@ -44973,7 +45019,6 @@ encoder:
 司南	311	afnm
 英雄豪杰	311	lnge
 紫禁	311	svee
-煲汤	311	jdka
 咏春	311	diai
 返利	311	xrxp
 中文名	311	dvld
@@ -45107,6 +45152,7 @@ encoder:
 全心全力	311	jhjs
 变的	311	zcun
 带来的	311	laun
+保益	311	jdka
 识到	310	sdyp
 飘过	310	vfku
 兵权	310	ther
@@ -46905,7 +46951,6 @@ encoder:
 双程	307	rrxd
 主科	307	inxj
 赛扬	307	wqua
-梁羽生	307	kzls
 足坛	307	pugb
 古本	307	cgef
 磁疗	307	mhar
@@ -48085,6 +48130,7 @@ encoder:
 起起伏伏	307	ppjj
 学童	307	kwid
 战意	307	ydxh
+渚恋生	307	kzls
 理化	306	ndjv
 九层	306	kjcb
 全名	306	jnld
@@ -61024,7 +61070,6 @@ encoder:
 少先队员	281	yqtd
 生态平衡	281	lmep
 饭堂	281	qxsg
-阿迪	281	tzdu
 弹珠	281	bhnt
 扰动	281	uobs
 圆心	281	rdhx
@@ -61132,6 +61177,7 @@ encoder:
 已经不	281	vicb
 普通的	281	hkun
 内的	281	mjun
+阿无	281	tzdu
 羊皮纸	280	grib
 索尔	280	nwxy
 执子之手	280	uhru
@@ -62767,7 +62813,6 @@ encoder:
 园外	272	rmly
 淫妇	272	kybb
 迷魂	272	puba
-妙笔	272	byrv
 白鹅	272	ubtu
 俊男	272	jkqs
 早茶	272	onlj
@@ -62903,6 +62948,7 @@ encoder:
 等我	272	rgtu
 这座	272	vuxj
 心中的	272	hdun
+张小斐	272	byrv
 满是	271	klot
 承运	270	akbu
 答曰	270	rjor
@@ -92727,7 +92773,6 @@ encoder:
 曹妃甸	182	fbnq
 有线通	182	nikt
 杀威棒	182	bnea
-杀鸡给猴看	182	briu
 杯酒言欢	182	eksr
 柔肠百结	182	ivfi
 梦溪笔谈	182	ekrs
@@ -93268,6 +93313,7 @@ encoder:
 走过来	182	pkah
 刚开始	182	mfbk
 一巴掌	182	fmsu
+张之维	182	briu
 一想到	181	feyp
 总觉	181	hdkw
 有多么	181	nltk
@@ -112400,7 +112446,6 @@ encoder:
 踢着	59	pogq
 胸甲	59	vnsj
 爱书	59	ywaa
-江总	59	kuhd
 挖掉	59	ueuy
 都冲	59	qowd
 午评	59	ense
@@ -118812,6 +118857,7 @@ encoder:
 大桥未久	59	meax
 渡边淳一	59	kskf
 补枪	59	tyej
+江喜	59	kuhd
 亚洲人	58	fkjr
 第三部分	58	rtih
 跟得上	58	pwyf
@@ -119874,7 +119920,6 @@ encoder:
 务工人员	56	hujd
 不能这样	56	ckve
 争取到	56	xqyp
-人和人之间	56	jxja
 内在要求	56	mnvf
 决定一切	56	wwfr
 市场经济体制	56	zgiq
@@ -121078,7 +121123,6 @@ encoder:
 舞魅	53	elaa
 炫图	53	czrh
 宠魅	53	wtaa
-王也	53	nwey
 牌的	53	auun
 杨云	53	eaby
 猛鬼	53	mhag
@@ -125000,7 +125044,6 @@ encoder:
 人转	53	jrym
 再穷	53	fmes
 十院	53	nstw
-黄卡	53	nhyf
 明送	53	ovhm
 除出	53	tjsm
 孙蕾	53	hylt
@@ -125658,7 +125701,6 @@ encoder:
 轨交	53	ykab
 跟的	53	piun
 踩起	53	pypv
-古域	53	cggp
 川岛	53	ocxv
 只花	53	dhlj
 驾乘	53	sdxa
@@ -138637,6 +138679,8 @@ encoder:
 不相信他	53	cejj
 绝对是一个	53	iroj
 一语中的	53	fsdu
+布兰卡	53	nhyf
+古烈	53	cggp
 快快乐乐	52	hhbb
 知母	52	odkm
 总干事	52	hefd
@@ -140443,7 +140487,6 @@ encoder:
 每件事情	50	ejfh
 真真正正	50	nnff
 睁不开眼睛	50	qcfq
-行动力	50	pbsl
 迟早有一天	50	conf
 迟早的事	50	couf
 阶级社会	50	tifj
@@ -145156,7 +145199,6 @@ encoder:
 梁家辉	48	kwmw
 梁建枫	48	kbeo
 梁靖琪	48	kinz
-梁铭芷	48	kzls
 梁翘柏	48	kpeu
 梁晴晴	48	kooa
 梁文音	48	kvxy
@@ -146678,7 +146720,6 @@ encoder:
 张继聪	48	biqh
 张基琦	48	bznm
 张家辉	48	bwmw
-张嘉倪	48	bhjp
 张佳添	48	bjkf
 张家玮	48	bwng
 张晋樵	48	bfeu

@@ -5173,7 +5173,7 @@
 诖	〔讠土土&nbsp;·&nbsp;sggt〕
 帑	〔女又巾&nbsp;·&nbsp;brrj〕
 泠	〔氵亽龴&nbsp;·&nbsp;kjks〕
-茑	〔艹鸟&nbsp;·&nbsp;lxn〕
+茑	〔艹鸟&nbsp;·&nbsp;lxn&nbsp;lxnc〕
 殛	〔歹了口一&nbsp;·&nbsp;grdf〕
 芾	〔艹一巾&nbsp;·&nbsp;lfrj〕
 诂	〔讠古&nbsp;·&nbsp;scg〕
@@ -7225,6 +7225,7 @@
 嗰	〔口亻囗古&nbsp;·&nbsp;djrc〕
 嗱	〔口亼口手&nbsp;·&nbsp;djdu〕
 嗻	〔口广廿灬&nbsp;·&nbsp;dxlc〕
+嗼	〔口艹日大&nbsp;·&nbsp;dlom〕
 嘅	〔口旡&nbsp;·&nbsp;didu〕
 嘑	〔口虍丿&nbsp;·&nbsp;dztn〕
 嘒	〔口丰丰彐&nbsp;·&nbsp;daab〕
@@ -11356,7 +11357,6 @@
 嗸	〔龶攵口&nbsp;·&nbsp;aphd〕
 嗹	〔口車辶&nbsp;·&nbsp;dyuc〕
 嗺	〔口山隹&nbsp;·&nbsp;dvui〕
-嗼	〔口艹日大&nbsp;·&nbsp;dlom〕
 嗿	〔口亽貝&nbsp;·&nbsp;djao〕
 嘂	〔口口丩口&nbsp;·&nbsp;ddid&nbsp;iddd〕
 嘃	〔口广肀&nbsp;·&nbsp;dxbt〕
@@ -99060,6 +99060,10 @@
 ⿹	〔囗ヿ&nbsp;·&nbsp;rae〕
 ⿺	〔囗㇗&nbsp;·&nbsp;rae〕
 ⿻	〔囗囗&nbsp;·&nbsp;rrk〕
+⿼	〔囗&nbsp;·&nbsp;rnk〕
+⿽	〔囗丨一&nbsp;·&nbsp;rgfi〕
+⿾	〔囗一&nbsp;·&nbsp;rfdd〕
+⿿	〔囗フ&nbsp;·&nbsp;radk〕
 ㄅ	〔ㄅ&nbsp;·&nbsp;ae〕
 ㄆ	〔ㄆ&nbsp;·&nbsp;hi〕
 ㄇ	〔ㄇ&nbsp;·&nbsp;mk〕

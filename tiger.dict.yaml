@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.08.26"
+version: "2023.10.02"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -10868,6 +10868,7 @@ columns:
 凓	wve	257
 凓	wvem	257
 凘	wzht	257
+凪	osi	257
 凵	mk	257
 刂	pd	257
 刌	kpd	257
@@ -11041,6 +11042,7 @@ columns:
 嗱	djdu	257
 嗻	dxl	257
 嗻	dxlc	257
+嗼	dlom	257
 嘅	did	257
 嘅	didu	257
 嘑	dzt	257
@@ -15064,6 +15066,7 @@ columns:
 愐	hbmx	255
 舁	plcj	255
 忮	hcix	255
+茑	lxnc	255
 微	wvfo	255
 赢	fdvo	255
 徽	wvfi	255
@@ -16812,7 +16815,6 @@ columns:
 凧	orj	0
 凨	oby	0
 凩	oem	0
-凪	osi	0
 凬	ofor	0
 凮	ofu	0
 凮	ofub	0
@@ -17283,7 +17285,6 @@ columns:
 嗹	dyuc	0
 嗺	dvu	0
 嗺	dvui	0
-嗼	dlom	0
 嗿	djao	0
 嘂	ddid	0
 嘃	dxbt	0
@@ -112789,6 +112790,10 @@ columns:
 ⿹	rae	0
 ⿺	rae	0
 ⿻	rrk	0
+⿼	rnk	0
+⿽	rgfi	0
+⿾	rfdd	0
+⿿	radk	0
 ㄅ	ae	0
 ㄆ	hi	0
 ㄇ	mk	0
