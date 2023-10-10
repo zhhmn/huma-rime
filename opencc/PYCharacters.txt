@@ -18333,7 +18333,7 @@
 脌	（nín）
 脍	（kuài）
 脎	（sà）
-脏	（zàng）
+脏	（zāng&nbsp;zàng）
 脐	（qí）
 脑	（nǎo）
 脒	（mǐ）
@@ -19409,7 +19409,7 @@
 蕀	（jí）
 蕁	（qián&nbsp;xún）
 蕂	（shèng）
-蕃	（fán）
+蕃	（bō&nbsp;fān&nbsp;fán）
 蕄	（méng）
 蕅	（ǒu）
 蕆	（chǎn）

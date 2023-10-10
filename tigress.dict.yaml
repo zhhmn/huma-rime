@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.10.02"
+version: "2023.10.09"
 sort: by_weight
 columns:
   - text
@@ -12456,6 +12456,7 @@ import_tables:
 槺	257	exbk
 槻	257	ehej
 樋	257	ektu
+樛	257	ezje
 樸	257	ecgi
 橑	257	emh
 橑	257	emhy
@@ -13507,6 +13508,7 @@ import_tables:
 莙	257	lbt
 莙	257	lbtd
 莝	257	ljjg
+莮	257	lqsl
 莰	257	lgeq
 莶	257	ljkf
 莿	257	lemp
@@ -14325,6 +14327,8 @@ import_tables:
 𥖄	257	mgwe
 𥖨	257	mdde
 𥥷	257	ezd
+𥧔	257	evp
+𥧔	257	evpm
 𥮾	257	rkm
 𥮾	257	rkme
 𥯨	257	rqh
@@ -20354,7 +20358,6 @@ import_tables:
 樕	0	exeq
 樖	0	jdez
 樚	0	exl
-樛	0	ezje
 樜	0	exlc
 樝	0	ezf
 樝	0	ezfq
@@ -24586,7 +24589,6 @@ import_tables:
 莬	0	lwpe
 莭	0	liz
 莭	0	lizj
-莮	0	lqsl
 莯	0	lkem
 莵	0	lwt
 莻	0	lvd
@@ -32113,7 +32115,6 @@ import_tables:
 㯥	0	eoeo
 㯦	0	ezhe
 㯧	0	eppd
-㯨	0	evp
 㯨	0	evpm
 㯩	0	rrrb
 㯪	0	etjk
@@ -62356,7 +62357,6 @@ import_tables:
 𥧑	0	evqh
 𥧒	0	eqfg
 𥧓	0	enm
-𥧔	0	evpm
 𥧕	0	ekbo
 𥧖	0	ekqr
 𥧗	0	engg
@@ -111236,6 +111236,7 @@ import_tables:
 ㇡	0	ae
 ㇢	0	ae
 ㇣	0	dk
+㇯	0	rrfi
 ⺀	0	wb
 ⺁	0	xc
 ⺂	0	ae

@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.10.02"
+version: "2023.10.09"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -11922,6 +11922,7 @@ columns:
 槺	exbk	257
 槻	ehej	257
 樋	ektu	257
+樛	ezje	257
 樸	ecgi	257
 橑	emh	257
 橑	emhy	257
@@ -12967,6 +12968,7 @@ columns:
 莙	lbt	257
 莙	lbtd	257
 莝	ljjg	257
+莮	lqsl	257
 莰	lgeq	257
 莶	ljkf	257
 莿	lemp	257
@@ -13781,6 +13783,8 @@ columns:
 𥖄	mgwe	257
 𥖨	mdde	257
 𥥷	ezd	257
+𥧔	evp	257
+𥧔	evpm	257
 𥮾	rkm	257
 𥮾	rkme	257
 𥯨	rqh	257
@@ -20544,7 +20548,6 @@ columns:
 樕	exeq	0
 樖	jdez	0
 樚	exl	0
-樛	ezje	0
 樜	exlc	0
 樝	ezf	0
 樝	ezfq	0
@@ -24776,7 +24779,6 @@ columns:
 莬	lwpe	0
 莭	liz	0
 莭	lizj	0
-莮	lqsl	0
 莯	lkem	0
 莵	lwt	0
 莻	lvd	0
@@ -32303,7 +32305,6 @@ columns:
 㯥	eoeo	0
 㯦	ezhe	0
 㯧	eppd	0
-㯨	evp	0
 㯨	evpm	0
 㯩	rrrb	0
 㯪	etjk	0
@@ -62546,7 +62547,6 @@ columns:
 𥧑	evqh	0
 𥧒	eqfg	0
 𥧓	enm	0
-𥧔	evpm	0
 𥧕	ekbo	0
 𥧖	ekqr	0
 𥧗	engg	0
@@ -111426,6 +111426,7 @@ columns:
 ㇡	ae	0
 ㇢	ae	0
 ㇣	dk	0
+㇯	rrfi	0
 ⺀	wb	0
 ⺁	xc	0
 ⺂	ae	0
