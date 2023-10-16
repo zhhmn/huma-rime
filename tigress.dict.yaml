@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.10.09"
+version: "2023.10.16"
 sort: by_weight
 columns:
   - text
@@ -10214,6 +10214,8 @@ import_tables:
 歷	268	xxx
 歷	268	xxxs
 溷	268	krjs
+糞	268	pql
+糞	268	pqlh
 習	268	zub
 蓥	268	lwz
 蓥	268	lwzj
@@ -13508,7 +13510,6 @@ import_tables:
 莙	257	lbt
 莙	257	lbtd
 莝	257	ljjg
-莮	257	lqsl
 莰	257	lgeq
 莶	257	ljkf
 莿	257	lemp
@@ -14543,6 +14544,8 @@ import_tables:
 𫠊	257	nziy
 𫠜	257	lpp
 𫠜	257	lppe
+𫠡	257	fjg
+𫠡	257	fjgs
 𫠣	257	ryx
 𫢸	257	jhq
 𫢸	257	jhqn
@@ -14854,6 +14857,7 @@ import_tables:
 𰽼	257	zhlc
 𰽽	257	zgy
 𰾫	257	zpra
+𱁬	257	tbtt
 𱂨	257	wbw
 𱂨	257	wbwy
 𱂩	257	nwy
@@ -15806,8 +15810,6 @@ import_tables:
 禪	11	fddn
 範	11	ryz
 範	11	ryzj
-糞	11	pql
-糞	11	pqlh
 紹	11	ipdk
 臥	11	qjr
 賦	11	ofps
@@ -24589,6 +24591,7 @@ import_tables:
 莬	0	lwpe
 莭	0	liz
 莭	0	lizj
+莮	0	lqsl
 莯	0	lkem
 莵	0	lwt
 莻	0	lvd
@@ -68620,7 +68623,7 @@ import_tables:
 𧂸	0	lcdg
 𧂹	0	ltjj
 𧂺	0	lqth
-𧂻	0	lavf
+𧂻	0	layn
 𧂼	0	letd
 𧂽	0	nonu
 𧂾	0	lxep
@@ -87865,8 +87868,6 @@ import_tables:
 𫠛	0	lols
 𫠝	0	wshp
 𫠠	0	pi
-𫠡	0	fjg
-𫠡	0	fjgs
 𫠢	0	yfad
 𫠤	0	apd
 𫠥	0	fmja
@@ -105602,7 +105603,6 @@ import_tables:
 𱁩	0	tkyz
 𱁪	0	tqqg
 𱁫	0	tuuu
-𱁬	0	tbtt
 𱁭	0	avwr
 𱁮	0	avbr
 𱁯	0	vvvr

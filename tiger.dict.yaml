@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.10.09"
+version: "2023.10.16"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -9697,6 +9697,8 @@ columns:
 歷	xxx	268
 歷	xxxs	268
 溷	krjs	268
+糞	pql	268
+糞	pqlh	268
 習	zub	268
 蓥	lwz	268
 蓥	lwzj	268
@@ -12968,7 +12970,6 @@ columns:
 莙	lbt	257
 莙	lbtd	257
 莝	ljjg	257
-莮	lqsl	257
 莰	lgeq	257
 莶	ljkf	257
 莿	lemp	257
@@ -13999,6 +14000,8 @@ columns:
 𫠊	nziy	257
 𫠜	lpp	257
 𫠜	lppe	257
+𫠡	fjg	257
+𫠡	fjgs	257
 𫠣	ryx	257
 𫢸	jhq	257
 𫢸	jhqn	257
@@ -14310,6 +14313,7 @@ columns:
 𰽼	zhlc	257
 𰽽	zgy	257
 𰾫	zpra	257
+𱁬	tbtt	257
 𱂨	wbw	257
 𱂨	wbwy	257
 𱂩	nwy	257
@@ -15982,8 +15986,6 @@ columns:
 禪	fddn	11
 範	ryz	11
 範	ryzj	11
-糞	pql	11
-糞	pqlh	11
 紹	ipdk	11
 臥	qjr	11
 賦	ofps	11
@@ -24779,6 +24781,7 @@ columns:
 莬	lwpe	0
 莭	liz	0
 莭	lizj	0
+莮	lqsl	0
 莯	lkem	0
 莵	lwt	0
 莻	lvd	0
@@ -68810,7 +68813,7 @@ columns:
 𧂸	lcdg	0
 𧂹	ltjj	0
 𧂺	lqth	0
-𧂻	lavf	0
+𧂻	layn	0
 𧂼	letd	0
 𧂽	nonu	0
 𧂾	lxep	0
@@ -88055,8 +88058,6 @@ columns:
 𫠛	lols	0
 𫠝	wshp	0
 𫠠	pi	0
-𫠡	fjg	0
-𫠡	fjgs	0
 𫠢	yfad	0
 𫠤	apd	0
 𫠥	fmja	0
@@ -105792,7 +105793,6 @@ columns:
 𱁩	tkyz	0
 𱁪	tqqg	0
 𱁫	tuuu	0
-𱁬	tbtt	0
 𱁭	avwr	0
 𱁮	avbr	0
 𱁯	vvvr	0

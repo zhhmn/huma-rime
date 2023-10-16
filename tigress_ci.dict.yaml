@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.10.09"
+version: "2023.10.16"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -26985,6 +26985,7 @@ encoder:
 文王	467	vwnw
 维特	467	iuqg
 形式上	467	fpyf
+变强	467	zcbd
 是啊	466	otdt
 亚瑟	466	fcnn
 观影	466	reog
@@ -27112,7 +27113,6 @@ encoder:
 仔仔细细	465	jjii
 再讲	465	fmsq
 刻下	465	kpfy
-亦如	465	zcbd
 比比	465	vvvv
 刺进	465	emqu
 碾碎	465	mcmz
@@ -28386,6 +28386,7 @@ encoder:
 𥧔师	450	evpf
 诺子喵呜	450	shdd
 诺子	450	slhi
+问师	450	adpf
 女鬼	449	bnag
 阶下	448	tjfy
 女拳	448	bnhh
@@ -44900,6 +44901,7 @@ encoder:
 略慢	312	qsho
 逼死	312	fdgv
 老实巴交	312	qwma
+出牌	312	smau
 零用	312	tjty
 拼劲	312	uhru
 火狐	312	chmy
@@ -45301,7 +45303,6 @@ encoder:
 如获	310	bdlm
 高谈	310	ggsc
 借到	310	jlyp
-调适	310	smau
 建档	310	buey
 只算	310	dhrq
 前腿	310	hvvi
@@ -49556,6 +49557,7 @@ encoder:
 我们就	304	tjgy
 周围的	304	mrun
 是我的	304	otun
+调适	303	smau
 美分	303	gmhp
 供不应求	303	jcxf
 华裔	303	jvtm
@@ -52488,7 +52490,6 @@ encoder:
 重做	302	ldjc
 朝东	302	nory
 跌破	302	ptmr
-出牌	302	smau
 斗地主	302	jgin
 喂狗	302	dqmg
 发飘	302	srvf
@@ -96110,6 +96111,7 @@ encoder:
 发展中国	88	scdr
 告诉他们	88	qsjj
 又一个	88	rfjg
+亦如	87	zcbd
 猜不透	87	mcxv
 边笑	87	surt
 曾经说过	87	hisk
@@ -96250,7 +96252,6 @@ encoder:
 两部分	86	mihp
 伤透	86	jexv
 正和	86	fsxd
-变强	86	zcbd
 会引起	86	jbpv
 必须有	86	henv
 我听说	86	tdsh

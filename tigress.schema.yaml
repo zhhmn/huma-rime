@@ -86,7 +86,7 @@ engine:
     - history_translator@historyDM # 重复上屏 电脑
     - history_translator@historyDM2 # 重复上屏 电脑2
     - history_translator@historyDM3 # 重复上屏 电脑3
-    # - history_translator@historySJ # 重复上屏 手机
+    - history_translator@historySJ # 重复上屏 手机
     - lua_translator@number_translator # 数字转大写
     - lua_translator@calculator_translator # 简易计算器
     - lua_translator@shijian2_translator # 高级时间
@@ -196,10 +196,10 @@ recognizer:
   # page_size: 9 #候选数量
   # alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  #自定义候选序号显示符
 
-# historySJ:
-#   input: z
-#   size: 1
-#   initial_quality: 0
+historySJ:
+  input: z
+  size: 1
+  initial_quality: 0
 
 historyDM:
   input: "["
