@@ -11,7 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 URL = "http://huma.ysepan.com"
-ZIP_FILE = 'huma.zip'
+ZIP_FILE = "huma.zip"
 
 try:
     os.unlink(ZIP_FILE)
@@ -33,7 +33,7 @@ browser.get(URL)
 i = 0
 while True:
     try:
-        menu_list = browser.find_element(by='id', value='menuList')
+        menu_list = browser.find_element(by="id", value="menuList")
         break
     except Exception as e:
         if i > timeout:
@@ -43,15 +43,15 @@ while True:
         i += 1
 
 while True:
-    items = menu_list.find_elements(by='tag name', value='li')
+    items = menu_list.find_elements(by="tag name", value="li")
     if len(items) > 1:
         break
     time.sleep(1)
 
 target = None
 for item in items:
-    a = item.find_element(by='tag name', value='a')
-    if a.text.startswith("05 虎码 鼠须管 iRime"):
+    a = item.find_element(by="tag name", value="a")
+    if a.text.startswith("03 虎码输入法下载"):
         target = item
         a.click()
         break
@@ -63,7 +63,7 @@ if target is None:
 i = 0
 while True:
     try:
-        ul = target.find_element(by='tag name', value='ul')
+        ul = target.find_element(by="tag name", value="ul")
         break
     except Exception as e:
         if i > timeout:
@@ -72,20 +72,82 @@ while True:
         time.sleep(1)
         i += 1
 
-url = None
-name = None
 i = 0
-while url is None and i < timeout:
-    items = ul.find_elements(by='tag name', value='li')
+found = False
+while not found and i < timeout:
+    items = ul.find_elements(by="tag name", value="li")
     for item in items:
-        if item.text.startswith('虎码秃版 鼠须管'):
-            a = item.find_element(by='tag name', value='a')
-            url = a.get_attribute('href')
-            name = item.text
+        if item.text.startswith("④Mac"):
+            target = item
+            item.click()
+            found = True
             break
     time.sleep(1)
     i += 1
 
+if not found:
+    print('failed to lookup "Mac" tag')
+
+a = target.find_element(by="tag name", value="a")
+a.click()
+
+while True:
+    try:
+        ul = target.find_element(by="tag name", value="ul")
+        break
+    except Exception as e:
+        if i > timeout:
+            print("failed to get sublist after timeout (2)")
+            exit(1)
+        time.sleep(1)
+        i += 1
+
+i = 0
+found = False
+while not found and i < timeout:
+    items = ul.find_elements(by="tag name", value="li")
+    for item in items:
+        if item.text.startswith("鼠须管（推荐）"):
+            target = item
+            item.click()
+            found = True
+            break
+    time.sleep(1)
+    i += 1
+
+
+if not found:
+    print('failed to lookup "鼠须管" tag')
+
+a = target.find_element(by="tag name", value="a")
+a.click()
+
+
+while True:
+    try:
+        ul = target.find_element(by="tag name", value="ul")
+        break
+    except Exception as e:
+        if i > timeout:
+            print("failed to get sublist after timeout (2)")
+            exit(1)
+        time.sleep(1)
+        i += 1
+
+url = None
+name = None
+
+i = 0
+while i < timeout:
+    items = ul.find_elements(by="tag name", value="li")
+    for item in items:
+        if item.text.startswith("虎码秃版 鼠须管 （Mac）"):
+            a = item.find_element(by="tag name", value="a")
+            url = a.get_attribute("href")
+            name = item.text
+            break
+    time.sleep(1)
+    i += 1
 
 if url is None:
     print("can't find zip file entry")
@@ -93,24 +155,24 @@ if url is None:
 
 browser.close()
 assert name is not None
-m = re.match(r'.*(?P<date>\d{4}\.\d{2}\.\d{2})\.zip', name)
+m = re.match(r".*(?P<date>\d{4}\.\d{2}\.\d{2})\.zip", name)
 if m is None:
     print(f"failed to extract date from filename: {name}", file=sys.stderr)
-    if '.zip' in name and name.endswith('MB'):
+    if ".zip" in name and name.endswith("MB"):
         date = datetime.now().strftime("%Y.%m.%d")
     else:
         exit(1)
 else:
-    date = m.group('date')
+    date = m.group("date")
 
-print(f'tag=v{date}')
-print(f'downloading {name} with url {url}', file=sys.stderr)
+print(f"tag=v{date}")
+print(f"downloading {name} with url {url}", file=sys.stderr)
 
 urlretrieve(url, ZIP_FILE)
-with zipfile.ZipFile(ZIP_FILE, 'r', metadata_encoding='cp936') as zip_ref:
+with zipfile.ZipFile(ZIP_FILE, "r", metadata_encoding="cp936") as zip_ref:
     folder = zip_ref.filelist[0].filename[:-1]
-    zip_ref.extractall('.')
-    copytree(folder, '.', dirs_exist_ok=True)
+    zip_ref.extractall(".")
+    copytree(folder, ".", dirs_exist_ok=True)
 
 os.unlink(ZIP_FILE)
 rmtree(folder)
