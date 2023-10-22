@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.10.16"
+version: "2023.10.22"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -3254,7 +3254,7 @@ columns:
 喽	dpb	2551
 礁	muc	2551
 哮	dqh	2538
-腮	vqh	2537
+腮	vqhx	2537
 蜘	cod	2535
 妞	bagt	2533
 刁	afi	2530
@@ -3777,7 +3777,7 @@ columns:
 辄	yqa	1482
 恻	hop	1481
 阉	amo	1478
-崽	vqhx	1476
+崽	vqh	1476
 刨	nvp	1475
 瓢	vfy	1474
 祟	smf	1471
@@ -3800,8 +3800,9 @@ columns:
 蜈	cdf	1448
 橙	ehz	1446
 涧	kaor	1446
+煸	cmi	1445
 瓒	nqp	1445
-蝙	cmi	1444
+蝙	cmic	1444
 诲	sek	1444
 殃	gmm	1441
 痹	aql	1441
@@ -4149,7 +4150,7 @@ columns:
 荔	lsss	1040
 蚌	caf	1039
 瀛	kfd	1038
-蟠	ctp	1036
+蟠	ctpq	1036
 踊	pkt	1036
 痔	agk	1035
 皿	amm	1035
@@ -4301,7 +4302,7 @@ columns:
 厩	xid	919
 嵇	xovs	918
 腆	vih	918
-蛀	cin	918
+蛀	cinw	918
 邬	xte	917
 恚	gghx	915
 夔	hos	914
@@ -4784,7 +4785,7 @@ columns:
 俅	jfk	631
 嗑	dgk	631
 烨	cjv	631
-燔	ctpq	631
+燔	ctp	631
 邋	opu	631
 咿	djbt	630
 旖	lem	630
@@ -5439,6 +5440,7 @@ columns:
 诹	sqry	449
 毖	vvh	448
 毖	vvht	448
+炷	cin	448
 炷	cinw	448
 蛩	uoic	448
 谠	ssp	448
@@ -5914,7 +5916,6 @@ columns:
 搿	ujdu	398
 毽	vbuy	398
 泮	khus	398
-煸	cmic	398
 秕	xvvb	398
 蚍	cvvb	398
 袷	tjdk	398
@@ -7401,7 +7402,6 @@ columns:
 喽	dpbn	397
 礁	much	397
 哮	dqhi	397
-腮	vqhx	397
 蜘	codk	397
 栓	ejnw	397
 熔	cwhg	397
@@ -7709,6 +7709,7 @@ columns:
 辄	yqae	397
 恻	hopd	397
 阉	amoa	397
+崽	vqhx	397
 刨	nvpd	397
 瓢	vfyg	397
 祟	smfs	397
@@ -7722,8 +7723,8 @@ columns:
 偌	jlnd	397
 蜈	cdfm	397
 橙	ehzd	397
+煸	cmic	397
 瓒	nqpo	397
-蝙	cmic	397
 诲	sekm	397
 殃	gmmd	397
 痹	aqlc	397
@@ -7920,7 +7921,6 @@ columns:
 湮	kvgt	397
 喏	dlnd	397
 瀛	kfdi	397
-蟠	ctpq	397
 踊	pkty	397
 痔	agkc	397
 贰	pmob	397
@@ -8007,7 +8007,6 @@ columns:
 篝	rqfg	397
 厩	xidu	397
 腆	vihb	397
-蛀	cinw	397
 夔	hosh	397
 咻	djem	397
 涓	kdvy	397
@@ -8287,6 +8286,7 @@ columns:
 俅	jfki	397
 嗑	dgka	397
 烨	cjvn	397
+燔	ctpq	397
 邋	opuc	397
 旖	lemz	397
 辔	iyid	397
@@ -10634,6 +10634,7 @@ columns:
 䎃	mgz	257
 䎃	mgzv	257
 䎖	hryz	257
+䎜	qql	257
 䏝	vmai	257
 䏡	vfs	257
 䏲	vht	257
@@ -10725,6 +10726,8 @@ columns:
 乂	bi	257
 乄	aid	257
 乆	ajr	257
+乕	xmr	257
+乕	xmrj	257
 乛	ae	257
 乸	ekm	257
 亅	gs	257
@@ -16318,8 +16321,6 @@ columns:
 乁	ae	0
 乊	thb	0
 乑	tks	0
-乕	xmr	0
-乕	xmrj	0
 乗	xln	0
 乢	vae	0
 乣	iae	0
@@ -22684,7 +22685,6 @@ columns:
 睞	qejj	0
 睟	qzjn	0
 睠	qhhz	0
-睤	qql	0
 睤	qqlc	0
 睧	qbo	0
 睧	qbor	0
@@ -34583,7 +34583,6 @@ columns:
 䎙	wfsz	0
 䎚	zaah	0
 䎛	qdk	0
-䎜	qql	0
 䎝	qzv	0
 䎞	qoae	0
 䎟	ble	0

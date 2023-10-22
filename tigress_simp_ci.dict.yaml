@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.10.16"
+version: "2023.10.22"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2833,6 +2833,7 @@ encoder:
 亚文化	117	fvj
 王心凌	117	nhw
 张嘉倪	117	bhj
+三杯鸡	117	ter
 座头鲸	117	xww
 罗宾汉	117	ywk
 碧绿色	117	nix
@@ -3481,6 +3482,7 @@ encoder:
 分界线	102	hqi
 追随者	102	ttq
 曹雪芹	102	ftl
+牧羊人	102	qgj
 阿托品	102	tud
 人身权	102	jze
 离心力	102	zhs

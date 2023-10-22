@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.10.16"
+version: "2023.10.22"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -21846,6 +21846,7 @@ encoder:
 大副	561	mdfd
 灯火通明	560	ccko
 狠话	559	misa
+热水器	559	ukdd
 自荐	559	oiln
 嘀嘀	559	didi
 七七	558	rqrq
@@ -21971,7 +21972,6 @@ encoder:
 门板	557	amex
 应将	557	xkal
 晚自习	557	oozx
-探测器	557	ukdd
 撞死	557	uigv
 社会制度	557	fjqx
 争锋	557	xbzh
@@ -28159,6 +28159,8 @@ encoder:
 一拳	450	fihh
 每一个人	450	efjj
 只不过是	450	dcko
+空气炸锅	450	evcz
+三杯鸡	450	terx
 逆戟鲸	450	hnwg
 七进七出	450	rqrs
 舒肤佳	450	jvjg
@@ -28387,6 +28389,8 @@ encoder:
 诺子喵呜	450	shdd
 诺子	450	slhi
 问师	450	adpf
+太拉	450	miui
+搴芳	450	wqll
 女鬼	449	bnag
 阶下	448	tjfy
 女拳	448	bnhh
@@ -33627,6 +33631,7 @@ encoder:
 被誉为	388	tkis
 丧葬费	388	glto
 附加费	388	tsto
+探测器	387	ukdd
 借记	387	jlsv
 晴雨	387	oatv
 复数	387	eopb
@@ -33637,7 +33642,6 @@ encoder:
 头号	386	wmdf
 原定	386	xuwt
 降级	386	thic
-热水器	386	ukdd
 五星级	386	woic
 印制	386	bfqr
 速率	386	xuzi
@@ -39203,6 +39207,7 @@ encoder:
 热风	347	ukob
 滚雪球	347	ktnf
 护体	347	umje
+思源	347	qhkx
 敏感度	347	enxl
 循声	347	wxgc
 心焦	347	hxuc
@@ -39273,7 +39278,6 @@ encoder:
 司令部	345	ajid
 连胜	345	yuvl
 液化	345	kzjv
-教派	345	qhkx
 饮品	345	qedd
 野战	345	diyd
 充气	345	bpvq
@@ -73690,6 +73694,7 @@ encoder:
 言道	233	syho
 轴流风扇	233	ykom
 尖刺	233	ymem
+教派	233	qhkx
 三边	233	tssu
 调来	233	smah
 张立	233	bpil
@@ -74114,7 +74119,6 @@ encoder:
 色女	232	xmbn
 欠扁	232	eqmi
 老亲	232	qlie
-思源	232	qhkx
 曾获	232	hrlm
 非处	232	rfhy
 手提电脑	232	uuov

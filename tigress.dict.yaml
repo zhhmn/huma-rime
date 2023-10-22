@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.10.16"
+version: "2023.10.22"
 sort: by_weight
 columns:
   - text
@@ -5256,8 +5256,7 @@ import_tables:
 礁	397	much
 哮	2538	dqh
 哮	397	dqhi
-腮	2537	vqh
-腮	397	vqhx
+腮	2537	vqhx
 蜘	2535	cod
 蜘	397	codk
 妞	2533	bagt
@@ -6090,7 +6089,8 @@ import_tables:
 恻	397	hopd
 阉	1478	amo
 阉	397	amoa
-崽	1476	vqhx
+崽	1476	vqh
+崽	397	vqhx
 刨	1475	nvp
 刨	397	nvpd
 瓢	1474	vfy
@@ -6126,10 +6126,11 @@ import_tables:
 橙	1446	ehz
 橙	397	ehzd
 涧	1446	kaor
+煸	1445	cmi
+煸	397	cmic
 瓒	1445	nqp
 瓒	397	nqpo
-蝙	1444	cmi
-蝙	397	cmic
+蝙	1444	cmic
 诲	1444	sek
 诲	397	sekm
 殃	1441	gmm
@@ -6675,8 +6676,7 @@ import_tables:
 蚌	1039	caf
 瀛	1038	kfd
 瀛	397	kfdi
-蟠	1036	ctp
-蟠	397	ctpq
+蟠	1036	ctpq
 踊	1036	pkt
 踊	397	pkty
 痔	1035	agk
@@ -6916,8 +6916,7 @@ import_tables:
 嵇	918	xovs
 腆	918	vih
 腆	397	vihb
-蛀	918	cin
-蛀	397	cinw
+蛀	918	cinw
 邬	917	xte
 恚	915	gghx
 夔	914	hos
@@ -7680,7 +7679,8 @@ import_tables:
 嗑	397	dgka
 烨	631	cjv
 烨	397	cjvn
-燔	631	ctpq
+燔	631	ctp
+燔	397	ctpq
 邋	631	opu
 邋	397	opuc
 咿	630	djbt
@@ -8530,6 +8530,7 @@ import_tables:
 诹	449	sqry
 毖	448	vvh
 毖	448	vvht
+炷	448	cin
 炷	448	cinw
 蛩	448	uoic
 谠	448	ssp
@@ -9006,7 +9007,6 @@ import_tables:
 搿	398	ujdu
 毽	398	vbuy
 泮	398	khus
-煸	398	cmic
 秕	398	xvvb
 蚍	398	cvvb
 袷	398	tjdk
@@ -11150,6 +11150,7 @@ import_tables:
 䎃	257	mgz
 䎃	257	mgzv
 䎖	257	hryz
+䎜	257	qql
 䏝	257	vmai
 䏡	257	vfs
 䏲	257	vht
@@ -11244,6 +11245,8 @@ import_tables:
 乂	257	bi
 乄	257	aid
 乆	257	ajr
+乕	257	xmr
+乕	257	xmrj
 乛	257	ae
 乸	257	ekm
 亅	257	gs
@@ -16128,8 +16131,6 @@ import_tables:
 乁	0	ae
 乊	0	thb
 乑	0	tks
-乕	0	xmr
-乕	0	xmrj
 乗	0	xln
 乢	0	vae
 乣	0	iae
@@ -22494,7 +22495,6 @@ import_tables:
 睞	0	qejj
 睟	0	qzjn
 睠	0	qhhz
-睤	0	qql
 睤	0	qqlc
 睧	0	qbo
 睧	0	qbor
@@ -34393,7 +34393,6 @@ import_tables:
 䎙	0	wfsz
 䎚	0	zaah
 䎛	0	qdk
-䎜	0	qql
 䎝	0	qzv
 䎞	0	qoae
 䎟	0	ble
