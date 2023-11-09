@@ -107,7 +107,7 @@ found = False
 while not found and i < timeout:
     items = ul.find_elements(by="tag name", value="li")
     for item in items:
-        if item.text.startswith("鼠须管（推荐）"):
+        if item.text.startswith("鼠须管"):
             target = item
             item.click()
             found = True
