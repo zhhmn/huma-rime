@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.10.22"
+version: "2023.11.09"
 sort: by_weight
 columns:
   - text
@@ -4813,8 +4813,7 @@ import_tables:
 藻	3459	lkde
 雍	3456	ziu
 雍	397	ziui
-瘫	3454	aru
-瘫	397	arui
+瘫	3454	arui
 蹈	3444	pyp
 蹈	397	pypj
 揽	3441	upr
@@ -4836,8 +4835,7 @@ import_tables:
 蔬	3404	ltb
 蔬	397	ltbo
 翘	3400	pfpz
-嘎	3389	dfo
-嘎	397	dfop
+嘎	3389	dfop
 缔	3388	iiw
 缔	397	iiwr
 钮	3385	zag
@@ -5819,7 +5817,8 @@ import_tables:
 琵	397	nnvv
 胰	1717	vmbg
 狒	1715	mtf
-哽	1713	dfob
+哽	1713	dfo
+哽	397	dfob
 呸	1711	dcf
 呸	397	dcfi
 廿	1711	ln
@@ -5991,7 +5990,8 @@ import_tables:
 墩	1559	gghh
 鸥	1555	nbx
 鸥	397	nbxn
-痉	1554	arug
+痉	1554	aru
+痉	397	arug
 抨	1552	ueh
 抨	397	uehb
 阜	1552	tkn
@@ -11245,8 +11245,8 @@ import_tables:
 乂	257	bi
 乄	257	aid
 乆	257	ajr
-乕	257	xmr
-乕	257	xmrj
+乕	257	xur
+乕	257	xurj
 乛	257	ae
 乸	257	ekm
 亅	257	gs
@@ -12321,6 +12321,8 @@ import_tables:
 朘	257	vkhh
 朣	257	vid
 朣	257	vidl
+朩	257	emm
+朩	256	em
 朳	257	ehb
 朸	257	esl
 朿	257	emk
@@ -12580,6 +12582,7 @@ import_tables:
 浟	257	kjg
 浟	257	kjgh
 浡	257	knwh
+浤	257	kwnk
 浥	257	kdmb
 浬	257	kdl
 浭	257	kfob
@@ -12838,6 +12841,7 @@ import_tables:
 犽	257	mly
 狉	257	mcf
 狉	257	mcfi
+狌	257	mls
 狓	257	mrp
 狖	257	mex
 狛	257	mub
@@ -13392,6 +13396,7 @@ import_tables:
 翯	257	zgg
 翷	257	plvz
 翾	257	yfdz
+耂	257	ql
 耇	257	qgj
 耈	257	qgj
 耏	257	les
@@ -14330,6 +14335,7 @@ import_tables:
 𥖄	257	mgw
 𥖄	257	mgwe
 𥖨	257	mdde
+𥤶	257	evq
 𥥷	257	ezd
 𥧔	257	evp
 𥧔	257	evpm
@@ -16094,6 +16100,7 @@ import_tables:
 䌻	1	izv
 䌽	1	iyem
 䲡	1	whyy
+𠃊	1	ae
 𫍛	1	shpd
 𫍻	1	shd
 𫍻	1	shdk
@@ -19878,7 +19885,6 @@ import_tables:
 朤	0	vvvv
 朥	0	vccs
 朧	0	vtl
-朩	0	em
 朮	0	eid
 朰	0	eai
 朲	0	ejr
@@ -19927,7 +19933,6 @@ import_tables:
 枊	0	ebzj
 枌	0	ehpd
 枎	0	ehf
-枏	0	emm
 枏	0	emme
 枓	0	ejd
 枔	0	eja
@@ -20293,7 +20298,6 @@ import_tables:
 槂	0	ehti
 槄	0	eypj
 槆	0	elno
-槇	0	evq
 槇	0	evqh
 槈	0	efk
 槈	0	efkc
@@ -20887,7 +20891,6 @@ import_tables:
 浘	0	kcvm
 浝	0	koes
 浢	0	kzd
-浤	0	kwnk
 浧	0	kdn
 浧	0	kdnw
 浨	0	kwem
@@ -21795,7 +21798,6 @@ import_tables:
 狇	0	mem
 狊	0	qmq
 狋	0	mfs
-狌	0	mls
 狏	0	mee
 狏	0	meey
 狑	0	mjks
@@ -24098,7 +24100,6 @@ import_tables:
 翺	0	owwz
 翽	0	snfz
 翿	0	gauz
-耂	0	ql
 耉	0	qgj
 耊	0	qyi
 耎	0	lmd
@@ -26848,7 +26849,7 @@ import_tables:
 逈	0	tmdu
 逌	0	yrnu
 逎	0	yuc
-逓	0	xmru
+逓	0	xuru
 逕	0	fouu
 逘	0	kou
 逘	0	kouc
@@ -37513,7 +37514,6 @@ import_tables:
 𠃇	0	lfuu
 𠃈	0	ufsp
 𠃉	0	ai
-𠃊	0	ae
 𠃋	0	ae
 𠃌	0	ae
 𠃍	0	ae
@@ -46999,7 +46999,6 @@ import_tables:
 𢊂	0	xar
 𢊂	0	xard
 𢊃	0	xmjg
-𢊄	0	xur
 𢊄	0	xury
 𢊅	0	xtku
 𢊆	0	xxxh
@@ -56014,7 +56013,7 @@ import_tables:
 𤌭	0	cnqh
 𤌮	0	aonc
 𤌯	0	cvhm
-𤌰	0	cofu
+𤌰	0	coah
 𤌱	0	colh
 𤌲	0	bqch
 𤌳	0	cyim
@@ -62194,7 +62193,6 @@ import_tables:
 𥤳	0	eajr
 𥤴	0	eflc
 𥤵	0	efga
-𥤶	0	evq
 𥤷	0	ewpe
 𥤸	0	empe
 𥤹	0	ebbi
@@ -70210,7 +70208,7 @@ import_tables:
 𧚙	0	tjwa
 𧚚	0	kmti
 𧚛	0	ilot
-𧚜	0	txmr
+𧚜	0	txur
 𧚝	0	upt
 𧚝	0	upti
 𧚞	0	tmhd
@@ -81689,7 +81687,7 @@ import_tables:
 𪁣	0	dexn
 𪁤	0	upxn
 𪁥	0	jxn
-𪁦	0	xxmr
+𪁦	0	xxur
 𪁧	0	fxn
 𪁨	0	xdmb
 𪁩	0	xhtf
@@ -83699,6 +83697,7 @@ import_tables:
 𪠌	0	xvwy
 𪠍	0	xpc
 𪠎	0	xhkh
+𪠏	0	xmr
 𪠏	0	xmrp
 𪠐	0	xjgf
 𪠑	0	xnkc
@@ -95109,7 +95108,7 @@ import_tables:
 𭐮	0	lofh
 𭐯	0	oohi
 𭐰	0	lwhh
-𭐱	0	hsoh
+𭐱	0	hosh
 𭐲	0	fohq
 𭐳	0	xnwb
 𭐴	0	xilx
@@ -95490,7 +95489,7 @@ import_tables:
 𭖡	0	vcpe
 𭖢	0	vnf
 𭖣	0	vmhd
-𭖤	0	vxmr
+𭖤	0	vxur
 𭖥	0	vhvy
 𭖦	0	vhg
 𭖧	0	vknw
@@ -101962,7 +101961,7 @@ import_tables:
 𰉰	0	gnmm
 𰉱	0	gjkf
 𰉲	0	gwpe
-𰉳	0	gxmr
+𰉳	0	gxer
 𰉴	0	gesl
 𰉵	0	gcvm
 𰉶	0	gkdk
@@ -112687,7 +112686,6 @@ import_tables:
 斑	397	vnnw
 辨	397	pnnx
 辩	397	snnx
-辩	397	snnx
 瓣	397	ynnx
 瓣	397	ynn
 辫	397	innx
@@ -112734,8 +112732,6 @@ import_tables:
 𭟄	0	siih
 𭤛	0	siiv
 𮜬	0	psih
-𭧡	0	uiio
-𮁏	0	muin
 𫰀	0	yiim
 𢥩	0	yiih
 𮝲	0	yiif
@@ -112775,7 +112771,6 @@ import_tables:
 㘜	0	suud
 犫	0	suuq
 𠧐	0	suun
-𭐱	0	hosh
 癍	259	avnn
 𠞢	0	pnnp
 𠺚	0	dpnn
@@ -112847,7 +112842,6 @@ import_tables:
 𤳕	0	pbbq
 𥪷	0	pbbi
 𩅭	0	tfub
-𩱆	0	bbbn
 𩱌	0	inbn
 𩱍	0	cbbn
 𩱎	0	tbbn
@@ -112937,7 +112931,6 @@ import_tables:
 𤾾	0	urie
 𥍐	0	qlie
 𥽗	0	piue
-𦘈	0	quie
 𧆄	0	xlie
 𧔉	0	ciue
 𧭥	0	siue
@@ -112948,9 +112941,9 @@ import_tables:
 𫿾	0	iuit
 𭀅	0	jiue
 𭧡	0	iuio
-𭻽	0	qvve
-𮁏	0	miun
 𮁚	0	mlie
+𮁏	0	miun
+𦘈	0	qiue
 𰙂	0	iuip
 𱿌	0	liux
 兜	397	bunp
@@ -113007,7 +113000,7 @@ import_tables:
 巎	255	vfsh
 夔	50	hsoh
 巙	0	vhsh
-夒	0	fosh
+夒	0	fsoh
 犪	0	qhsh
 獿	0	mfsh
 虁	0	lfsh
@@ -113027,6 +113020,7 @@ import_tables:
 𩵊	0	alsh
 𪭆	0	hhsh
 𪺈	0	cfsh
+𭐱	0	hsoh
 嘷	0	dokn
 噑	0	dukn
 暭	0	oukn
@@ -113049,7 +113043,6 @@ import_tables:
 𢡋	0	hokn
 𢿎	0	uknh
 𣽎	0	kokn
-𤅡	0	kokw
 𤩢	0	kokn
 𤺃	0	aokn
 𥢐	0	xokn
@@ -113170,7 +113163,6 @@ import_tables:
 窅	255	eqmx
 敉	10	phpm
 饹	255	qsgs
-魆	30	anug
 鲉	255	wdyv
 鲏	255	wrpv
 鲝	255	gwvy
@@ -113248,7 +113240,6 @@ import_tables:
 㲉	0	gwfb
 㷤	0	gwfc
 㺉	0	gwfm
-䇔	0	fdvi
 䍍	0	gwfa
 䐨	0	gwfv
 𡑤	0	fdvg
@@ -113266,10 +113257,8 @@ import_tables:
 𣫓	0	gwfe
 𣫔	0	gwfj
 𣹬	0	gwfk
-𥀎	0	gwfr
 𥔳	0	gwfm
 𥢵	0	fdvx
-𦆁	0	fdvi
 𦎯	0	gwfg
 𦣄	0	fdvt
 𦣉	0	fdvp

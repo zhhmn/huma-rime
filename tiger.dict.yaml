@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.10.22"
+version: "2023.11.09"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2985,7 +2985,7 @@ columns:
 叟	pgr	3460
 藻	lkde	3459
 雍	ziu	3456
-瘫	aru	3454
+瘫	arui	3454
 蹈	pyp	3444
 揽	upr	3441
 氢	vru	3439
@@ -2998,7 +2998,7 @@ columns:
 坪	geh	3414
 蔬	ltb	3404
 翘	pfpz	3400
-嘎	dfo	3389
+嘎	dfop	3389
 缔	iiw	3388
 钮	zag	3385
 娥	btu	3384
@@ -3608,7 +3608,7 @@ columns:
 琵	nnv	1719
 胰	vmbg	1717
 狒	mtf	1715
-哽	dfob	1713
+哽	dfo	1713
 呸	dcf	1711
 廿	ln	1711
 睫	qfb	1710
@@ -3716,7 +3716,7 @@ columns:
 躇	plq	1563
 墩	gghh	1559
 鸥	nbx	1555
-痉	arug	1554
+痉	aru	1554
 抨	ueh	1552
 阜	tkn	1552
 禾	xhh	1547
@@ -7229,7 +7229,6 @@ columns:
 屿	vfaf	397
 叟	pgry	397
 雍	ziui	397
-瘫	arui	397
 蹈	pypj	397
 揽	upre	397
 氢	vrug	397
@@ -7239,7 +7238,6 @@ columns:
 懈	hxtq	397
 坪	gehb	397
 蔬	ltbo	397
-嘎	dfop	397
 缔	iiwr	397
 钮	zagt	397
 娥	btup	397
@@ -7609,6 +7607,7 @@ columns:
 蕾	ltqt	397
 漱	kxeq	397
 琵	nnvv	397
+哽	dfob	397
 呸	dcfi	397
 睫	qfbs	397
 蠕	ctle	397
@@ -7673,6 +7672,7 @@ columns:
 俟	jkos	397
 躇	plqo	397
 鸥	nbxn	397
+痉	arug	397
 抨	uehb	397
 阜	tkns	397
 曝	oolk	397
@@ -8504,7 +8504,6 @@ columns:
 班	pnnw	397
 斑	vnnw	397
 辨	pnnx	397
-辩	snnx	397
 辩	snnx	397
 瓣	ynnx	397
 瓣	ynn	397
@@ -10726,8 +10725,8 @@ columns:
 乂	bi	257
 乄	aid	257
 乆	ajr	257
-乕	xmr	257
-乕	xmrj	257
+乕	xur	257
+乕	xurj	257
 乛	ae	257
 乸	ekm	257
 亅	gs	257
@@ -11787,6 +11786,7 @@ columns:
 朘	vkhh	257
 朣	vid	257
 朣	vidl	257
+朩	emm	257
 朳	ehb	257
 朸	esl	257
 朿	emk	257
@@ -12046,6 +12046,7 @@ columns:
 浟	kjg	257
 浟	kjgh	257
 浡	knwh	257
+浤	kwnk	257
 浥	kdmb	257
 浬	kdl	257
 浭	kfob	257
@@ -12302,6 +12303,7 @@ columns:
 犽	mly	257
 狉	mcf	257
 狉	mcfi	257
+狌	mls	257
 狓	mrp	257
 狖	mex	257
 狛	mub	257
@@ -12852,6 +12854,7 @@ columns:
 翯	zgg	257
 翷	plvz	257
 翾	yfdz	257
+耂	ql	257
 耇	qgj	257
 耈	qgj	257
 耏	les	257
@@ -13786,6 +13789,7 @@ columns:
 𥖄	mgw	257
 𥖄	mgwe	257
 𥖨	mdde	257
+𥤶	evq	257
 𥥷	ezd	257
 𥧔	evp	257
 𥧔	evpm	257
@@ -14956,6 +14960,7 @@ columns:
 彐	bj	256
 彡	es	256
 攴	hp	256
+朩	em	256
 爫	ya	256
 犭	mq	256
 疒	ab	256
@@ -15723,7 +15728,6 @@ columns:
 疖	azjb	30
 雱	tlfv	30
 砟	mwas	30
-魆	anug	30
 気	vbiq	30
 轪	ymdc	30
 琲	nrfw	30
@@ -16284,6 +16288,7 @@ columns:
 䌻	izv	1
 䌽	iyem	1
 䲡	whyy	1
+𠃊	ae	1
 𫍛	shpd	1
 𫍻	shd	1
 𫍻	shdk	1
@@ -20068,7 +20073,6 @@ columns:
 朤	vvvv	0
 朥	vccs	0
 朧	vtl	0
-朩	em	0
 朮	eid	0
 朰	eai	0
 朲	ejr	0
@@ -20117,7 +20121,6 @@ columns:
 枊	ebzj	0
 枌	ehpd	0
 枎	ehf	0
-枏	emm	0
 枏	emme	0
 枓	ejd	0
 枔	eja	0
@@ -20483,7 +20486,6 @@ columns:
 槂	ehti	0
 槄	eypj	0
 槆	elno	0
-槇	evq	0
 槇	evqh	0
 槈	efk	0
 槈	efkc	0
@@ -21077,7 +21079,6 @@ columns:
 浘	kcvm	0
 浝	koes	0
 浢	kzd	0
-浤	kwnk	0
 浧	kdn	0
 浧	kdnw	0
 浨	kwem	0
@@ -21985,7 +21986,6 @@ columns:
 狇	mem	0
 狊	qmq	0
 狋	mfs	0
-狌	mls	0
 狏	mee	0
 狏	meey	0
 狑	mjks	0
@@ -24288,7 +24288,6 @@ columns:
 翺	owwz	0
 翽	snfz	0
 翿	gauz	0
-耂	ql	0
 耉	qgj	0
 耊	qyi	0
 耎	lmd	0
@@ -27038,7 +27037,7 @@ columns:
 逈	tmdu	0
 逌	yrnu	0
 逎	yuc	0
-逓	xmru	0
+逓	xuru	0
 逕	fouu	0
 逘	kou	0
 逘	kouc	0
@@ -37703,7 +37702,6 @@ columns:
 𠃇	lfuu	0
 𠃈	ufsp	0
 𠃉	ai	0
-𠃊	ae	0
 𠃋	ae	0
 𠃌	ae	0
 𠃍	ae	0
@@ -47189,7 +47187,6 @@ columns:
 𢊂	xar	0
 𢊂	xard	0
 𢊃	xmjg	0
-𢊄	xur	0
 𢊄	xury	0
 𢊅	xtku	0
 𢊆	xxxh	0
@@ -56204,7 +56201,7 @@ columns:
 𤌭	cnqh	0
 𤌮	aonc	0
 𤌯	cvhm	0
-𤌰	cofu	0
+𤌰	coah	0
 𤌱	colh	0
 𤌲	bqch	0
 𤌳	cyim	0
@@ -62384,7 +62381,6 @@ columns:
 𥤳	eajr	0
 𥤴	eflc	0
 𥤵	efga	0
-𥤶	evq	0
 𥤷	ewpe	0
 𥤸	empe	0
 𥤹	ebbi	0
@@ -70400,7 +70396,7 @@ columns:
 𧚙	tjwa	0
 𧚚	kmti	0
 𧚛	ilot	0
-𧚜	txmr	0
+𧚜	txur	0
 𧚝	upt	0
 𧚝	upti	0
 𧚞	tmhd	0
@@ -81879,7 +81875,7 @@ columns:
 𪁣	dexn	0
 𪁤	upxn	0
 𪁥	jxn	0
-𪁦	xxmr	0
+𪁦	xxur	0
 𪁧	fxn	0
 𪁨	xdmb	0
 𪁩	xhtf	0
@@ -83889,6 +83885,7 @@ columns:
 𪠌	xvwy	0
 𪠍	xpc	0
 𪠎	xhkh	0
+𪠏	xmr	0
 𪠏	xmrp	0
 𪠐	xjgf	0
 𪠑	xnkc	0
@@ -95299,7 +95296,7 @@ columns:
 𭐮	lofh	0
 𭐯	oohi	0
 𭐰	lwhh	0
-𭐱	hsoh	0
+𭐱	hosh	0
 𭐲	fohq	0
 𭐳	xnwb	0
 𭐴	xilx	0
@@ -95680,7 +95677,7 @@ columns:
 𭖡	vcpe	0
 𭖢	vnf	0
 𭖣	vmhd	0
-𭖤	vxmr	0
+𭖤	vxur	0
 𭖥	vhvy	0
 𭖦	vhg	0
 𭖧	vknw	0
@@ -102152,7 +102149,7 @@ columns:
 𰉰	gnmm	0
 𰉱	gjkf	0
 𰉲	gwpe	0
-𰉳	gxmr	0
+𰉳	gxer	0
 𰉴	gesl	0
 𰉵	gcvm	0
 𰉶	gkdk	0
@@ -112895,8 +112892,6 @@ columns:
 𭟄	siih	0
 𭤛	siiv	0
 𮜬	psih	0
-𭧡	uiio	0
-𮁏	muin	0
 𫰀	yiim	0
 𢥩	yiih	0
 𮝲	yiif	0
@@ -112935,7 +112930,6 @@ columns:
 㘜	suud	0
 犫	suuq	0
 𠧐	suun	0
-𭐱	hosh	0
 𠞢	pnnp	0
 𠺚	dpnn	0
 𢲔	upnn	0
@@ -113004,7 +112998,6 @@ columns:
 𤳕	pbbq	0
 𥪷	pbbi	0
 𩅭	tfub	0
-𩱆	bbbn	0
 𩱌	inbn	0
 𩱍	cbbn	0
 𩱎	tbbn	0
@@ -113092,7 +113085,6 @@ columns:
 𤾾	urie	0
 𥍐	qlie	0
 𥽗	piue	0
-𦘈	quie	0
 𧆄	xlie	0
 𧔉	ciue	0
 𧭥	siue	0
@@ -113103,9 +113095,9 @@ columns:
 𫿾	iuit	0
 𭀅	jiue	0
 𭧡	iuio	0
-𭻽	qvve	0
-𮁏	miun	0
 𮁚	mlie	0
+𮁏	miun	0
+𦘈	qiue	0
 𰙂	iuip	0
 𱿌	liux	0
 㨮	ubup	0
@@ -113153,7 +113145,7 @@ columns:
 𮩘	qlac	0
 𱅬	nlac	0
 巙	vhsh	0
-夒	fosh	0
+夒	fsoh	0
 犪	qhsh	0
 獿	mfsh	0
 虁	lfsh	0
@@ -113173,6 +113165,7 @@ columns:
 𩵊	alsh	0
 𪭆	hhsh	0
 𪺈	cfsh	0
+𭐱	hsoh	0
 嘷	dokn	0
 噑	dukn	0
 暭	oukn	0
@@ -113195,7 +113188,6 @@ columns:
 𢡋	hokn	0
 𢿎	uknh	0
 𣽎	kokn	0
-𤅡	kokw	0
 𤩢	kokn	0
 𤺃	aokn	0
 𥢐	xokn	0
@@ -113238,7 +113230,6 @@ columns:
 㲉	gwfb	0
 㷤	gwfc	0
 㺉	gwfm	0
-䇔	fdvi	0
 䍍	gwfa	0
 䐨	gwfv	0
 𡑤	fdvg	0
@@ -113256,10 +113247,8 @@ columns:
 𣫓	gwfe	0
 𣫔	gwfj	0
 𣹬	gwfk	0
-𥀎	gwfr	0
 𥔳	gwfm	0
 𥢵	fdvx	0
-𦆁	fdvi	0
 𦎯	gwfg	0
 𦣄	fdvt	0
 𦣉	fdvp	0

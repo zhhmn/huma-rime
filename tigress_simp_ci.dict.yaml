@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.10.22"
+version: "2023.11.09"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1464,6 +1464,7 @@ encoder:
 布洛芬	485	nkl
 自然码	485	ovm
 过来了	485	kar
+会不会	485	jcj
 一个人	1359	fjj
 在一起	906	nfp
 是不是	882	oco
@@ -3612,7 +3613,6 @@ encoder:
 障碍物	99	tmq
 墓志铭	99	lgz
 巴比伦	99	mvj
-干巴巴	99	emm
 综合症	99	ija
 高富帅	99	gwp
 扑克牌	99	uca
@@ -4266,7 +4266,6 @@ encoder:
 子系统	87	hti
 双眼皮	87	rqr
 茫茫然	87	llv
-科技园	87	xur
 场面话	87	gbs
 电源线	87	oki
 两面性	87	mbh

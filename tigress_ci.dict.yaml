@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.10.22"
+version: "2023.11.09"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -233,7 +233,7 @@ encoder:
 站在	15243	iyng
 是否	15217	otcd
 整个	15205	xhjg
-一再	15149	fifm
+一再	15151	fifm
 我想	15135	tueq
 变得	15133	zcwo
 能力	15118	kvsl
@@ -2669,7 +2669,7 @@ encoder:
 发票	3370	srvf
 那我	3370	autu
 效率	3367	abzi
-绽放	3363	iwlh
+缩放	3365	iwlh
 不清楚	3363	ckee
 讲话	3362	sqsa
 世纪	3362	laiv
@@ -6535,7 +6535,6 @@ encoder:
 奇妙	1630	mzby
 怨恨	1630	lzhi
 先天	1630	qpfm
-着呢	1630	gqdc
 远古	1630	mpcg
 咬牙切齿	1630	dlrl
 弘扬	1630	bkua
@@ -6787,7 +6786,6 @@ encoder:
 回国	1581	rdrn
 病房	1581	afml
 光彩	1581	mgye
-林涛	1581	eeka
 分裂	1581	hpgp
 票据	1581	vfuc
 坏人	1581	gcjr
@@ -7185,6 +7183,7 @@ encoder:
 公务员	1511	hhdo
 青云	1511	avby
 充分发挥	1511	bhsu
+一天	1510	fifm
 性能	1510	hlkv
 大喜	1510	mdhd
 大王	1510	mdnw
@@ -7197,7 +7196,6 @@ encoder:
 瞎子	1510	qwhi
 做起	1510	jcpv
 赛季	1510	wqxh
-一天	1509	fifm
 直播	1507	nqut
 而非	1507	lerf
 后天	1507	xffm
@@ -28391,6 +28389,9 @@ encoder:
 问师	450	adpf
 太拉	450	miui
 搴芳	450	wqll
+长难句	450	prgj
+尸谏	450	cssx
+刍荛之见	450	xlre
 女鬼	449	bnag
 阶下	448	tjfy
 女拳	448	bnhh
@@ -67653,6 +67654,7 @@ encoder:
 一起去	257	fpgk
 怎样的	257	weun
 小刚	257	yxmb
+绽放	256	iwlh
 自治区	256	oknb
 北京城	256	aggn
 转成	256	ymna
@@ -67940,7 +67942,6 @@ encoder:
 公敌	255	hkah
 悬案	255	fkwb
 上山下乡	255	yvfi
-缩放	255	iwlh
 总的说来	255	husa
 时断时续	255	opoi
 语焉不详	255	sfcs
