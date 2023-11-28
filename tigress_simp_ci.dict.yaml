@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.11.09"
+version: "2023.11.28"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -82,8 +82,8 @@ encoder:
 门口	475	ad
 那样	485	ae
 青年	475	ae
-表示	485	af
-帮助	475	af
+帮助	485	af
+表示	475	af
 北京	485	ag
 那就	475	ag
 帮忙	485	ah
@@ -2834,6 +2834,8 @@ encoder:
 亚文化	117	fvj
 王心凌	117	nhw
 张嘉倪	117	bhj
+汉堡王	117	kjn
+德克士	117	wcg
 三杯鸡	117	ter
 座头鲸	117	xww
 罗宾汉	117	ywk
@@ -2884,6 +2886,8 @@ encoder:
 千寺狐	117	lgm
 玛丽莎	117	nfl
 骚断腿	117	npv
+回旋镖	117	rlz
+智能推	117	oku
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -4334,7 +4338,6 @@ encoder:
 已经不	87	vic
 普通的	87	hku
 餐饮业	87	gqc
-东莞市	87	rlz
 宁波市	87	wkz
 红十字	87	inw
 通缉令	87	kij

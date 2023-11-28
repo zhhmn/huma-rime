@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.11.09"
+version: "2023.11.28"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -11215,6 +11215,7 @@ columns:
 壴	huu	257
 壸	gwfc	257
 夂	hi	257
+夆	haf	257
 夐	xmj	257
 夐	xmjh	257
 夬	njr	257
@@ -14027,6 +14028,8 @@ columns:
 𫭪	gpfp	257
 𫭼	glws	257
 𫮃	ghqn	257
+𫯝	yff	257
+𫯝	yffm	257
 𫰛	brug	257
 𫰡	bjvn	257
 𫰰	bjkf	257
@@ -14272,6 +14275,8 @@ columns:
 𮭦	vjax	257
 𮭨	owbx	257
 𮯙	lzk	257
+𮰃	jge	257
+𮰃	jgey	257
 𮱡	yhi	257
 𮳺	qnm	257
 𮷛	yyyc	257
@@ -17790,7 +17795,6 @@ columns:
 夁	gyrc	0
 夃	vry	0
 夅	hvk	0
-夆	haf	0
 夈	hpm	0
 変	zchi	0
 夊	hi	0
@@ -38556,7 +38560,6 @@ columns:
 𠏉	nonx	0
 𠏊	jfcc	0
 𠏋	jqvh	0
-𠏌	jge	0
 𠏌	jgej	0
 𠏍	jnuu	0
 𠏎	jddv	0
@@ -39486,7 +39489,6 @@ columns:
 𠜒	ypd	0
 𠜓	mcp	0
 𠜓	mcpd	0
-𠜔	yff	0
 𠜔	yffp	0
 𠜕	lopd	0
 𠜖	ykp	0
@@ -86386,7 +86388,7 @@ columns:
 𫆂	qjnw	0
 𫆃	ihqe	0
 𫆄	qmfa	0
-𫆅	qdtg	0
+𫆅	qdnw	0
 𫆆	qkos	0
 𫆇	qyem	0
 𫆈	mhqe	0
@@ -89019,7 +89021,6 @@ columns:
 𫯚	llnt	0
 𫯛	tmd	0
 𫯜	mrj	0
-𫯝	yffm	0
 𫯞	mdgs	0
 𫯟	mhgs	0
 𫯠	aivk	0
@@ -102241,7 +102242,7 @@ columns:
 𰋊	fugo	0
 𰋋	hhwb	0
 𰋌	gcfu	0
-𰋍	gwon	0
+𰋍	gwog	0
 𰋎	hjs	0
 𰋏	nfdh	0
 𰋐	llkj	0
@@ -110777,7 +110778,6 @@ columns:
 𮰀	jmgg	0
 𮰁	jeoh	0
 𮰂	jdat	0
-𮰃	jgey	0
 𮰄	wtl	0
 𮰅	whee	0
 𮰆	wbg	0

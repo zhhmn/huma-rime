@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2023.11.09"
+version: "2023.11.28"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -10380,6 +10380,7 @@ encoder:
 尽是	1093	ciot
 风儿	1093	obpe
 正常人	1093	fsjr
+依偎	1093	jtjq
 裹着	1093	tqgq
 可说	1093	zksh
 之位	1093	riji
@@ -10408,7 +10409,6 @@ encoder:
 明朝	1090	ovno
 四面八方	1090	ybhl
 道别	1090	hods
-依偎	1090	jtjq
 感伤	1090	nfje
 法典	1090	kgih
 符咒	1090	rjdd
@@ -22413,6 +22413,7 @@ encoder:
 铺着	547	zngq
 大爱	547	mdyw
 拖住	547	ueji
+催化	547	jvjv
 人才培养	547	jngg
 该案	547	skwb
 国际组织	547	rtii
@@ -22531,7 +22532,6 @@ encoder:
 口角	543	dkxt
 马不停蹄	543	ncjp
 肥肉	543	vmmj
-催化	543	jvjv
 滑动	543	kfbs
 虚实	543	zcww
 实心	543	wwhx
@@ -27854,6 +27854,8 @@ encoder:
 厌食	453	xmqs
 主菜	453	inly
 蔫了	453	lfrl
+值得一看	453	jwfu
+佩服佩服	453	jvjv
 喜羊羊	453	hggy
 阿丑	452	tzag
 唐山	452	xbvs
@@ -27996,8 +27998,10 @@ encoder:
 流年不利	452	kecx
 总合	452	hdjd
 画本	452	fqef
+肉排	452	mjur
 杀鸡给猴看	452	briu
 卢克	452	yccp
+领袖人物	452	jtjq
 急救站	452	xfiy
 快节奏	452	hlai
 天塌	452	fmgo
@@ -28140,6 +28144,7 @@ encoder:
 之命	450	rijd
 如春	450	bdai
 娇笑	450	btrt
+战鹰	450	ydxj
 墨索里尼	450	pndc
 亚文化	450	fvjv
 嗯嗯	450	drdr
@@ -28157,6 +28162,9 @@ encoder:
 一拳	450	fihh
 每一个人	450	efjj
 只不过是	450	dcko
+降本增效	450	tega
+汉堡王	450	kjnw
+德克士	450	wcgs
 空气炸锅	450	evcz
 三杯鸡	450	terx
 逆戟鲸	450	hnwg
@@ -28392,6 +28400,18 @@ encoder:
 长难句	450	prgj
 尸谏	450	cssx
 刍荛之见	450	xlre
+省流	450	ytkb
+过签	450	kurj
+内签	450	mjrj
+电翰	450	oano
+柯学	450	ezkw
+的话	450	unsa
+虎牢关	450	zwhm
+回旋镖	450	rlzv
+智能推	450	okuu
+阅文	450	ahvw
+表音	450	atxy
+苑囿	450	llrn
 女鬼	449	bnag
 阶下	448	tjfy
 女拳	448	bnhh
@@ -31128,6 +31148,7 @@ encoder:
 现实世界	415	nwlq
 团建	414	rnbu
 佼佼	414	jaja
+独树一帜	414	mefr
 另一个	414	dfjg
 窥屏	413	ehch
 对本	413	rkef
@@ -31306,7 +31327,6 @@ encoder:
 充电器	412	bodd
 锅底	412	zdxb
 夹起	412	hhpv
-太平天国	412	mefr
 睡眼惺忪	412	qqhh
 装糊涂	412	apkj
 千金小姐	412	lzyb
@@ -34915,6 +34935,7 @@ encoder:
 五哥	375	wuzz
 贤者	375	prqo
 太严	375	mifc
+值得一提	375	jwfu
 猎奇	375	mlmz
 启禀	375	mdzr
 第二代	375	rmjp
@@ -35051,7 +35072,6 @@ encoder:
 不成器	373	cndd
 吐沫	373	dgkf
 怯弱	373	hgbw
-值得一提	373	jwfu
 两门	373	mlam
 头前	373	wmhv
 睡熟	373	qlgh
@@ -45204,6 +45224,7 @@ encoder:
 把揽	311	umup
 变的	311	zcun
 带来的	311	laun
+内投	311	mjur
 印度尼西亚	310	bxcf
 收视	310	ihfe
 屠宰	310	cqwn
@@ -45847,7 +45868,6 @@ encoder:
 路霸	310	pstt
 家鼠	310	wjps
 讽喻	310	sodj
-肉排	310	mjur
 通连	310	ktyu
 远祖	310	mpff
 套服	310	mpvz
@@ -59482,6 +59502,7 @@ encoder:
 惧色	289	hqxm
 同义词	289	misa
 外教	289	lyqh
+太平天国	289	mefr
 神经性	289	fihl
 澳门特区	289	kaqn
 察觉到	289	wkyp
@@ -59494,7 +59515,6 @@ encoder:
 血案	288	tawb
 外逃	288	lypw
 气门	288	vqam
-独树一帜	288	mefr
 委任	288	xbjt
 孤寡	288	hyww
 班组	288	npif
@@ -70178,7 +70198,6 @@ encoder:
 欢歌笑语	246	rzrs
 圆锥	246	rdzu
 打胎	246	uavk
-自应	246	oixk
 老当益壮	246	qyka
 盐类	246	gypm
 无机盐	246	degy
@@ -87228,7 +87247,6 @@ encoder:
 男宾	200	qswt
 河网	200	kzmb
 军港	200	wykl
-战鹰	200	ydxj
 首倡	200	hojo
 嬉水	200	bhks
 薪俸	200	lija
@@ -88223,6 +88241,7 @@ encoder:
 不了的	198	crun
 如果有	198	bqnv
 盲杖	198	fqef
+仫佬	198	jtjq
 外电	197	lyoa
 预选赛	197	iqwq
 约旦河	197	iokz
@@ -89105,7 +89124,6 @@ encoder:
 无所不谈	197	dmcs
 极目远眺	197	eqmq
 突破点	197	emyd
-领袖人物	197	jtjq
 高等动物	197	grbq
 黄金屋	197	nzcy
 嘎嘣脆	197	ddvx
@@ -142297,6 +142315,7 @@ encoder:
 第九个	49	rkjg
 不就是一个	49	cgoj
 什么都知道	49	jtqh
+作家助手	49	jwfu
 后会	48	xfjb
 三家	48	tswj
 深田咏美	48	kqdg
@@ -143097,7 +143116,6 @@ encoder:
 世界排名	48	lqul
 好忙	48	bhhf
 重定向	48	lwtm
-值得一看	48	jwfu
 欧美国家	48	ngrw
 意大利语	48	xmxs
 郎朗	48	iiii
@@ -148151,6 +148169,7 @@ encoder:
 好多个	47	bljg
 这就是个	47	vgoj
 不就知道	47	cgoh
+傈僳	47	jvjv
 呼呼	46	dtdt
 丽水市	46	fkzr
 国务院发展研究中心	46	rhth
@@ -151794,7 +151813,6 @@ encoder:
 令人高兴	45	jjgk
 以大局为重	45	vmcl
 任何地点	45	jjgy
-佩服佩服	45	jvjv
 保密协议	45	jwns
 值得人们	45	jwjj
 做人不能太	45	jjcm
@@ -154822,6 +154840,7 @@ encoder:
 一千年以后	44	flex
 一般的说	44	fius
 社会经历	44	fjix
+货比货	44	jvjv
 过奖过奖	44	kaka
 几万个	44	ofjg
 下半个	44	fhjg
@@ -156857,7 +156876,6 @@ encoder:
 谨以此文	43	svsv
 谷梁传	43	hkjm
 败家娘们	43	owbj
-货比货	43	jvjv
 贸易争端	43	boxi
 赵日天	43	pofm
 超级月亮	43	pivg
@@ -160146,7 +160164,6 @@ encoder:
 抢到就是赚到	42	uygy
 报销凭证	42	uzjs
 担架队	42	ustj
-拐卖妇女儿童	42	unbi
 拧瓶盖	42	uhga
 指甲钳	42	uszz
 排众而出	42	ujls

@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.11.09"
+version: "2023.11.28"
 sort: by_weight
 columns:
   - text
@@ -11745,6 +11745,7 @@ import_tables:
 壴	256	hu
 壸	257	gwfc
 夂	257	hi
+夆	257	haf
 夐	257	xmj
 夐	257	xmjh
 夬	257	njr
@@ -14573,6 +14574,8 @@ import_tables:
 𫭪	257	gpfp
 𫭼	257	glws
 𫮃	257	ghqn
+𫯝	257	yff
+𫯝	257	yffm
 𫰛	257	brug
 𫰡	257	bjvn
 𫰰	257	bjkf
@@ -14818,6 +14821,8 @@ import_tables:
 𮭦	257	vjax
 𮭨	257	owbx
 𮯙	257	lzk
+𮰃	257	jge
+𮰃	257	jgey
 𮱡	257	yhi
 𮳺	257	qnm
 𮷛	257	yyyc
@@ -17602,7 +17607,6 @@ import_tables:
 夁	0	gyrc
 夃	0	vry
 夅	0	hvk
-夆	0	haf
 夈	0	hpm
 変	0	zchi
 夊	0	hi
@@ -38368,7 +38372,6 @@ import_tables:
 𠏉	0	nonx
 𠏊	0	jfcc
 𠏋	0	jqvh
-𠏌	0	jge
 𠏌	0	jgej
 𠏍	0	jnuu
 𠏎	0	jddv
@@ -39298,7 +39301,6 @@ import_tables:
 𠜒	0	ypd
 𠜓	0	mcp
 𠜓	0	mcpd
-𠜔	0	yff
 𠜔	0	yffp
 𠜕	0	lopd
 𠜖	0	ykp
@@ -86198,7 +86200,7 @@ import_tables:
 𫆂	0	qjnw
 𫆃	0	ihqe
 𫆄	0	qmfa
-𫆅	0	qdtg
+𫆅	0	qdnw
 𫆆	0	qkos
 𫆇	0	qyem
 𫆈	0	mhqe
@@ -88831,7 +88833,6 @@ import_tables:
 𫯚	0	llnt
 𫯛	0	tmd
 𫯜	0	mrj
-𫯝	0	yffm
 𫯞	0	mdgs
 𫯟	0	mhgs
 𫯠	0	aivk
@@ -102053,7 +102054,7 @@ import_tables:
 𰋊	0	fugo
 𰋋	0	hhwb
 𰋌	0	gcfu
-𰋍	0	gwon
+𰋍	0	gwog
 𰋎	0	hjs
 𰋏	0	nfdh
 𰋐	0	llkj
@@ -110589,7 +110590,6 @@ import_tables:
 𮰀	0	jmgg
 𮰁	0	jeoh
 𮰂	0	jdat
-𮰃	0	jgey
 𮰄	0	wtl
 𮰅	0	whee
 𮰆	0	wbg

@@ -7352,6 +7352,7 @@
 壴	〔壴&nbsp;·&nbsp;hu&nbsp;huu〕
 壸	〔士冖一业&nbsp;·&nbsp;gwfc〕
 夂	〔夂&nbsp;·&nbsp;hi〕
+夆	〔夂丰&nbsp;·&nbsp;haf〕
 夐	〔⺈人夊&nbsp;·&nbsp;xmjh〕
 夬	〔人&nbsp;·&nbsp;njr〕
 夿	〔大巴&nbsp;·&nbsp;mmb〕
@@ -9343,6 +9344,7 @@
 𫭪	〔土一儿&nbsp;·&nbsp;gpfp〕
 𫭼	〔土艹冖力&nbsp;·&nbsp;glws〕
 𫮃	〔土丷田十&nbsp;·&nbsp;ghqn〕
+𫯝	〔⺊一一大&nbsp;·&nbsp;yffm〕
 𫰛	〔女ス工&nbsp;·&nbsp;brug〕
 𫰡	〔女亻十&nbsp;·&nbsp;bjvn〕
 𫰰	〔女亼⺍一&nbsp;·&nbsp;bjkf〕
@@ -9518,6 +9520,7 @@
 𮭦	〔山亽鸟&nbsp;·&nbsp;vjax〕
 𮭨	〔日宀女鸟&nbsp;·&nbsp;owbx〕
 𮯙	〔齿可&nbsp;·&nbsp;lzk&nbsp;lzkc〕
+𮰃	〔入土也&nbsp;·&nbsp;jgey〕
 𮱡	〔小子&nbsp;·&nbsp;yhi〕
 𮳺	〔牛马&nbsp;·&nbsp;qnm〕
 𮷛	〔车车车&nbsp;·&nbsp;yyyc〕
@@ -11757,7 +11760,6 @@
 夁	〔士罒囗古&nbsp;·&nbsp;gyrc〕
 夃	〔乃又&nbsp;·&nbsp;vry〕
 夅	〔夂㐄&nbsp;·&nbsp;hvk〕
-夆	〔夂丰&nbsp;·&nbsp;haf〕
 夈	〔夂米&nbsp;·&nbsp;hpm〕
 変	〔亠夊&nbsp;·&nbsp;zchi〕
 夊	〔夊&nbsp;·&nbsp;hi〕
@@ -73355,7 +73357,7 @@
 𫆂	〔耳人王&nbsp;·&nbsp;qjnw〕
 𫆃	〔丩攵耳&nbsp;·&nbsp;ihqe〕
 𫆄	〔耳大一ㄅ&nbsp;·&nbsp;qmfa〕
-𫆅	〔耳口丿土&nbsp;·&nbsp;qdtg〕
+𫆅	〔耳口王&nbsp;·&nbsp;qdnw〕
 𫆆	〔耳厶矢&nbsp;·&nbsp;qkos〕
 𫆇	〔耳爫木&nbsp;·&nbsp;qyem〕
 𫆈	〔戶攵耳&nbsp;·&nbsp;mhqe〕
@@ -75912,7 +75914,6 @@
 𫯚	〔夕夕十&nbsp;·&nbsp;llnt〕
 𫯛	〔丿大&nbsp;·&nbsp;tmd〕
 𫯜	〔大巾&nbsp;·&nbsp;mrj〕
-𫯝	〔⺊一一大&nbsp;·&nbsp;yffm〕
 𫯞	〔大口丨&nbsp;·&nbsp;mdgs〕
 𫯟	〔大䒑丨&nbsp;·&nbsp;mhgs〕
 𫯠	〔㇏㐄&nbsp;·&nbsp;aivk〕
@@ -88727,7 +88728,7 @@
 𰋊	〔一白士几&nbsp;·&nbsp;fugo〕
 𰋋	〔壴夂⺀&nbsp;·&nbsp;hhwb〕
 𰋌	〔士一工&nbsp;·&nbsp;gcfu〕
-𰋍	〔士冖几王&nbsp;·&nbsp;gwon〕
+𰋍	〔士冖几土&nbsp;·&nbsp;gwog〕
 𰋎	〔夂豕&nbsp;·&nbsp;hjs〕
 𰋏	〔勹一口夊&nbsp;·&nbsp;nfdh〕
 𰋐	〔夕夕九&nbsp;·&nbsp;llkj〕
@@ -97071,7 +97072,6 @@
 𮰀	〔亻大土土&nbsp;·&nbsp;jmgg〕
 𮰁	〔亻𠂉日夂&nbsp;·&nbsp;jeoh〕
 𮰂	〔亼口乛三&nbsp;·&nbsp;jdat〕
-𮰃	〔入土也&nbsp;·&nbsp;jgey〕
 𮰄	〔冖龙&nbsp;·&nbsp;wtl〕
 𮰅	〔冖八木木&nbsp;·&nbsp;whee〕
 𮰆	〔冫弓&nbsp;·&nbsp;wbg〕
