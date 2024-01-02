@@ -15,7 +15,7 @@ jobs:
       - name: Clone repository
         run: |
           rm -rf huma-rime
-          git clone https://x-access-token:${{ secrets.PAT }}@github.com/zhhmn/huma-rime
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/zhhmn/huma-rime
           cd huma-rime
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
