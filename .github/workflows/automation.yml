@@ -5,11 +5,6 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
-permissions: write-all
-
-env:
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 jobs:
   automate-task:
     runs-on: self-hosted
@@ -17,9 +12,11 @@ jobs:
       image: c4r50nz/selenium-chrome:v20230701
 
     steps:
-      - uses: actions/checkout@v2
-      - name: configure
+      - name: Clone repository
         run: |
+          rm -rf huma-rime
+          git clone https://x-access-token:${{ secrets.PAT }}@github.com/zhhmn/huma-rime
+          cd huma-rime
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
 
@@ -38,4 +35,3 @@ jobs:
           git tag ${{ steps.script.outputs.tag }}
           git tag
           git push --tags origin HEAD:master
-
