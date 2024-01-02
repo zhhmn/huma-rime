@@ -1,5 +1,5 @@
 name: tigress
-version: "2023.11.28"
+version: "2023.12.31"
 sort: by_weight
 columns:
   - text
@@ -3851,8 +3851,7 @@ import_tables:
 歉	7170	hbce
 沾	7165	kyd
 沾	397	kydk
-妮	7154	bcv
-妮	397	bcvb
+妮	7154	bcvb
 筋	7149	rvs
 筋	397	rvsl
 殷	7147	zrs
@@ -6757,7 +6756,8 @@ import_tables:
 鑫	397	zzzj
 琏	993	nyu
 琏	397	nyuc
-娓	992	bcvm
+娓	992	bcv
+娓	397	bcvm
 杳	992	eor
 犊	992	qna
 犊	397	qnam
@@ -11426,6 +11426,7 @@ import_tables:
 劀	257	itmp
 劃	257	bqfp
 劄	257	rjdp
+劏	257	sqpd
 劘	257	zrpd
 劙	257	bjcp
 劵	257	hhsl
@@ -13412,6 +13413,7 @@ import_tables:
 耲	257	atyk
 肏	257	jmj
 肏	257	jmjj
+肶	257	vvvb
 肸	257	vhn
 肸	257	vhns
 胈	257	vnr
@@ -16717,7 +16719,6 @@ import_tables:
 劋	0	dddp
 劌	0	snfp
 劎	0	jddp
-劏	0	sqpd
 劒	0	jddi
 劔	0	jddi
 劕	0	ttop
@@ -24205,7 +24206,6 @@ import_tables:
 肰	0	vmq
 肳	0	vnes
 肵	0	vtj
-肶	0	vvvb
 肹	0	vhfa
 肻	0	ywvy
 胅	0	vth
@@ -112682,6 +112682,7 @@ import_tables:
 褏	257	tbfd
 襃	0	tbfe
 裦	0	tbft
+養	122	gqs
 班	397	pnnw
 斑	397	vnnw
 辨	397	pnnx

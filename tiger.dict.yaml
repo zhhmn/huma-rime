@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.11.28"
+version: "2023.12.31"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2394,7 +2394,7 @@ columns:
 吏	fdb	7177
 歉	hbce	7170
 沾	kyd	7165
-妮	bcv	7154
+妮	bcvb	7154
 筋	rvs	7149
 殷	zrs	7147
 棒	eaiu	7143
@@ -4199,7 +4199,7 @@ columns:
 镀	zxl	995
 鑫	zzz	994
 琏	nyu	993
-娓	bcvm	992
+娓	bcv	992
 杳	eor	992
 犊	qna	992
 昙	oby	989
@@ -6870,7 +6870,6 @@ columns:
 躯	znbi	397
 吏	fdbi	397
 沾	kydk	397
-妮	bcvb	397
 筋	rvsl	397
 坠	tjgt	397
 渊	kppm	397
@@ -7952,6 +7951,7 @@ columns:
 镀	zxlr	397
 鑫	zzzj	397
 琏	nyuc	397
+娓	bcvm	397
 犊	qnam	397
 篆	rbjs	397
 踝	pqem	397
@@ -10900,6 +10900,7 @@ columns:
 劀	itmp	257
 劃	bqfp	257
 劄	rjdp	257
+劏	sqpd	257
 劘	zrpd	257
 劙	bjcp	257
 劵	hhsl	257
@@ -12870,6 +12871,7 @@ columns:
 耲	atyk	257
 肏	jmj	257
 肏	jmjj	257
+肶	vvvb	257
 肸	vhn	257
 肸	vhns	257
 胈	vnr	257
@@ -15307,6 +15309,7 @@ columns:
 現	nej	122
 華	lflu	122
 養	giii	122
+養	gqs	122
 團	rnq	121
 團	rnqk	121
 補	tnf	121
@@ -16905,7 +16908,6 @@ columns:
 劋	dddp	0
 劌	snfp	0
 劎	jddp	0
-劏	sqpd	0
 劒	jddi	0
 劔	jddi	0
 劕	ttop	0
@@ -24393,7 +24395,6 @@ columns:
 肰	vmq	0
 肳	vnes	0
 肵	vtj	0
-肶	vvvb	0
 肹	vhfa	0
 肻	ywvy	0
 胅	vth	0

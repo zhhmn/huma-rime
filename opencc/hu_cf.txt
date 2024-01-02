@@ -7127,6 +7127,7 @@
 劀	〔予丿冂刂&nbsp;·&nbsp;itmp〕
 劃	〔田一刂&nbsp;·&nbsp;bqfp〕
 劄	〔⺮亼口刂&nbsp;·&nbsp;rjdp〕
+劏	〔田刂&nbsp;·&nbsp;sqpd〕
 劘	〔麻非刂&nbsp;·&nbsp;zrpd〕
 劙	〔彑虫刂&nbsp;·&nbsp;bjcp〕
 劵	〔丷夫力&nbsp;·&nbsp;hhsl〕
@@ -8515,6 +8516,7 @@
 耰	〔耒心夂&nbsp;·&nbsp;awhh〕
 耲	〔耒衣罒水&nbsp;·&nbsp;atyk〕
 肏	〔入冂人人&nbsp;·&nbsp;jmjj〕
+肶	〔月匕&nbsp;·&nbsp;vvvb〕
 肸	〔月八十&nbsp;·&nbsp;vhns〕
 胈	〔月𠂇又丶&nbsp;·&nbsp;vnri〕
 胔	〔匕冂人&nbsp;·&nbsp;svmj〕
@@ -9772,7 +9774,7 @@
 聲	〔士殳耳&nbsp;·&nbsp;gcrq〕
 現	〔王見&nbsp;·&nbsp;nej〕
 華	〔艹一艹&nbsp;·&nbsp;lflu〕
-養	〔⺶㇏丶艮&nbsp;·&nbsp;giii〕
+養	〔⺶㇏丶艮&nbsp;·&nbsp;giii&nbsp;gqs〕
 團	〔囗十田寸&nbsp;·&nbsp;rnqk〕
 補	〔衤甫&nbsp;·&nbsp;tnf〕
 樂	〔白幺幺木&nbsp;·&nbsp;uiie&nbsp;iuie〕
@@ -11049,7 +11051,6 @@
 劋	〔口口口刂&nbsp;·&nbsp;dddp〕
 劌	〔止戊一刂&nbsp;·&nbsp;snfp〕
 劎	〔亼口口刀&nbsp;·&nbsp;jddp〕
-劏	〔田刂&nbsp;·&nbsp;sqpd〕
 劒	〔亼口口丶&nbsp;·&nbsp;jddi〕
 劔	〔亼口口丶&nbsp;·&nbsp;jddi〕
 劕	〔斤斤貝刂&nbsp;·&nbsp;ttop〕
@@ -17010,7 +17011,6 @@
 肰	〔月犬&nbsp;·&nbsp;vmq〕
 肳	〔月勹&nbsp;·&nbsp;vnes〕
 肵	〔月斤&nbsp;·&nbsp;vtj〕
-肶	〔月匕&nbsp;·&nbsp;vvvb〕
 肹	〔月八一ㄅ&nbsp;·&nbsp;vhfa〕
 肻	〔⺊冖⺝&nbsp;·&nbsp;ywvy〕
 胅	〔月丿夫&nbsp;·&nbsp;vthf〕

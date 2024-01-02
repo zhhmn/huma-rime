@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2023.11.28"
+version: "2023.12.31"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1824,6 +1824,7 @@ encoder:
 毕业后	228	vcx
 不愧是	228	cho
 影响到	228	ody
+葡萄牙	228	lll
 对不对	228	rcr
 实验室	228	wnw
 建筑物	228	brq
@@ -2815,9 +2816,11 @@ encoder:
 梁羽生	117	kzl
 成员国	117	ndr
 热烘烘	117	ucc
+性解放	117	hxl
 急救站	117	xfi
 快节奏	117	hla
 持力层	117	usc
+北伐军	117	ajw
 成都市	117	nqz
 转折点	117	yuy
 音乐家	117	xbw
@@ -2982,7 +2985,6 @@ encoder:
 吉普车	111	ghy
 罗斯福	111	yzf
 单元格	111	hme
-茉莉花	111	lll
 习惯于	111	zhf
 六年级	111	aei
 大方向	111	mlt
