@@ -5,7 +5,7 @@ patch:
   #translator/enable_completion: true # 编码提示，默认关闭，删掉行首的#号，即可开启
   #speller/auto_select_pattern: ^;\w+|^\w{4}$  # 四码上屏功能，删掉行首的#号，即可开启
   #speller/alphabet: "['zyxwvutsrqponmlkjihgfedcba]" # 取消分号引导的快符功能（分号不作码元），删掉行首#号即可生效
-  #style/mark_text: " " #编号前标志，删除前面的#号可以替换成空格，也可在引号里可以自己加东西替换，如 "😅"
+  #style/mark_text: " " #编号前标志，这里是空格，可在引号里可以自己加东西替换，如 "😅"
   #style/layout/border_width: 2 #边框宽度，默认是0
   #style/layout/border_height: 2 #边框高度，默认是0
 
@@ -13,8 +13,8 @@ patch:
   #style/horizontal: true # 默认是false竖排显示，删掉行首的#号，可横排显示（横排建议把上面这行注释掉）
   #style/layout/candidate_spacing: 17 #候选框改为横排后,增加 候选与候选 的间距
   #style/layout/hilite_spacing: 8  #候选框改为横排后,增加 标号与候选 的间距
-  #style/layout/min_width: 80  #候选框改为横排后,增加最小宽度
-  #style/layout/max_width: 1000 #候选框改为横排后，限制最大宽度，超长自动换行
+  #style/layout/min_width: 85  #候选框改为横排后,增加最小宽度
+  #style/layout/max_width: 1200 #候选框改为横排后，限制最大宽度，超长自动换行
   # 横排显示建议把下面这行也注释掉，换成阿拉伯数字标号
   menu/alternative_select_labels: [ ㊀, ㊁, ㊂, ㊃, ㊄, ㊅, ㊆, ㊇, ㊈ ]  # 自定义候选序号显示符，可自定修改，如要显示阿拉伯数字，直接注释掉这行（在前面加#号）
   # 以下是备选样式（自行删除#号即可生效，只能生效一种）
@@ -31,11 +31,15 @@ patch:
 
   #style/preedit_type: preview # 嵌入首选项内容(字词)。有4个选项可设：input 嵌入输入码 | composition 嵌入编码 | preview 嵌入首选项 | preview_all 嵌入全部内容 
   #style/layout/margin_y : -1 # 启用后可隐藏候选框(盲打)，建议配合上面的嵌入首选项，一起使用
+
   #style/inline_preedit: false # 嵌入编码模式，默认是true开启，若想关闭，取消注释即可（删除前面的#号）
 
   # 去掉圆角 新小狼毫（Win）
   #style/layout/corner_radius: 0 #候选圆角
   #style/layout/round_corner: 0 #高亮圆角
+
+  # 竖排候选框，自动倒序
+  #style/vertical_auto_reverse: false # 默认是会自动倒序的，若想关闭，把该行行首的#删掉
 
   # #候选字体
   #style/font_face: "Consolas, Segoe UI Emoji, Noto Color Emoji, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"
@@ -60,3 +64,6 @@ patch:
    #- 'xform/（//'
    #- 'xform/）//'
   # 也可自己把 （ 替换成别的，比如 'xform/（/〔/'
+
+  # 让【 】可以直接上屏（对应的重复上屏的功能也没了）
+  #speller/alphabet: ";'zyxwvutsrqponmlkjihgfedcba"

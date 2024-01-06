@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2023.12.31"
+version: "2024.01.06"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -11708,6 +11708,8 @@ columns:
 旂	letj	257
 旐	lep	257
 旐	lepw	257
+旓	ley	257
+旓	leyv	257
 旞	lehu	257
 旴	ofn	257
 旴	ofns	257
@@ -12574,6 +12576,7 @@ columns:
 眜	qfem	257
 眥	svq	257
 眥	svqm	257
+眰	qyi	257
 睄	qyv	257
 睄	qyvy	257
 睆	qwm	257
@@ -19853,8 +19856,6 @@ columns:
 旊	lerw	0
 旍	lejk	0
 旑	lmzk	0
-旓	ley	0
-旓	leyv	0
 旔	lbu	0
 旔	lbuy	0
 旕	ljwv	0
@@ -22658,7 +22659,6 @@ columns:
 眫	qhus	0
 眮	qmf	0
 眮	qmfd	0
-眰	qyi	0
 眱	qmb	0
 眱	qmbg	0
 眲	qqe	0
