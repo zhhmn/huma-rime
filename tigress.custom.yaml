@@ -52,12 +52,6 @@ patch:
   #style/label_font_face: "LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"
   #style/label_font_point: 15 #候选前编号标志字号
 
-  # 以下是解决 新狼毫候选框响应慢 的方法，删除下面四行前面的#号即可生效
-  #style/color_font: false
-  #style/font_face: LXGW WenKai GB Screen R
-  #style/comment_font_face: LXGW WenKai GB Screen R
-  #style/label_font_face: LXGW WenKai GB Screen R
-
   # 去除拼音滤镜的括号，如对括号有需求，可在下面5行前面加上#号注释掉
   #pinyin/comment_format:
    #- 'xform/&nbsp;/ /'

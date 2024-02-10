@@ -7700,6 +7700,7 @@
 斶	〔斤罒勹虫&nbsp;·&nbsp;tync〕
 旂	〔方𠂉斤&nbsp;·&nbsp;letj〕
 旐	〔方𠂉儿&nbsp;·&nbsp;lepw〕
+旓	〔方𠂉⺌⺝&nbsp;·&nbsp;leyv〕
 旞	〔方𠂉丷辶&nbsp;·&nbsp;lehu〕
 旴	〔日一&nbsp;·&nbsp;ofns〕
 旵	〔日山&nbsp;·&nbsp;ovs〕
@@ -7753,6 +7754,7 @@
 朓	〔月儿冫&nbsp;·&nbsp;vpww〕
 朘	〔月厶八夊&nbsp;·&nbsp;vkhh〕
 朣	〔月立里&nbsp;·&nbsp;vidl〕
+朤	〔月月月月&nbsp;·&nbsp;vvvv〕
 朩	〔朩&nbsp;·&nbsp;em&nbsp;emm〕
 朳	〔木八&nbsp;·&nbsp;ehb〕
 朸	〔木力&nbsp;·&nbsp;esl〕
@@ -8310,6 +8312,7 @@
 眊	〔目毛&nbsp;·&nbsp;qvm&nbsp;qvmm〕
 眜	〔目一木&nbsp;·&nbsp;qfem〕
 眥	〔匕目&nbsp;·&nbsp;svqm〕
+眰	〔目至&nbsp;·&nbsp;qyi〕
 睄	〔目⺌⺝&nbsp;·&nbsp;qyvy〕
 睆	〔目宀二儿&nbsp;·&nbsp;qwmp〕
 睎	〔目㐅𠂇巾&nbsp;·&nbsp;qbnr〕
@@ -9243,6 +9246,7 @@
 𩾌	〔鱼广氺&nbsp;·&nbsp;wxbk〕
 𪉈	〔匕鸟&nbsp;·&nbsp;svxn〕
 𪎊	〔龶夂𡭔丿&nbsp;·&nbsp;ahyt〕
+𪚥	〔龍龍龍龍&nbsp;·&nbsp;tttt〕
 𪞝	〔冫又&nbsp;·&nbsp;wrus〕
 𪟝	〔龶贝力&nbsp;·&nbsp;aosl〕
 𪟧	〔田力田力&nbsp;·&nbsp;qsqs〕
@@ -13380,7 +13384,6 @@
 旊	〔方𠂉瓦&nbsp;·&nbsp;lerw〕
 旍	〔方𠂉亽龴&nbsp;·&nbsp;lejk〕
 旑	〔方大可&nbsp;·&nbsp;lmzk〕
-旓	〔方𠂉⺌⺝&nbsp;·&nbsp;leyv〕
 旔	〔方聿廴&nbsp;·&nbsp;lbuy〕
 旕	〔方人⺀&nbsp;·&nbsp;ljwv〕
 旘	〔方音戈&nbsp;·&nbsp;lxpg〕
@@ -13540,7 +13543,6 @@
 朠	〔月艹大&nbsp;·&nbsp;vlmm〕
 朡	〔月㐅凵夊&nbsp;·&nbsp;vbmh〕
 朢	〔臣月王&nbsp;·&nbsp;qvnw〕
-朤	〔月月月月&nbsp;·&nbsp;vvvv〕
 朥	〔月火火力&nbsp;·&nbsp;vccs〕
 朧	〔月龍&nbsp;·&nbsp;vtl〕
 朮	〔木丶&nbsp;·&nbsp;eid〕
@@ -15646,7 +15648,6 @@
 眪	〔目一冂人&nbsp;·&nbsp;qfmj〕
 眫	〔目丷&nbsp;·&nbsp;qhus〕
 眮	〔目冂一口&nbsp;·&nbsp;qmfd〕
-眰	〔目至&nbsp;·&nbsp;qyi〕
 眱	〔目大弓&nbsp;·&nbsp;qmbg〕
 眲	〔目耳&nbsp;·&nbsp;qqe〕
 眳	〔目夕口&nbsp;·&nbsp;qldk〕
@@ -70632,7 +70633,6 @@
 𪚢	〔龍飛&nbsp;·&nbsp;tcf〕
 𪚣	〔士殳龍&nbsp;·&nbsp;gcrt〕
 𪚤	〔龍月王&nbsp;·&nbsp;tfvn〕
-𪚥	〔龍龍龍龍&nbsp;·&nbsp;tttt〕
 𪚦	〔𪚦&nbsp;·&nbsp;wg〕
 𪚧	〔龜甲&nbsp;·&nbsp;wsj〕
 𪚨	〔穴龜&nbsp;·&nbsp;ewg〕
