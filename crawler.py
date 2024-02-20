@@ -199,7 +199,7 @@ def delete_removed(diff, par='.'):
 
 with zipfile.ZipFile(ZIP_FILE, "r", metadata_encoding="cp936") as zip_ref:
     folder = os.path.join("/tmp", zip_ref.filelist[0].filename[:-1])
-    rmtree(folder)
+    rmtree(folder, ignore_errors=True)
     zip_ref.extractall("/tmp")
     diff = filecmp.dircmp(".", folder, ignore=ignore_files)
     delete_removed(diff)
