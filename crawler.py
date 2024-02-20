@@ -155,17 +155,30 @@ if url is None:
 
 browser.close()
 assert name is not None
-m = re.match(r".*(?P<date>\d{4}\.\d{2}\.\d{2})\.zip", name)
+
+# m = re.match(r".*(?P<date>\d{4}\.\d{2}\.\d{2})\.zip", name)
+# if m is None:
+#     print(f"failed to extract date from filename: {name}", file=sys.stderr)
+#     if ".zip" in name and name.endswith("MB"):
+#         date = datetime.now().strftime("%Y.%m.%d")
+#     else:
+#         exit(1)
+# else:
+#     date = m.group("date")
+
+assert '.zip' in name and name.endswith("MB")
+m = re.match(r"虎码秃版 鼠须管 （Mac）(?P<date>.*)\.zip", name)
 if m is None:
     print(f"failed to extract date from filename: {name}", file=sys.stderr)
-    if ".zip" in name and name.endswith("MB"):
-        date = datetime.now().strftime("%Y.%m.%d")
-    else:
-        exit(1)
-else:
-    date = m.group("date")
+    exit(1)
+date = m.group('date')
 
-print(f"tag=v{date}")
+if re.match(r"\d{4}\.\d{2}\.\d{2}", date):
+    print(f"tag=v{date}")
+else:
+    # not necessarily date, might be a tag
+    print(f"tag={date}")
+
 print(f"downloading {name} with url {url}", file=sys.stderr)
 
 urlretrieve(url, ZIP_FILE)

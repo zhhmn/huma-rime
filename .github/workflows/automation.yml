@@ -33,6 +33,7 @@ jobs:
           cd huma-rime
           git status
           DATE=$(date +"%Y-%m-%d")
+          git add .
           git commit --all --verbose -m "Automated update on $DATE" || exit 0
           git tag ${{ steps.script.outputs.tag }}
           git tag
