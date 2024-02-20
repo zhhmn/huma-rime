@@ -3,7 +3,7 @@ import re
 import sys
 import time
 import zipfile
-from datetime import datetime
+import filecmp
 from shutil import copytree, rmtree
 from urllib.request import urlretrieve
 
@@ -11,7 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 URL = "http://huma.ysepan.com"
-ZIP_FILE = "huma.zip"
+ZIP_FILE = "/tmp/huma.zip"
 
 try:
     os.unlink(ZIP_FILE)
@@ -166,12 +166,12 @@ assert name is not None
 # else:
 #     date = m.group("date")
 
-assert '.zip' in name and name.endswith("MB")
+assert ".zip" in name and name.endswith("MB")
 m = re.match(r"虎码秃版 鼠须管 （Mac）(?P<date>.*)\.zip", name)
 if m is None:
     print(f"failed to extract date from filename: {name}", file=sys.stderr)
     exit(1)
-date = m.group('date')
+date = m.group("date")
 
 if re.match(r"\d{4}\.\d{2}\.\d{2}", date):
     print(f"tag=v{date}")
@@ -182,9 +182,27 @@ else:
 print(f"downloading {name} with url {url}", file=sys.stderr)
 
 urlretrieve(url, ZIP_FILE)
+ignore_files = [
+    ".git",
+    ".github",
+    ".gitignore",
+    "README.md",
+    "crawler.py",
+    "geckodriver.log",
+]
+
+def delete_removed(diff, par='.'):
+    for file in diff.left_only:
+        os.unlink(os.path.join(par, file))
+    for d, cmp in diff.subdirs.items():
+        delete_removed(cmp, d)
+
 with zipfile.ZipFile(ZIP_FILE, "r", metadata_encoding="cp936") as zip_ref:
-    folder = zip_ref.filelist[0].filename[:-1]
-    zip_ref.extractall(".")
+    folder = os.path.join("/tmp", zip_ref.filelist[0].filename[:-1])
+    rmtree(folder)
+    zip_ref.extractall("/tmp")
+    diff = filecmp.dircmp(".", folder, ignore=ignore_files)
+    delete_removed(diff)
     copytree(folder, ".", dirs_exist_ok=True)
 
 os.unlink(ZIP_FILE)
