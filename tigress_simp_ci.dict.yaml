@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2024.01.06"
+version: "2024.02.25"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2649,7 +2649,6 @@ encoder:
 净利润	123	wxk
 政治上	123	fky
 不合理	123	cjn
-反社会	123	xfj
 巨大的	123	nmu
 听得到	123	dwy
 李清照	123	eko
@@ -2891,6 +2890,8 @@ encoder:
 骚断腿	117	npv
 回旋镖	117	rlz
 智能推	117	oku
+龙腾传	117	tvj
+层楼哥	117	cez
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -3685,7 +3686,6 @@ encoder:
 象牙塔	96	wlg
 山海经	96	vki
 美少年	96	gye
-心底里	96	hxd
 挑战者	96	uyq
 这样一	96	vef
 就是这	96	gov
@@ -3741,7 +3741,6 @@ encoder:
 骨骼肌	96	ffv
 充满了	96	bkr
 老母亲	96	qki
-可能是	96	zko
 淘汰赛	96	kkw
 安徒生	96	wwl
 饮用水	96	qtk

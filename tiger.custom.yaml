@@ -42,13 +42,13 @@ patch:
   #style/vertical_auto_reverse: false # 默认是会自动倒序的，若想关闭，把该行行首的#删掉
 
   # #候选字体
-  #style/font_face: "Consolas, Segoe UI Emoji, Noto Color Emoji, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"
+  #style/font_face: "Consolas, Segoe UI Emoji, Noto Color Emoji, LXGW WenKai GB Screen, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"
   #style/font_point: 15 #主字体字号
   # #滤镜内容字体
-  #style/comment_font_face: "Consolas, Segoe UI Emoji, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"
+  #style/comment_font_face: "Consolas, Segoe UI Emoji, Noto Color Emoji, TumanPUA, LXGW WenKai GB Screen, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"
   #style/comment_font_point: 15 # 滤镜内容字号
   # #候选前编号标志字体
-  #style/label_font_face: "LXGW WenKai GB Screen R, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"
+  #style/label_font_face: "LXGW WenKai GB Screen, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"
   #style/label_font_point: 15 #候选前编号标志字号
 
   # 去除拼音滤镜的括号，如对括号有需求，可在下面5行前面加上#号注释掉

@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2024.01.06"
+version: "2024.02.25"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -11790,6 +11790,7 @@ columns:
 朘	vkhh	257
 朣	vid	257
 朣	vidl	257
+朤	vvvv	257
 朩	emm	257
 朳	ehb	257
 朸	esl	257
@@ -13874,6 +13875,7 @@ columns:
 𩾌	wxbk	257
 𪉈	svxn	257
 𪎊	ahyt	257
+𪚥	tttt	257
 𪞝	wrus	257
 𪟝	aosl	257
 𪟧	qsqs	257
@@ -15032,7 +15034,6 @@ columns:
 辻	nucs	255
 鲂	wlfv	255
 耄	qvml	255
-#牦	qvmn	255
 眊	qvmm	255
 帏	rgwj	255
 怫	htfx	255
@@ -20077,7 +20078,6 @@ columns:
 朡	vbmh	0
 朢	qvn	0
 朢	qvnw	0
-朤	vvvv	0
 朥	vccs	0
 朧	vtl	0
 朮	eid	0
@@ -30033,6 +30033,7 @@ columns:
 鿼	psdk	0
 鿾	giit	0
 鿿	njks	0
+𠂇	ns	0
 𠕇	nvy	0
 𠬤	rus	0
 𡨄	wqhb	0
@@ -37635,7 +37636,6 @@ columns:
 𠂄	mzof	0
 𠂅	ziui	0
 𠂆	xc	0
-𠂇	ns	0
 𠂈	ij	0
 𠂊	xd	0
 𠂋	xfi	0
@@ -83551,7 +83551,6 @@ columns:
 𪚢	tcf	0
 𪚣	gcrt	0
 𪚤	tfvn	0
-𪚥	tttt	0
 𪚦	wg	0
 𪚧	wsj	0
 𪚨	ewg	0
