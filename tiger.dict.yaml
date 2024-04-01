@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2024.02.25"
+version: "2024.04.01"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -2124,7 +2124,7 @@ columns:
 柄	efm	9999
 缴	iul	9996
 潘	ktp	9990
-蜂	cha	9975
+蜂	chaf	9975
 窝	ed	9964
 窝	edm	9964
 舌	as	9935
@@ -3996,7 +3996,7 @@ columns:
 杞	evj	1205
 瞠	qsgt	1203
 螂	cii	1202
-烽	chaf	1201
+烽	cha	1201
 讹	sjv	1198
 臆	vxh	1197
 蜒	cts	1197
@@ -5017,7 +5017,7 @@ columns:
 笥	raf	537
 翳	norz	537
 螨	clm	537
-诓	snn	537
+诓	snnw	537
 晗	oja	536
 碣	mon	536
 箸	rqo	535
@@ -5302,6 +5302,7 @@ columns:
 猊	mpp	473
 猊	mppe	473
 笕	rej	473
+讵	snn	473
 讵	snnk	473
 槿	eld	472
 槿	elda	472
@@ -5901,6 +5902,7 @@ columns:
 栀	exf	399
 栀	exfz	399
 氘	vpd	399
+渫	klae	399
 瘅	ahqn	399
 硌	msg	399
 箅	rqlc	399
@@ -6704,7 +6706,6 @@ columns:
 柄	efmj	397
 缴	iulh	397
 潘	ktpq	397
-蜂	chaf	397
 晴	oavy	397
 辨	npnx	397
 溃	kcob	397
@@ -7832,6 +7833,7 @@ columns:
 惬	hnhh	397
 濮	kjci	397
 螂	ciit	397
+烽	chaf	397
 讹	sjvb	397
 臆	vxhx	397
 蜒	ctsu	397
@@ -8412,7 +8414,6 @@ columns:
 秣	xfem	397
 笥	rafd	397
 螨	clml	397
-诓	snnw	397
 晗	ojad	397
 碣	monf	397
 箸	rqor	397
@@ -8485,7 +8486,6 @@ columns:
 係	jtis	397
 倥	jeu	397
 倥	jeug	397
-渫	klae	397
 珐	ngk	397
 珐	ngks	397
 瓞	ythf	397
@@ -10709,7 +10709,6 @@ columns:
 䴘	xzx	257
 䴘	xzxn	257
 䴙	cdnx	257
-䵤	flph	257
 䶭	tnw	257
 䶮	tfmd	257
 丄	gfi	257
@@ -11705,6 +11704,7 @@ columns:
 斲	ctj	257
 斶	tyn	257
 斶	tync	257
+斿	lehi	257
 旂	letj	257
 旐	lep	257
 旐	lepw	257
@@ -12256,7 +12256,9 @@ columns:
 熥	cktu	257
 熯	cld	257
 熯	cldh	257
+熺	chdk	257
 熻	cjdz	257
+熿	cnh	257
 燄	xpc	257
 燄	xpcc	257
 燊	ccce	257
@@ -13636,6 +13638,7 @@ columns:
 黁	zxo	257
 黁	zxor	257
 黇	nydk	257
+黐	xjkv	257
 黡	xmp	257
 黡	xmph	257
 黵	pxxs	257
@@ -15094,6 +15097,8 @@ columns:
 舁	plcj	255
 忮	hcix	255
 茑	lxnc	255
+炆	cvwh	255
+熿	cnhh	255
 微	wvfo	255
 赢	fdvo	255
 徽	wvfi	255
@@ -16318,6 +16323,7 @@ columns:
 䍃	yaf	0
 䛐	afds	0
 䠀	pss	0
+䵤	flph	0
 丂	fae	0
 丆	ftp	0
 丒	pif	0
@@ -19848,7 +19854,6 @@ columns:
 斻	leoj	0
 斾	ler	0
 斾	lerj	0
-斿	lehi	0
 旀	lkyx	0
 旇	lerp	0
 旈	lbo	0
@@ -21804,12 +21809,10 @@ columns:
 熶	coqr	0
 熷	chro	0
 熸	cddo	0
-熺	chdk	0
 熼	cqlh	0
 熽	cba	0
 熽	cbaa	0
 熾	cxpg	0
-熿	cnh	0
 燀	cddn	0
 燂	cvon	0
 燅	ghgc	0
@@ -29794,7 +29797,6 @@ columns:
 黊	nggt	0
 黋	mnh	0
 黌	pbbn	0
-黐	xjkv	0
 黒	phh	0
 黒	ph	0
 黓	ppi	0
@@ -104686,7 +104688,7 @@ columns:
 𰰝	hbi	0
 𰰞	lbi	0
 𰰟	laae	0
-𰰠	lafi	0
+𰰠	lfaf	0
 𰰡	lwfi	0
 𰰢	laes	0
 𰰣	hbgs	0

@@ -5472,6 +5472,7 @@
 岿	〔山リ彐&nbsp;·&nbsp;vpbj〕
 栀	〔木⺁一⺋&nbsp;·&nbsp;exfz〕
 氘	〔气&nbsp;·&nbsp;vpd〕
+渫	〔氵廿㇗木&nbsp;·&nbsp;klae〕
 瘅	〔疒丷田十&nbsp;·&nbsp;ahqn〕
 硌	〔石各&nbsp;·&nbsp;msg&nbsp;msgs〕
 箅	〔⺮田丌&nbsp;·&nbsp;rqlc〕
@@ -5493,7 +5494,6 @@
 醢	〔酉𠂇口皿&nbsp;·&nbsp;ynda〕
 係	〔亻丿糸&nbsp;·&nbsp;jtis〕
 倥	〔亻穴工&nbsp;·&nbsp;jeug〕
-渫	〔氵廿㇗木&nbsp;·&nbsp;klae〕
 珐	〔王土厶&nbsp;·&nbsp;ngks〕
 瓞	〔瓜丿夫&nbsp;·&nbsp;ythf〕
 碓	〔石隹&nbsp;·&nbsp;mui&nbsp;muis〕
@@ -6974,7 +6974,6 @@
 䴗	〔目犬鸟&nbsp;·&nbsp;qmxn〕
 䴘	〔⺁虎鸟&nbsp;·&nbsp;xzxn〕
 䴙	〔尸口辛鸟&nbsp;·&nbsp;cdnx〕
-䵤	〔一廾黑&nbsp;·&nbsp;flph〕
 䶭	〔龙王&nbsp;·&nbsp;tnw〕
 䶮	〔龙一大&nbsp;·&nbsp;tfmd〕
 丄	〔丨一&nbsp;·&nbsp;gfi〕
@@ -7698,6 +7697,7 @@
 斨	〔爿斤&nbsp;·&nbsp;atj〕
 斲	〔斤&nbsp;·&nbsp;ctj〕
 斶	〔斤罒勹虫&nbsp;·&nbsp;tync〕
+斿	〔方𠂉子&nbsp;·&nbsp;lehi〕
 旂	〔方𠂉斤&nbsp;·&nbsp;letj〕
 旐	〔方𠂉儿&nbsp;·&nbsp;lepw〕
 旓	〔方𠂉⺌⺝&nbsp;·&nbsp;leyv〕
@@ -8052,7 +8052,7 @@
 灬	〔灬&nbsp;·&nbsp;ch〕
 灺	〔火也&nbsp;·&nbsp;cey〕
 炁	〔旡灬&nbsp;·&nbsp;dch〕
-炆	〔火文&nbsp;·&nbsp;cvw〕
+炆	〔火文&nbsp;·&nbsp;cvw&nbsp;cvwh〕
 炌	〔火人&nbsp;·&nbsp;cjpd〕
 炟	〔火日一&nbsp;·&nbsp;cofi〕
 炣	〔火可&nbsp;·&nbsp;czk&nbsp;czkh〕
@@ -8091,7 +8091,9 @@
 熜	〔火丿囗心&nbsp;·&nbsp;ctrh〕
 熥	〔火龴辶&nbsp;·&nbsp;cktu〕
 熯	〔火廿口夫&nbsp;·&nbsp;cldh〕
+熺	〔火壴口&nbsp;·&nbsp;chdk〕
 熻	〔火亼口羽&nbsp;·&nbsp;cjdz〕
+熿	〔火黄&nbsp;·&nbsp;cnh&nbsp;cnhh〕
 燄	〔⺈臼火火&nbsp;·&nbsp;xpcc〕
 燊	〔火火火木&nbsp;·&nbsp;ccce〕
 燋	〔火隹灬&nbsp;·&nbsp;cuch〕
@@ -9077,6 +9079,7 @@
 麿	〔麻口口&nbsp;·&nbsp;zddk〕
 黁	〔麻禾日&nbsp;·&nbsp;zxor〕
 黇	〔黄⺊口&nbsp;·&nbsp;nydk〕
+黐	〔禾人氺禸&nbsp;·&nbsp;xjkv〕
 黡	〔厂犬黑&nbsp;·&nbsp;xmph〕
 黵	〔黑⺈厂言&nbsp;·&nbsp;pxxs〕
 鼒	〔丿目&nbsp;·&nbsp;ntqa〕
@@ -10574,6 +10577,7 @@
 䍃	〔爫缶&nbsp;·&nbsp;yaf〕
 䛐	〔㇆一口言&nbsp;·&nbsp;afds〕
 䠀	〔⻊尚&nbsp;·&nbsp;pss〕
+䵤	〔一廾黑&nbsp;·&nbsp;flph〕
 丂	〔一ㄅ&nbsp;·&nbsp;fae〕
 丆	〔一丿&nbsp;·&nbsp;ftp〕
 丒	〔刀丶一&nbsp;·&nbsp;pifi〕
@@ -13376,7 +13380,6 @@
 斺	〔方人&nbsp;·&nbsp;ljpd〕
 斻	〔方𠂉几&nbsp;·&nbsp;leoj〕
 斾	〔方𠂉巾&nbsp;·&nbsp;lerj〕
-斿	〔方𠂉子&nbsp;·&nbsp;lehi〕
 旀	〔方厶小&nbsp;·&nbsp;lkyx〕
 旇	〔方𠂉皮&nbsp;·&nbsp;lerp〕
 旈	〔方&nbsp;·&nbsp;lboc〕
@@ -14968,11 +14971,9 @@
 熶	〔火曰耳又&nbsp;·&nbsp;coqr〕
 熷	〔火丷囗曰&nbsp;·&nbsp;chro〕
 熸	〔火旡曰&nbsp;·&nbsp;cddo〕
-熺	〔火壴口&nbsp;·&nbsp;chdk〕
 熼	〔火田龷八&nbsp;·&nbsp;cqlh〕
 熽	〔火𦘒&nbsp;·&nbsp;cbaa〕
 熾	〔火音戈&nbsp;·&nbsp;cxpg〕
-熿	〔火黄&nbsp;·&nbsp;cnh〕
 燀	〔火口口十&nbsp;·&nbsp;cddn〕
 燂	〔火覀日十&nbsp;·&nbsp;cvon〕
 燅	〔土八土火&nbsp;·&nbsp;ghgc〕
@@ -21514,7 +21515,6 @@
 黊	〔黄土土&nbsp;·&nbsp;nggt〕
 黋	〔光黄&nbsp;·&nbsp;mnh〕
 黌	〔乂乂黄&nbsp;·&nbsp;pbbn〕
-黐	〔禾人氺禸&nbsp;·&nbsp;xjkv〕
 黒	〔黒&nbsp;·&nbsp;ph&nbsp;phh〕
 黓	〔黑弋&nbsp;·&nbsp;ppi〕
 黕	〔黑冖&nbsp;·&nbsp;pwpe〕
@@ -21724,6 +21724,7 @@
 鿼	〔鼠力口&nbsp;·&nbsp;psdk〕
 鿾	〔土丶阝&nbsp;·&nbsp;giit〕
 鿿	〔甫人氺&nbsp;·&nbsp;njks〕
+𠂇	〔𠂇&nbsp;·&nbsp;ns〕
 𠕇	〔𠂇&nbsp;·&nbsp;nvy&nbsp;nvys〕
 𠬤	〔又&nbsp;·&nbsp;rus〕
 𡨄	〔宀&nbsp;·&nbsp;wqhb〕
@@ -28263,7 +28264,6 @@
 𠂄	〔⺆亠曰亾&nbsp;·&nbsp;mzof〕
 𠂅	〔亠乡隹丶&nbsp;·&nbsp;ziui〕
 𠂆	〔⺁&nbsp;·&nbsp;xc〕
-𠂇	〔𠂇&nbsp;·&nbsp;ns〕
 𠂈	〔&nbsp;·&nbsp;ij〕
 𠂊	〔𠂊&nbsp;·&nbsp;xd〕
 𠂋	〔⺁一&nbsp;·&nbsp;xfi〕
@@ -91103,7 +91103,7 @@
 𰰝	〔䒑乂&nbsp;·&nbsp;hbi〕
 𰰞	〔艸乂&nbsp;·&nbsp;lbi〕
 𰰟	〔艹㇆乚&nbsp;·&nbsp;laae〕
-𰰠	〔龷ㄅ一&nbsp;·&nbsp;lafi〕
+𰰠	〔艹一ㄅ一&nbsp;·&nbsp;lfaf〕
 𰰡	〔艹冖一&nbsp;·&nbsp;lwfi〕
 𰰢	〔艹ㄋ&nbsp;·&nbsp;laes〕
 𰰣	〔䒑弓丨&nbsp;·&nbsp;hbgs〕

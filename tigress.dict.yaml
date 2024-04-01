@@ -1,5 +1,5 @@
 name: tigress
-version: "2024.02.25"
+version: "2024.04.01"
 sort: by_weight
 columns:
   - text
@@ -3409,8 +3409,7 @@ import_tables:
 缴	397	iulh
 潘	9990	ktp
 潘	397	ktpq
-蜂	9975	cha
-蜂	397	chaf
+蜂	9975	chaf
 窝	9964	ed
 窝	256	edm
 窝	256	edmj
@@ -6432,7 +6431,8 @@ import_tables:
 瞠	1203	qsgt
 螂	1202	cii
 螂	397	ciit
-烽	1201	chaf
+烽	1201	cha
+烽	397	chaf
 讹	1198	sjv
 讹	397	sjvb
 臆	1197	vxh
@@ -8037,8 +8037,7 @@ import_tables:
 翳	537	norz
 螨	537	clm
 螨	397	clml
-诓	537	snn
-诓	397	snnw
+诓	537	snnw
 晗	536	oja
 晗	397	ojad
 碣	536	mon
@@ -8391,6 +8390,7 @@ import_tables:
 猊	473	mpp
 猊	473	mppe
 笕	473	rej
+讵	473	snn
 讵	473	snnk
 槿	472	eld
 槿	472	elda
@@ -8992,6 +8992,7 @@ import_tables:
 栀	399	exf
 栀	399	exfz
 氘	399	vpd
+渫	399	klae
 瘅	399	ahqn
 硌	399	msg
 箅	399	rqlc
@@ -9018,7 +9019,6 @@ import_tables:
 係	397	jtis
 倥	397	jeu
 倥	397	jeug
-渫	397	klae
 珐	397	ngk
 珐	397	ngks
 瓞	397	ythf
@@ -11226,7 +11226,6 @@ import_tables:
 䴘	257	xzx
 䴘	257	xzxn
 䴙	257	cdnx
-䵤	257	flph
 䶭	257	tnw
 䶮	257	tfmd
 丄	257	gfi
@@ -12240,6 +12239,7 @@ import_tables:
 斲	257	ctj
 斶	257	tyn
 斶	257	tync
+斿	257	lehi
 旂	257	letj
 旐	257	lep
 旐	257	lepw
@@ -12792,7 +12792,9 @@ import_tables:
 熥	257	cktu
 熯	257	cld
 熯	257	cldh
+熺	257	chdk
 熻	257	cjdz
+熿	257	cnh
 燄	257	xpc
 燄	257	xpcc
 燊	257	ccce
@@ -14181,6 +14183,7 @@ import_tables:
 黁	257	zxo
 黁	257	zxor
 黇	257	nydk
+黐	257	xjkv
 黡	257	xmp
 黡	257	xmph
 黵	257	pxxs
@@ -16130,6 +16133,7 @@ import_tables:
 䍃	0	yaf
 䛐	0	afds
 䠀	0	pss
+䵤	0	flph
 丂	0	fae
 丆	0	ftp
 丒	0	pif
@@ -19660,7 +19664,6 @@ import_tables:
 斻	0	leoj
 斾	0	ler
 斾	0	lerj
-斿	0	lehi
 旀	0	lkyx
 旇	0	lerp
 旈	0	lbo
@@ -21616,12 +21619,10 @@ import_tables:
 熶	0	coqr
 熷	0	chro
 熸	0	cddo
-熺	0	chdk
 熼	0	cqlh
 熽	0	cba
 熽	0	cbaa
 熾	0	cxpg
-熿	0	cnh
 燀	0	cddn
 燂	0	cvon
 燅	0	ghgc
@@ -29606,7 +29607,6 @@ import_tables:
 黊	0	nggt
 黋	0	mnh
 黌	0	pbbn
-黐	0	xjkv
 黒	0	phh
 黒	0	ph
 黓	0	ppi
@@ -104498,7 +104498,7 @@ import_tables:
 𰰝	0	hbi
 𰰞	0	lbi
 𰰟	0	laae
-𰰠	0	lafi
+𰰠	0	lfaf
 𰰡	0	lwfi
 𰰢	0	laes
 𰰣	0	hbgs
@@ -113206,6 +113206,8 @@ import_tables:
 舁	255	plcj
 忮	255	hcix
 茑	255	lxnc
+炆	255	cvwh
+熿	255	cnhh
 微	255	wvfo
 赢	255	fdvo
 徽	255	wvfi
