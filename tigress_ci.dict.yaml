@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2024.04.01"
+version: "2024.04.08"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -3444,10 +3444,10 @@ encoder:
 嫉妒	2747	babm
 陪着	2747	tigq
 静静地	2747	aage
+新人	2747	iejr
 交换	2745	abux
 公里	2745	hkdl
 屏幕	2745	chlo
-亲人	2745	iejr
 牵挂	2745	mwug
 想见	2745	eqej
 不小心	2743	cyhx
@@ -4322,7 +4322,7 @@ encoder:
 折腾	2280	utvh
 本能	2280	efkv
 树上	2280	eryf
-新人	2278	iejr
+亲人	2279	iejr
 张开	2278	bpfl
 清澈	2277	kakb
 示意	2276	fsxh
@@ -4992,7 +4992,7 @@ encoder:
 妇人	2028	bbjr
 线上	2028	ifyf
 聚会	2028	qrjb
-亲手	2025	ieus
+新手	2027	ieus
 去过	2025	gkku
 英文	2025	lmvw
 去年	2025	gkev
@@ -5258,9 +5258,9 @@ encoder:
 产权	1945	ixer
 说说	1945	shsh
 基础上	1945	zmyf
+亲手	1943	ieus
 帽子	1942	rohi
 摸着	1942	ulgq
-新手	1942	ieus
 率先	1942	ziqp
 徒弟	1942	wpht
 取决于	1942	qwfn
@@ -16225,6 +16225,7 @@ encoder:
 小岛	733	yxxv
 气急	733	vqxb
 不实	733	cbww
+换位	733	uxji
 来玩	733	ahnm
 不如说	733	cbsh
 养老保险	733	gqjt
@@ -16264,7 +16265,6 @@ encoder:
 转接	731	ymui
 趁早	731	pjon
 冒犯	731	oqmz
-揪住	731	uxji
 虚荣心	731	zlhx
 拉过	731	uiku
 应以	731	xkvj
@@ -19372,6 +19372,7 @@ encoder:
 下着	625	fygq
 微观	624	wvre
 地堡	624	gejd
+揪住	622	uxji
 难点	622	ruyd
 招数	622	uppb
 耐用	622	lkty
@@ -19463,7 +19464,6 @@ encoder:
 病原体	621	axje
 受教	621	ywqh
 有疑	621	nvvo
-换位	621	uxji
 太紧	621	mipr
 雨辰	621	tvfc
 司马懿	621	angw
@@ -27999,12 +27999,14 @@ encoder:
 生食	452	lsqs
 肉垫	452	mjuk
 换肤	452	uxvh
+哥斯拉	452	zzui
 道里	451	hodl
 下个月	451	fjvy
 售卖	451	udna
 抖音	451	ujxy
 瑞幸	451	nvgg
 阿秒	451	tzxy
+摩斯拉	451	zzui
 男拳	450	qshh
 选民	450	qpdm
 滑雪	450	kftb
@@ -28143,6 +28145,8 @@ encoder:
 一拳	450	fihh
 每一个人	450	efjj
 只不过是	450	dcko
+减号	450	wndf
+万中无一	450	fddf
 降本增效	450	tega
 汉堡王	450	kjnw
 德克士	450	wcgs
@@ -28422,6 +28426,8 @@ encoder:
 万订	450	fpsa
 千订	450	lqsa
 王慕霸	450	nltt
+寄生兽	450	wlhq
+基多拉	450	zlui
 女鬼	449	bnag
 阶下	448	tjfy
 女拳	448	bnhh
@@ -41146,6 +41152,7 @@ encoder:
 集体所有	333	ujmn
 一切都	333	frqo
 我对	333	turk
+简词	333	rasa
 古剑奇谭	332	cjms
 降维	332	thiu
 黑人问号	332	pjad
@@ -41502,7 +41509,6 @@ encoder:
 费钱	330	tozf
 一对对	330	frrk
 小农	330	yxwt
-简讯	330	rasa
 心迹	330	hxzc
 亭台楼阁	330	gkea
 前庭	330	hvxt
@@ -59391,6 +59397,7 @@ encoder:
 禁果	290	eeqe
 拳拳	290	hhhh
 超音速	290	pxxu
+自然码	290	ovmn
 存在的	290	nnun
 承包人	289	anjr
 金创药	289	zjli
@@ -59666,7 +59673,6 @@ encoder:
 天下大乱	288	ffma
 崇德	288	vwwn
 庆云	288	xmby
-明码	288	ovmn
 桩子	288	exhi
 母树	288	kmer
 内丹	288	mjmz
@@ -67558,6 +67564,7 @@ encoder:
 刚正不阿	256	mfct
 复诊	256	eosj
 水平面	256	kebm
+交不起	256	acpv
 内热	256	mjuk
 毛贼	256	vmop
 活动性	256	kbhl
@@ -67947,7 +67954,6 @@ encoder:
 做假	255	jcjc
 倦鸟	255	jhxn
 人界	255	jrqj
-交不起	255	acpv
 隙间	255	tyao
 之比	255	rivv
 很胖	255	wivh
@@ -88025,6 +88031,7 @@ encoder:
 如果有	198	bqnv
 盲杖	198	fqef
 仫佬	198	jtjq
+简讯	197	rasa
 外电	197	lyoa
 预选赛	197	iqwq
 约旦河	197	iokz
@@ -89460,7 +89467,6 @@ encoder:
 吕氏春秋	195	dbax
 老干妈	195	qebn
 上等人	195	yrjr
-东北话	195	rasa
 同道中人	195	mhdj
 广播体操	195	xuju
 孤枕难眠	195	herq
@@ -89996,7 +90002,6 @@ encoder:
 谯楼	193	suep
 泛音	193	ktxy
 益寿延年	193	kate
-宝号	193	wndf
 笋尖	193	rbym
 城门失火	193	gatc
 妙手偶得	193	bujw
@@ -98897,6 +98902,7 @@ encoder:
 有人知道	69	njoh
 几十个	69	onjg
 像是个	69	jojg
+东北话	68	rasa
 周文王	68	mvnw
 和氏璧	68	xbcd
 中国国际	68	drrt
@@ -99551,7 +99557,6 @@ encoder:
 变砖	67	zcmm
 水晶头	67	kowm
 虐泉	67	zbuk
-简词	67	rasa
 理中客	67	ndws
 上滑	67	yfkf
 上划	67	yfpp
@@ -153605,6 +153610,7 @@ encoder:
 不太知道	44	cmoh
 每天一个	44	effj
 往自己脸上贴金	44	wovz
+明码	43	ovmn
 恩施土家族苗族自治州	43	rlgo
 赵元任	43	pmjt
 平衡态	43	epmi
@@ -158931,7 +158937,6 @@ encoder:
 脉冲星	42	vwol
 腰间盘	42	vaia
 自助火锅	42	ofcz
-自然码	42	ovmn
 自贡市	42	ouzr
 臭棋篓子	42	oerh
 臭鱼烂虾	42	owcc
