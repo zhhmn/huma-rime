@@ -4,14 +4,17 @@ import sys
 import time
 import zipfile
 import filecmp
+from typing import List, Tuple
 from shutil import copytree, rmtree
 from urllib.request import urlretrieve
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.remote.webelement import WebElement
 
 URL = "http://huma.ysepan.com"
 ZIP_FILE = "/tmp/huma.zip"
+CHANGELOG_FILE = "changelog.txt"
 
 try:
     os.unlink(ZIP_FILE)
@@ -22,188 +25,198 @@ except Exception:
 # options.headless = True
 # os.environ['MOZ_HEADLESS'] = '1'
 # browser = webdriver.Firefox(options=options) # type: ignore
-chrome_options = Options()
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--no-sandbox")
-browser = webdriver.Chrome(options=chrome_options)
 
 timeout = 10
 
-browser.get(URL)
-i = 0
-while True:
-    try:
-        menu_list = browser.find_element(by="id", value="menuList")
-        break
-    except Exception as e:
+def eprint(s, *args):
+    print(s, *args, file=sys.stderr)
+
+def find_by_id(root, id: str) -> WebElement:
+    i = 0
+    while True:
+        try:
+            ele = root.find_element(by="id", value=id)
+            return ele
+        except Exception as e:
+            if i > timeout:
+                eprint(f"failed to find by id: {id}", repr(e))
+                exit(1)
+            time.sleep(1)
+            i += 1
+
+def find_by_tag(root, tag_name: str) -> WebElement:
+    i = 0
+    while True:
+        try:
+            ele = root.find_element(by="tag name", value=tag_name)
+            return ele
+        except Exception as e:
+            if i > timeout:
+                eprint(f"failed to find by id: {id}", repr(e))
+                exit(1)
+            time.sleep(1)
+            i += 1
+
+
+def find_elements_by_tag(root, tag_name: str) -> List[WebElement]:
+    i = 0
+    while True:
+        items = root.find_elements(by="tag name", value=tag_name)
+        if len(items) > 1:
+            return items
         if i > timeout:
-            print("failed to find menuList", repr(e))
+            eprint(f'failed to find elements by tag {tag_name}')
             exit(1)
         time.sleep(1)
         i += 1
 
-while True:
-    items = menu_list.find_elements(by="tag name", value="li")
-    if len(items) > 1:
-        break
-    time.sleep(1)
-
-target = None
-for item in items:
-    a = item.find_element(by="tag name", value="a")
-    if a.text.startswith("03 虎码输入法下载"):
-        target = item
-        a.click()
-        break
-
-if target is None:
-    print("failed to find menu entry")
+def find_item_in_list(items, starts: str) -> WebElement:
+    for item in items:
+        if item.text.startswith(starts):
+            return item
+    eprint(f'failed to find elements starting with {starts}')
     exit(1)
 
-i = 0
-while True:
-    try:
-        ul = target.find_element(by="tag name", value="ul")
-        break
-    except Exception as e:
-        if i > timeout:
-            print("failed to get sublist after timeout")
-            exit(1)
-        time.sleep(1)
-        i += 1
-
-i = 0
-found = False
-while not found and i < timeout:
-    items = ul.find_elements(by="tag name", value="li")
+def find_item_in_list_by_tagname(items, tag_name: str, starts: str) -> Tuple[WebElement, WebElement]:
     for item in items:
-        if item.text.startswith("④Mac"):
-            target = item
-            item.click()
-            found = True
-            break
-    time.sleep(1)
-    i += 1
-
-if not found:
-    print('failed to lookup "Mac" tag')
-
-a = target.find_element(by="tag name", value="a")
-a.click()
-
-while True:
-    try:
-        ul = target.find_element(by="tag name", value="ul")
-        break
-    except Exception as e:
-        if i > timeout:
-            print("failed to get sublist after timeout (2)")
-            exit(1)
-        time.sleep(1)
-        i += 1
-
-i = 0
-found = False
-while not found and i < timeout:
-    items = ul.find_elements(by="tag name", value="li")
-    for item in items:
-        if item.text.startswith("鼠须管"):
-            target = item
-            item.click()
-            found = True
-            break
-    time.sleep(1)
-    i += 1
-
-
-if not found:
-    print('failed to lookup "鼠须管" tag')
-
-a = target.find_element(by="tag name", value="a")
-a.click()
-
-
-while True:
-    try:
-        ul = target.find_element(by="tag name", value="ul")
-        break
-    except Exception as e:
-        if i > timeout:
-            print("failed to get sublist after timeout (2)")
-            exit(1)
-        time.sleep(1)
-        i += 1
-
-url = None
-name = None
-
-i = 0
-while i < timeout:
-    items = ul.find_elements(by="tag name", value="li")
-    for item in items:
-        if item.text.startswith("虎码秃版 鼠须管 （Mac）"):
-            a = item.find_element(by="tag name", value="a")
-            url = a.get_attribute("href")
-            name = item.text
-            break
-    time.sleep(1)
-    i += 1
-
-if url is None:
-    print("can't find zip file entry")
+        e = item.find_element(by='tag name', value=tag_name)
+        if e.text.startswith(starts):
+            return (item, e)
+    eprint(f'failed to find item in list by tagname {tag_name} that starts with {starts}')
     exit(1)
 
-browser.close()
-assert name is not None
+def get_zip_and_extract(browser):
+    browser.get(URL)
 
-# m = re.match(r".*(?P<date>\d{4}\.\d{2}\.\d{2})\.zip", name)
-# if m is None:
-#     print(f"failed to extract date from filename: {name}", file=sys.stderr)
-#     if ".zip" in name and name.endswith("MB"):
-#         date = datetime.now().strftime("%Y.%m.%d")
-#     else:
-#         exit(1)
-# else:
-#     date = m.group("date")
+    menu_list = find_by_id(browser, 'menuList')
+    items = find_elements_by_tag(menu_list, 'li')
 
-assert ".zip" in name and name.endswith("MB")
-m = re.match(r"虎码秃版 鼠须管 （Mac）(?P<date>.*)\.zip", name)
-if m is None:
-    print(f"failed to extract date from filename: {name}", file=sys.stderr)
-    exit(1)
-date = m.group("date")
+    (target, a) = find_item_in_list_by_tagname(items, 'a', '03 虎码输入法下载')
+    a.click()
 
-if re.match(r"\d{4}\.\d{2}\.\d{2}", date):
-    print(f"tag=v{date}")
-else:
-    # not necessarily date, might be a tag
-    print(f"tag={date}")
+    ul = find_by_tag(target, 'ul')
 
-print(f"downloading {name} with url {url}", file=sys.stderr)
+    items = find_elements_by_tag(ul, 'li')
+    target = find_item_in_list(items, "④Mac")
+    target.click()
 
-urlretrieve(url, ZIP_FILE)
-ignore_files = [
-    ".git",
-    ".github",
-    ".gitignore",
-    "README.md",
-    "crawler.py",
-    "geckodriver.log",
-]
+    a = target.find_element(by="tag name", value="a")
+    a.click()
 
-def delete_removed(diff, par='.'):
-    for file in diff.left_only:
-        os.unlink(os.path.join(par, file))
-    for d, cmp in diff.subdirs.items():
-        delete_removed(cmp, d)
+    ul = find_by_tag(target, 'ul')
+    items = find_elements_by_tag(ul, 'li')
+    target = find_item_in_list(items, '鼠须管')
+    target.click()
 
-with zipfile.ZipFile(ZIP_FILE, "r", metadata_encoding="cp936") as zip_ref:
-    folder = os.path.join("/tmp", zip_ref.filelist[0].filename[:-1])
-    rmtree(folder, ignore_errors=True)
-    zip_ref.extractall("/tmp")
-    diff = filecmp.dircmp(".", folder, ignore=ignore_files)
-    delete_removed(diff)
-    copytree(folder, ".", dirs_exist_ok=True)
+    a = target.find_element(by="tag name", value="a")
+    a.click()
 
-os.unlink(ZIP_FILE)
-rmtree(folder)
+    ul = find_by_tag(target, 'ul')
+    items = find_elements_by_tag(ul, 'li')
+    target = find_item_in_list(items, "虎码秃版 鼠须管 （Mac）")
+    a = find_by_tag(target, 'a')
+    url = a.get_attribute('href')
+    name = target.text
+
+    assert url is not None
+    assert name != ''
+
+    assert ".zip" in name and name.endswith("MB")
+    m = re.match(r"虎码秃版 鼠须管 （Mac）(?P<date>.*)\.zip", name)
+    if m is None:
+        eprint(f"failed to extract date from filename: {name}")
+        exit(1)
+    date = m.group("date")
+
+    r = ''
+    if re.match(r"\d{4}\.\d{2}\.\d{2}", date):
+        print(f"tag=v{date}")
+        r = f'v{date}'
+    else:
+        # not necessarily date, might be a tag
+        print(f"tag={date}")
+        r = date
+
+    eprint(f"downloading {name} with url {url}")
+
+    urlretrieve(url, ZIP_FILE)
+    ignore_files = [
+        ".git",
+        ".github",
+        ".gitignore",
+        "README.md",
+        "crawler.py",
+        "geckodriver.log",
+    ]
+
+    def delete_removed(diff, par='.'):
+        for file in diff.left_only:
+            os.unlink(os.path.join(par, file))
+        for d, cmp in diff.subdirs.items():
+            delete_removed(cmp, d)
+
+    with zipfile.ZipFile(ZIP_FILE, "r", metadata_encoding="cp936") as zip_ref:
+        folder = os.path.join("/tmp", zip_ref.filelist[0].filename[:-1])
+        rmtree(folder, ignore_errors=True)
+        zip_ref.extractall("/tmp")
+        diff = filecmp.dircmp(".", folder, ignore=ignore_files)
+        delete_removed(diff)
+        copytree(folder, ".", dirs_exist_ok=True)
+
+    os.unlink(ZIP_FILE)
+    rmtree(folder)
+    return r
+
+def get_changelog(browser):
+    browser.get(URL)
+
+    menu_list = find_by_id(browser, 'menuList')
+    items = find_elements_by_tag(menu_list, 'li')
+
+    (target, a) = find_item_in_list_by_tagname(items, 'a', '05 虎码测评 更新日志')
+    a.click()
+
+    ul = find_by_tag(target, 'ul')
+
+    items = find_elements_by_tag(ul, 'li')
+    target = find_item_in_list(items, "虎码更新日志 ")
+    a = find_by_tag(target, 'a')
+    url = a.get_attribute('href')
+    name = target.text
+    assert url is not None
+
+    m = re.match(r"虎码更新日志 (?P<date>.*).txt", name)
+    if m is None:
+        eprint(f"failed to extract date from filename: {name}")
+        exit(1)
+    date = m.group("date")
+    r = ''
+    if re.match(r"\d{4}\.\d{2}\.\d{2}", date):
+        print(f"tag=v{date}")
+        r = f'v{date}'
+    else:
+        # not necessarily date, might be a tag
+        print(f"tag={date}")
+        r = date
+    eprint(f"downloading {name} with url {url}")
+
+    urlretrieve(url, CHANGELOG_FILE)
+    return r
+
+
+def main():
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    browser = webdriver.Chrome(options=chrome_options) # type: ignore
+    tag = get_zip_and_extract(browser)
+    eprint(f'got tag {tag}')
+    changelog_tag = get_changelog(browser)
+    eprint(f'got changelog tag {changelog_tag}')
+    if tag != changelog_tag:
+        eprint("zip tag and changelog tag mismatch")
+        exit(1)
+    browser.close()
+
+if __name__ == "__main__":
+    main()
