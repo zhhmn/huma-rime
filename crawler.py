@@ -121,7 +121,7 @@ def get_zip_and_extract(browser):
     assert url is not None
     assert name != ''
 
-    assert ".zip" in name and name.endswith("MB")
+    assert ".zip" in name and "MB" in name
     m = re.match(r"虎码秃版 鼠须管 （Mac）(?P<date>.*)\.zip", name)
     if m is None:
         eprint(f"failed to extract date from filename: {name}")
