@@ -1,5 +1,5 @@
 name: tigress
-version: "2024.04.08"
+version: "2024.06.03"
 sort: by_weight
 columns:
   - text
@@ -11393,6 +11393,8 @@ import_tables:
 冫	256	wb
 冮	257	wug
 冴	257	wly
+冸	257	whu
+冸	257	whus
 凊	257	wavy
 凓	257	wve
 凓	257	wvem
@@ -16619,8 +16621,6 @@ import_tables:
 冩	0	wpnc
 冪	0	wlor
 冭	0	mwb
-冸	0	whu
-冸	0	whus
 冹	0	wnri
 冺	0	wdm
 冾	0	wjd

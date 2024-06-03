@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2024.04.08"
+version: "2024.06.03"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1394,6 +1394,7 @@ encoder:
 教育家	117	qbw
 输不起	117	ycp
 分析师	117	hep
+感情上	117	nhy
 摄政王	117	ufn
 维也纳	117	iei
 太阳系	117	mtt
@@ -1481,6 +1482,12 @@ encoder:
 龙腾传	117	tvj
 层楼哥	117	cez
 寄生兽	117	wlh
+张小凡	117	byo
+陆雪琪	117	ttn
+哈基米	117	dzp
+虎跳峡	117	zpv
+郭有才	117	gnn
+典中典	117	idi
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -1539,7 +1546,6 @@ encoder:
 旧社会	114	gfj
 从没有	114	jkn
 非主流	114	rik
-乒乓球	114	ttn
 世界级	114	lqi
 耸耸肩	114	jjm
 民政部	114	dfi
@@ -2245,7 +2251,6 @@ encoder:
 新大陆	96	imt
 小太阳	96	ymt
 大股东	96	mvr
-感情上	96	nhy
 大块头	96	mgw
 增加值	96	gsj
 亮闪闪	96	gaa
@@ -3171,6 +3176,7 @@ encoder:
 行政村	81	pfe
 火枪手	81	ceu
 阴阳师	81	ttp
+交不起	81	acp
 趵突泉	81	peu
 尿道炎	81	chc
 决定论	81	wws
@@ -3199,7 +3205,6 @@ encoder:
 龙虎榜	81	tze
 提款机	81	uge
 怎样的	81	weu
-交不起	81	acp
 完全不	81	wjc
 也算是	81	ero
 上面的	81	ybu

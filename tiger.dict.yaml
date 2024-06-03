@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2024.04.08"
+version: "2024.06.03"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -10867,6 +10867,8 @@ columns:
 冫	wbb	257
 冮	wug	257
 冴	wly	257
+冸	whu	257
+冸	whus	257
 凊	wavy	257
 凓	wve	257
 凓	wvem	257
@@ -16809,8 +16811,6 @@ columns:
 冩	wpnc	0
 冪	wlor	0
 冭	mwb	0
-冸	whu	0
-冸	whus	0
 冹	wnri	0
 冺	wdm	0
 冾	wjd	0
