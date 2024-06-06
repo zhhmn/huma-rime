@@ -215,7 +215,8 @@ def main():
     eprint(f'got changelog tag {changelog_tag}')
     if tag != changelog_tag:
         eprint("zip tag and changelog tag mismatch")
-        exit(1)
+        if tag > changelog_tag: # allow change log tag to be newer than zip tag for now
+            exit(1)
     browser.close()
 
 if __name__ == "__main__":
