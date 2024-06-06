@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2024.06.03"
+version: "2024.06.06"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -6012,13 +6012,13 @@ encoder:
 精心	1746	pahx
 极度	1746	ecxl
 梦境	1746	eegx
+秃秃	1745	xoxo
 尘世	1743	ygla
 收缩	1743	ihiw
 下头	1743	fywm
 拯救	1743	uafk
 核对	1743	ekrk
 万年	1743	fpev
-厚厚	1743	xoxo
 那一	1742	aufi
 却还	1742	gkcu
 一如	1740	fibd
@@ -7448,13 +7448,13 @@ encoder:
 下水	1465	fyks
 残疾人	1465	gajr
 阿米洛	1464	tpks
+厚厚	1462	xoxo
 大人物	1462	mjqn
 振兴	1462	ufkh
 保养	1462	jdgi
 袋子	1462	jphi
 腰间	1462	vvao
 脚步声	1462	vsgc
-秃秃	1461	xoxo
 衬衫	1461	tkte
 好玩	1461	bhnm
 烦躁	1461	cwpd
@@ -28444,6 +28444,15 @@ encoder:
 典中典	450	idih
 鸣潮	450	dxkn
 庆余年	450	xjev
+最终幻想	450	oiie
+断触	450	paxt
+大王酸浆鱿	450	mnyw
+力驰	450	slne
+环诺	450	ncsl
+沧龙	450	kjtl
+两仪	450	mlji
+两仪式	450	mjpu
+空之境界	450	ergq
 女鬼	449	bnag
 阶下	448	tjfy
 女拳	448	bnhh
@@ -84964,6 +84973,7 @@ encoder:
 放达	203	lhmu
 侧漏	203	jokc
 英语角	203	lsxt
+魔兽争霸	203	zhxt
 八进制	203	hqqr
 大雨倾盆	203	mtjh
 脚脖子	203	vvhi
@@ -86594,7 +86604,6 @@ encoder:
 彼一时	201	wfok
 拉祜族	201	ufle
 福星高照	201	fogo
-锐角	201	zhxt
 男大当婚	201	qmyb
 临朐	201	prvg
 糟踏	201	pfpk
@@ -88951,6 +88960,7 @@ encoder:
 大有可为	196	mnzi
 柜面	196	enbm
 开初	196	fltp
+锐角	196	zhxt
 生角	196	lsxt
 怨悔	196	lzhe
 间作	196	aojw
@@ -89475,7 +89485,6 @@ encoder:
 灵府	195	bcxj
 买盘	195	awia
 话单	195	sahq
-魔兽争霸	195	zhxt
 四核	195	ysek
 卸妆油	195	aakd
 吕氏春秋	195	dbax

@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2024.06.03"
+version: "2024.06.06"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -4477,6 +4477,7 @@ columns:
 疟	abj	808
 蹩	fhpu	808
 莓	lek	806
+胛	vsj	805
 谌	szh	805
 岬	vsj	804
 囤	rfs	802
@@ -5098,7 +5099,6 @@ columns:
 潍	kiu	514
 讴	snb	514
 砒	mvvb	513
-胛	vsj	513
 呔	dmi	512
 薏	lxh	512
 谲	sit	512
@@ -15030,6 +15030,7 @@ columns:
 雒	suig	255
 胲	vkhy	255
 胛	vsjy	255
+岬	vsjs	255
 羖	grsy	255
 蛭	cyic	255
 饤	qads	255
