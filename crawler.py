@@ -115,7 +115,7 @@ def get_zip_and_extract(browser):
     items = find_elements_by_tag(ul, 'li')
     target = find_item_in_list(items, "虎码秃版 鼠须管 （Mac）")
     a = find_by_tag(target, 'a')
-    url = a.get_attribute('href')
+    url = a.get_attribute('data-url')
     name = target.text
 
     assert url is not None
@@ -181,7 +181,7 @@ def get_changelog(browser):
     items = find_elements_by_tag(ul, 'li')
     target = find_item_in_list(items, "虎码更新日志 ")
     a = find_by_tag(target, 'a')
-    url = a.get_attribute('href')
+    url = a.get_attribute('data-url')
     name = target.text
     assert url is not None
 
