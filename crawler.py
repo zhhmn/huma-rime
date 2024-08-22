@@ -7,6 +7,7 @@ import filecmp
 from typing import List, Tuple
 from shutil import copytree, rmtree
 from urllib.request import urlretrieve
+from urllib.parse import urlsplit, quote, urlunsplit
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -139,7 +140,7 @@ def get_zip_and_extract(browser):
 
     eprint(f"downloading {name} with url {url}")
 
-    urlretrieve(url, ZIP_FILE)
+    urlretrieve(escape_url(url), ZIP_FILE)
     ignore_files = [
         ".git",
         ".github",
@@ -200,9 +201,24 @@ def get_changelog(browser):
         r = date
     eprint(f"downloading {name} with url {url}")
 
-    urlretrieve(url, CHANGELOG_FILE)
+    urlretrieve(escape_url(url), CHANGELOG_FILE)
     return r
 
+def escape_url(url: str) -> str:
+    url_parts = urlsplit(url)
+
+    # Escape the path and query parts
+    escaped_path = quote(url_parts.path)
+    escaped_query = quote(url_parts.query, safe='=&')
+
+    # Reassemble the URL
+    return urlunsplit((
+        url_parts.scheme,
+        url_parts.netloc,
+        escaped_path,
+        escaped_query,
+        url_parts.fragment
+    ))
 
 def main():
     chrome_options = Options()
