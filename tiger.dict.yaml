@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2024.06.06"
+version: "2024.08.31"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -10768,6 +10768,7 @@ columns:
 侁	jqpe	257
 侂	jxt	257
 侂	jxtr	257
+侖	jl	257
 侘	jwtr	257
 侜	jio	257
 侴	jagp	257
@@ -11095,6 +11096,7 @@ columns:
 囮	rjvb	257
 囯	rnw	257
 囷	rxh	257
+囸	rfsi	257
 圀	rhl	257
 圀	rhlf	257
 圂	rjs	257
@@ -16483,7 +16485,6 @@ columns:
 侒	jwbn	0
 侓	jbv	0
 侕	jle	0
-侖	jl	0
 侙	jpug	0
 侚	jnor	0
 侞	jbd	0
@@ -17482,7 +17483,6 @@ columns:
 図	rwbi	0
 囶	rhg	0
 囶	rhgt	0
-囸	rfsi	0
 囻	rdm	0
 囼	rkdk	0
 圁	rsy	0

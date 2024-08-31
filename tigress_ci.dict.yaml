@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2024.06.06"
+version: "2024.08.31"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -4786,11 +4786,11 @@ encoder:
 备注	2095	hqki
 踏入	2095	pkju
 活下去	2095	kfgk
+调教	2093	smqh
 加油	2092	sdkd
 舌头	2092	aswm
 时有	2092	oknv
 抵押	2091	ubus
-出具	2091	smqh
 民间	2091	dmao
 碎片	2091	mzap
 多好	2091	llbh
@@ -8174,6 +8174,7 @@ encoder:
 下人	1353	fyjr
 心下	1353	hxfy
 听不到	1353	dcyp
+惋惜	1353	hwhl
 存在于	1353	nnfn
 不计	1352	cbsn
 一夜	1352	fizj
@@ -8194,7 +8195,6 @@ encoder:
 多看	1352	lluq
 不合适	1352	cjau
 不惧	1351	cbhq
-惋惜	1351	hwhl
 任意	1350	jtxh
 健身	1350	jbzs
 分成	1350	hpna
@@ -11054,13 +11054,13 @@ encoder:
 其间	1035	zhao
 顺丰	1035	owaf
 才叫	1035	ntdi
+心慌	1035	hxhl
 新兴	1033	iekh
 毅然	1033	ijvm
 一则	1033	fiop
 青涩	1033	avkp
 趣味	1033	pqda
 租车	1033	xfyc
-心性	1033	hxhl
 省级	1033	ytic
 上个	1033	yfjg
 闭眼	1033	anqi
@@ -17583,8 +17583,10 @@ encoder:
 方法论	681	lksj
 低成本	680	jnef
 教教	680	qhqh
+转行	679	ympx
 行政公署	679	pfhy
 学着	678	kwgq
+心性	678	hxhl
 有加	678	nvsd
 搂住	678	upji
 考点	678	qfyd
@@ -17639,7 +17641,6 @@ encoder:
 警报	677	lguz
 宫廷	677	wdtg
 皮包	677	rpnv
-心慌	677	hxhl
 香火	677	xoch
 游动	677	klbs
 奖赏	677	also
@@ -17693,7 +17694,6 @@ encoder:
 来之不易	677	arco
 茉莉	677	lflx
 格格不入	677	eecj
-爬行	677	ympx
 无损	677	duud
 计数	677	snpb
 难说	677	rush
@@ -22667,6 +22667,7 @@ encoder:
 试了	542	sprl
 海尔	542	kexy
 愈加	541	jvsd
+悟性	541	hwhl
 航线	540	izif
 违章	540	guxn
 澳洲	540	ktko
@@ -22752,7 +22753,6 @@ encoder:
 浑噩	540	kwnd
 火云	540	chby
 所写	540	mtwf
-悟性	540	hwhl
 千名	540	lqld
 最容易	540	owon
 洛夫	540	kshf
@@ -26227,6 +26227,7 @@ encoder:
 不正常	478	cfsr
 死到临头	478	gypw
 用的	478	tyun
+出具	477	smqh
 落地有声	477	lgng
 演绎	476	kwir
 服下	476	vzfy
@@ -26262,7 +26263,6 @@ encoder:
 遇害	476	qvwa
 正门	476	fsam
 字画	476	whfq
-调教	476	smqh
 棋局	476	ezca
 凉快	476	wghn
 墨绿	476	pgib
@@ -26433,6 +26433,7 @@ encoder:
 引流	475	bgkb
 胡言	475	cvsy
 八万	475	hbfp
+干净利落	475	ewxl
 基础知识	475	zmos
 充满信心	475	bkjh
 诗中	475	sgdg
@@ -26546,7 +26547,6 @@ encoder:
 好美	472	bhgm
 侯爷	472	jnhb
 建设性	472	bshl
-干净利落	472	ewxl
 刘明	472	vpov
 靠不住	472	qcji
 田中	472	qtdg
@@ -27675,6 +27675,7 @@ encoder:
 货比货	455	jvjv
 书卷	454	aahh
 那封	454	augg
+何年何月	454	jejv
 定调	454	wtsm
 民进	453	dmqu
 逐年	453	juev
@@ -27923,6 +27924,7 @@ encoder:
 潮红	452	kniu
 岳阳	452	tfto
 每期	452	ekzh
+翼虎	452	zqzh
 砝码	452	mgmn
 暗爽	452	oxmb
 煲汤	452	jdka
@@ -27966,6 +27968,8 @@ encoder:
 休妻	452	jefb
 桥底	452	etxb
 收管	452	ihrw
+枕席	452	ewxl
+劫案	452	gkwb
 国耻	452	rnqs
 铜锈	452	zmzx
 流年不利	452	kecx
@@ -27988,6 +27992,7 @@ encoder:
 二版	452	meax
 桥楼	452	etep
 持力层	452	uscb
+警告处分	452	lqhh
 修成正果	452	jnfq
 北伐军	452	ajwy
 眨眨眼睛	452	qqqq
@@ -28111,6 +28116,7 @@ encoder:
 八项	450	hbuw
 成风	450	naob
 谷爱凌	450	hywg
+阴囊	450	tvnd
 数十万	450	pnfp
 满世界	450	klqj
 蓬勃发展	450	lnsc
@@ -28453,6 +28459,30 @@ encoder:
 两仪	450	mlji
 两仪式	450	mjpu
 空之境界	450	ergq
+开麦	450	flah
+闭麦	450	anah
+关麦	450	hmah
+结城结弦	450	igib
+小野夕子	450	ydlh
+二阶堂丽	450	mtsf
+役野满里奈	450	wdkm
+咲乃未来	450	dvaa
+肉穴	450	mjex
+夏思凝	450	fqwv
+问界	450	adqj
+尊界	450	hyqj
+享界	450	ghqj
+智界	450	odqj
+赛力斯	450	wszh
+潘展乐	450	kcby
+袁启聪	450	gmqh
+李想	450	eheq
+李斌	450	ehvf
+零跑	450	tjpn
+极狐	450	ecmy
+极氪	450	ecvc
+领克	450	jkcp
+合众	450	jdjj
 女鬼	449	bnag
 阶下	448	tjfy
 女拳	448	bnhh
@@ -31854,6 +31884,7 @@ encoder:
 到你	407	ypjx
 喜欢的	407	hrun
 看完	406	uqwm
+爬行	406	ympx
 臂膀	406	cdvi
 瘦肉	406	apmj
 能不	406	kvcb
@@ -31972,7 +32003,6 @@ encoder:
 练到	405	iryp
 商朝	405	imno
 事业部	405	fcid
-转行	405	ympx
 开篇	405	flrm
 山楂	405	vsee
 大肚	405	mdvg
@@ -40122,6 +40152,7 @@ encoder:
 那些年	341	asev
 你能	341	jxkv
 可怕的	341	zhun
+虎先锋	341	zqzh
 晨报	340	ofuz
 尼泊尔	340	ckxy
 报批	340	uzuv
@@ -40321,7 +40352,6 @@ encoder:
 难学	340	rukw
 小袋	340	yxjp
 泛型	340	ktfl
-翼虎	340	zqzh
 大半年	340	mhev
 工种	340	ugxd
 大排档	340	muey
@@ -41254,7 +41284,6 @@ encoder:
 撕毁	332	uzpu
 挑食	332	upqs
 祖孙	332	ffhy
-阴囊	332	tvnd
 终身大事	332	izmf
 伤筋动骨	332	jrbf
 露馅	332	tpqx
@@ -43443,6 +43472,7 @@ encoder:
 索斯	319	nwzh
 近距离	319	tpzb
 的过程	319	ukxd
+完完全全	319	wwjj
 为学	318	iskw
 晾晒	318	ogov
 天玑	318	fmno
@@ -43846,7 +43876,6 @@ encoder:
 手到擒来	317	uyua
 吃相	317	deeq
 恩泽	317	rmkr
-实价	317	wwjj
 拍击	317	uuum
 阴谋诡计	317	tsss
 巨细	317	nniq
@@ -62078,6 +62107,7 @@ encoder:
 凝定	276	wvwt
 工程设计	276	uxss
 唧唧歪歪	276	ddcc
+伤愈	276	jejv
 言论自由	276	ssod
 康康	276	xbxb
 走过场	276	pkga
@@ -62334,7 +62364,6 @@ encoder:
 阵列	273	tygp
 亮灯	273	goca
 牛背	273	qnav
-何年何月	273	jejv
 半圈	273	hurh
 审题	273	woot
 良家妇女	273	iwbb
@@ -73606,6 +73635,7 @@ encoder:
 为那	233	isau
 没说	233	krsh
 你可以	233	jzvj
+梦实香苗	233	ewxl
 针对性	232	zrhl
 地保	232	gejd
 异度之刃	232	vxrp
@@ -73724,7 +73754,6 @@ encoder:
 沁凉	232	khwg
 雪青	232	tbav
 地波	232	gekr
-枕席	232	ewxl
 志在四方	232	gnyl
 烧瓶	232	cphl
 头油	232	wmkd
@@ -74104,6 +74133,7 @@ encoder:
 不一样的	232	cfeu
 可爱的	232	zyun
 知道了	232	ohrl
+埃安	232	gkwb
 黎巴嫩	231	xmbx
 越位	231	pnji
 闭幕式	231	alpu
@@ -74229,7 +74259,6 @@ encoder:
 雌黄	231	svnh
 略施	231	qsle
 强梁	231	bdkp
-劫案	231	gkwb
 婚丧	231	bbgh
 立碑	231	ilmu
 归罪	231	pbyr
@@ -76344,6 +76373,7 @@ encoder:
 尸骨无存	225	cfdn
 志存高远	225	gngm
 新学期	225	ikzh
+人格化	225	jejv
 桐城	225	emgn
 封门	225	ggam
 隔离带	225	tzlw
@@ -76500,6 +76530,7 @@ encoder:
 相同的	224	emun
 其是	224	zhot
 有的人	224	nujr
+仓木华	224	jejv
 亚运会	223	fbjb
 飞利浦	223	cxkn
 嘉年华	223	hejv
@@ -76565,7 +76596,6 @@ encoder:
 赔了夫人又折兵	223	orht
 吊扇	223	drmz
 探囊取物	223	unqq
-人格化	223	jejv
 台柱	223	kdei
 宴客	223	wows
 圈点	223	rhyd
@@ -76937,7 +76967,6 @@ encoder:
 酒坊	223	kygl
 疑阵	223	voty
 鞋业	223	tgcy
-伤愈	223	jejv
 南站	223	nmiy
 台办	223	kdsh
 契税	223	apxh
@@ -95004,6 +95033,7 @@ encoder:
 不醒	101	cbyo
 现在开始	101	nnfb
 两方面	101	mlbm
+实价	100	wwjj
 并不一定	100	hcfw
 还怕	100	cuhu
 之为	100	riis
@@ -95214,7 +95244,6 @@ encoder:
 其在	99	zhng
 新一	99	iefi
 你们俩	99	jjjm
-完完全全	99	wwjj
 枝桠	99	ecef
 不迟	99	cbci
 那条路	99	ahps
@@ -109561,7 +109590,6 @@ encoder:
 抚远	59	udmp
 许晴	59	seoa
 保和	59	jdxd
-到黑	59	ypph
 啥就	59	djgy
 湖上	59	kcyf
 也值	59	eyjn
@@ -116027,7 +116055,6 @@ encoder:
 火区	59	chnb
 换入	59	uxju
 铝窗	59	zdet
-内板	59	mjex
 棕竹	59	ewru
 金浪	59	zjki
 煤仓	59	czjz
@@ -118305,6 +118332,7 @@ encoder:
 惊颤	59	hgzr
 联行	59	qhpx
 今天这个	59	jfvj
+藤井兰兰	59	lqhh
 亚洲人	58	fkjr
 第三部分	58	rtih
 跟得上	58	pwyf
@@ -118444,7 +118472,6 @@ encoder:
 也无妨	58	edbl
 爆发了	58	csrl
 看不下去了	58	ucfr
-警告处分	58	lqhh
 麻烦你	58	zcjx
 老杨	58	qlea
 工人运动	58	ujbb
@@ -121128,7 +121155,6 @@ encoder:
 连招加点	53	yusy
 恋之微风	53	zrwo
 六令追凶	53	ajtb
-龙腾万里	53	tvfd
 龙信	53	tljs
 鲁班大师	53	wnmp
 鲁班七号	53	wnrd

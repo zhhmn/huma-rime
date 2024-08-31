@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2024.06.06"
+version: "2024.08.31"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -51,8 +51,8 @@ encoder:
 天天	485	ff
 垃圾	485	gg
 慢慢	485	hh
-纷纷	485	ii
-偏偏	485	jj
+继续	485	ii
+价值	485	jj
 渐渐	485	kk
 葡萄	485	ll
 刚刚	485	mm
@@ -1488,6 +1488,10 @@ encoder:
 虎跳峡	117	zpv
 郭有才	117	gnn
 典中典	117	idi
+夏思凝	117	fqw
+赛力斯	117	wsz
+潘展乐	117	kcb
+袁启聪	117	gmq
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -2202,6 +2206,7 @@ encoder:
 革命党	99	tjs
 那些年	99	ase
 可怕的	99	zhu
+虎先锋	99	zqz
 平衡点	99	epy
 唐伯虎	99	xjz
 星期三	99	ozt
