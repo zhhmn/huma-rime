@@ -88,7 +88,7 @@ def find_item_in_list_by_tagname(items, tag_name: str, starts: str) -> Tuple[Web
 def get_zip_and_extract(browser):
     browser.get(URL)
 
-    menu_list = find_by_id(browser, 'menuList')
+    menu_list = find_by_id(browser, 'dzx')
     items = find_elements_by_tag(menu_list, 'li')
 
     (target, a) = find_item_in_list_by_tagname(items, 'a', '03 虎码输入法下载')
@@ -170,7 +170,7 @@ def get_zip_and_extract(browser):
 def get_changelog(browser):
     browser.get(URL)
 
-    menu_list = find_by_id(browser, 'menuList')
+    menu_list = find_by_id(browser, 'dzx')
     items = find_elements_by_tag(menu_list, 'li')
 
     (target, a) = find_item_in_list_by_tagname(items, 'a', '05 虎码测评 更新日志')
@@ -180,9 +180,14 @@ def get_changelog(browser):
 
     items = find_elements_by_tag(ul, 'li')
     target = find_item_in_list(items, "虎码更新日志 ")
-    a = find_by_tag(target, 'a')
-    url = a.get_attribute('href')
-    name = target.text
+    a_list = find_elements_by_tag(target, 'a')
+    name = target.text.splitlines()[0]
+    url = None
+    for a in a_list:
+        url_ = a.get_attribute('href')
+        if url_ is not None and url_.startswith('http'):
+            url = url_
+            break
     assert url is not None
 
     m = re.match(r"虎码更新日志 (?P<date>.*).txt", name)
