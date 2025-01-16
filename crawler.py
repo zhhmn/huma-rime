@@ -216,13 +216,16 @@ def main():
     browser = webdriver.Chrome(options=chrome_options) # type: ignore
     tag = get_zip_and_extract(browser)
     eprint(f'got tag {tag}')
+    browser.close()
+
+    browser = webdriver.Chrome(options=chrome_options) # type: ignore
     changelog_tag = get_changelog(browser)
     eprint(f'got changelog tag {changelog_tag}')
+    browser.close()
     if tag != changelog_tag:
         eprint("zip tag and changelog tag mismatch")
         if tag > changelog_tag: # allow change log tag to be newer than zip tag for now
             exit(1)
-    browser.close()
 
 if __name__ == "__main__":
     main()
