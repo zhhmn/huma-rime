@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2024.08.31"
+version: "2025.01.08"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -10454,6 +10454,8 @@ columns:
 𡗗	aid	258
 𤆵	cmb	258
 𫟷	zil	258
+𮹝	ttt	258
+𮹝	tttl	258
 𰙤	fsfs	258
 々	xid	257
 〇	dkk	257
@@ -11403,6 +11405,7 @@ columns:
 崌	vccg	257
 崐	vov	257
 崐	vovv	257
+崑	vovv	257
 崒	vzjn	257
 崚	vghh	257
 崟	vzj	257
@@ -12004,6 +12007,7 @@ columns:
 汫	kqj	257
 汭	kmj	257
 汭	kmjr	257
+汱	kmq	257
 沄	kby	257
 沇	kkp	257
 沇	kkpe	257
@@ -13662,6 +13666,7 @@ columns:
 龁	lea	257
 龁	leai	257
 龂	ltj	257
+龘	tttl	257
 龵	us	257
 鿃	qmj	257
 鿃	qmjj	257
@@ -14295,8 +14300,6 @@ columns:
 𮳺	qnm	257
 𮷛	yyyc	257
 𮸽	cccf	257
-𮹝	ttt	257
-𮹝	tttl	257
 𰁸	jybj	257
 𰂎	javy	257
 𰃷	wjzj	257
@@ -15104,6 +15107,8 @@ columns:
 茑	lxnc	255
 炆	cvwh	255
 熿	cnhh	255
+汱	kmqs	255
+匜	neyk	255
 微	wvfo	255
 赢	fdvo	255
 徽	wvfi	255
@@ -18460,7 +18465,6 @@ columns:
 崍	vejj	0
 崏	vbo	0
 崏	vbor	0
-崑	vovv	0
 崓	vrcg	0
 崕	vxgg	0
 崘	vjl	0
@@ -20996,7 +21000,6 @@ columns:
 汬	qks	0
 汮	knwb	0
 汯	knks	0
-汱	kmq	0
 汳	kxr	0
 汳	kxry	0
 汵	kjae	0
@@ -29943,7 +29946,6 @@ columns:
 龕	jdtl	0
 龖	ttl	0
 龗	tddt	0
-龘	tttl	0
 龞	fhwg	0
 龡	jdde	0
 龣	jddk	0

@@ -1,5 +1,5 @@
 name: tigress
-version: "2024.08.31"
+version: "2025.01.08"
 sort: by_weight
 columns:
   - text
@@ -10969,6 +10969,8 @@ import_tables:
 𡗗	258	aid
 𤆵	258	cmb
 𫟷	258	zil
+𮹝	258	ttt
+𮹝	258	tttl
 𰙤	258	fsfs
 々	257	xid
 〇	257	dkk
@@ -11934,6 +11936,7 @@ import_tables:
 崌	257	vccg
 崐	257	vov
 崐	257	vovv
+崑	257	vovv
 崒	257	vzjn
 崚	257	vghh
 崟	257	vzj
@@ -12540,6 +12543,7 @@ import_tables:
 汫	257	kqj
 汭	257	kmj
 汭	257	kmjr
+汱	257	kmq
 沄	257	kby
 沇	257	kkp
 沇	257	kkpe
@@ -14207,6 +14211,7 @@ import_tables:
 龁	257	lea
 龁	257	leai
 龂	257	ltj
+龘	257	tttl
 龵	257	us
 鿃	257	qmj
 鿃	257	qmjj
@@ -14841,8 +14846,6 @@ import_tables:
 𮳺	257	qnm
 𮷛	257	yyyc
 𮸽	257	cccf
-𮹝	257	ttt
-𮹝	257	tttl
 𰁸	257	jybj
 𰂎	257	javy
 𰃷	257	wjzj
@@ -18269,7 +18272,6 @@ import_tables:
 崍	0	vejj
 崏	0	vbo
 崏	0	vbor
-崑	0	vovv
 崓	0	vrcg
 崕	0	vxgg
 崘	0	vjl
@@ -20805,7 +20807,6 @@ import_tables:
 汬	0	qks
 汮	0	knwb
 汯	0	knks
-汱	0	kmq
 汳	0	kxr
 汳	0	kxry
 汵	0	kjae
@@ -29752,7 +29753,6 @@ import_tables:
 龕	0	jdtl
 龖	0	ttl
 龗	0	tddt
-龘	0	tttl
 龞	0	fhwg
 龡	0	jdde
 龣	0	jddk
@@ -113209,6 +113209,8 @@ import_tables:
 茑	255	lxnc
 炆	255	cvwh
 熿	255	cnhh
+汱	255	kmqs
+匜	255	neyk
 微	255	wvfo
 赢	255	fdvo
 徽	255	wvfi

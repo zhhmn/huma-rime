@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2024.08.31"
+version: "2025.01.08"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -611,6 +611,7 @@ encoder:
 强制性	186	bqh
 许可证	186	szs
 免不了	186	wcr
+高水平	186	gke
 行不行	186	pcp
 自治县	186	okf
 照相机	186	oee
@@ -975,6 +976,7 @@ encoder:
 上半身	141	yhz
 黑色素	141	pxa
 快一点	141	hfy
+乔布斯	141	tnz
 好男人	141	bqj
 聊聊天	138	qqf
 话语权	138	sse
@@ -982,7 +984,6 @@ encoder:
 大少爷	138	myh
 摄像机	138	uje
 在不在	138	ncn
-乔布斯	138	tnz
 小东西	138	yrv
 出来的	138	sau
 混凝土	138	kwg
@@ -1409,6 +1410,7 @@ encoder:
 持力层	117	usc
 北伐军	117	ajw
 哥斯拉	117	zzu
+显眼包	117	oqn
 成都市	117	nqz
 转折点	117	yuy
 音乐家	117	xbw
@@ -1492,6 +1494,19 @@ encoder:
 赛力斯	117	wsz
 潘展乐	117	kcb
 袁启聪	117	gmq
+方程豹	117	lxm
+星纪元	117	oim
+赵露思	117	ptq
+鞠婧祎	117	tbf
+本乡爱	117	eiy
+仓本堇	117	jel
+八蜜凛	117	hww
+末广纯	117	fxi
+海克斯	117	kcz
+王楚钦	117	nez
+绝绝子	117	iih
+小孩姐	117	yhb
+哈集美	117	dug
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -1532,7 +1547,6 @@ encoder:
 威尼斯	114	ncz
 仙人掌	114	jjs
 菩提树	114	lue
-总决赛	114	hww
 主心骨	114	ihf
 有句话	114	ngs
 老前辈	114	qhr
@@ -2571,7 +2585,6 @@ encoder:
 乔其纱	90	tzi
 坎土曼	90	ggo
 水刷石	90	kcm
-阿灵顿	90	tbf
 黑颈鹤	90	prw
 画镜线	90	fzi
 二尖瓣	90	myn
@@ -3155,7 +3168,6 @@ encoder:
 雇佣兵	84	mjt
 副县长	84	ffp
 随意性	84	txh
-组织性	84	iih
 自习课	84	ozs
 伤不起	84	jcp
 支持率	84	cuz
