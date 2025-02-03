@@ -130,11 +130,11 @@ def get_zip_and_extract(browser):
 
     r = ''
     if re.match(r"\d{4}\.\d{2}\.\d{2}", date):
-        print(f"tag=v{date}")
+        eprint(f"tag=v{date}")
         r = f'v{date}'
     else:
         # not necessarily date, might be a tag
-        print(f"tag={date}")
+        eprint(f"tag={date}")
         r = date
 
     eprint(f"downloading {name} with url {url}")
@@ -197,11 +197,11 @@ def get_changelog(browser):
     date = m.group("date")
     r = ''
     if re.match(r"\d{4}\.\d{2}\.\d{2}", date):
-        print(f"tag=v{date}")
+        eprint(f"tag=v{date}")
         r = f'v{date}'
     else:
         # not necessarily date, might be a tag
-        print(f"tag={date}")
+        eprint(f"tag={date}")
         r = date
     eprint(f"downloading {name} with url {url}")
 
@@ -223,9 +223,12 @@ def main():
     eprint(f'got changelog tag {changelog_tag}')
     browser.close()
     if tag != changelog_tag:
-        eprint("zip tag and changelog tag mismatch")
-        if tag > changelog_tag: # allow change log tag to be newer than zip tag for now
-            exit(1)
+        eprint("zip tag and changelog tag mismatch, add a pre-version")
+        if tag > changelog_tag: # might has error if not in date format?
+            print(f'tag={tag}-pre')
+    else:
+        print(f'tag={tag}')
+    browser.close()
 
 if __name__ == "__main__":
     main()
