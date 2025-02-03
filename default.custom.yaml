@@ -9,7 +9,7 @@ patch:
     - {schema: tiger}
     - {schema: tigress}
     - {schema: PY_c}
-  "switcher/hotkeys":  # 将默认的 F4热键 更改为ctrl+~
+  "switcher/hotkeys":  # 将默认的 F4热键 更改为ctrl+`
     - "Control+grave"
     - "Control+F8"
     # - "F4" 

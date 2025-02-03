@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2025.01.08"
+version: "2025.01.29"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -8979,6 +8979,7 @@ encoder:
 金黄	1243	zjnh
 是吧	1243	otdm
 面面	1243	bmbm
+医药	1243	noli
 党员干部	1243	sdei
 理财	1241	ndon
 找来	1241	upah
@@ -9005,7 +9006,6 @@ encoder:
 老板娘	1240	qebi
 从天而降	1240	jflt
 本次	1240	efwe
-医药	1240	noli
 摸到	1240	ulyp
 放在眼里	1240	lnqd
 保住	1240	jdji
@@ -27965,6 +27965,8 @@ encoder:
 濒危	452	ksxx
 填表	452	gnat
 妙笔	452	byrv
+感冒药	452	noli
+白饭	452	ubqx
 倦容	452	jhwh
 蛇女	452	cwbn
 热烘烘	452	uccl
@@ -27980,12 +27982,14 @@ encoder:
 英模	452	lmel
 流年不利	452	kecx
 总合	452	hdjd
+靡靡之音	452	zzrx
 性解放	452	hxlh
 画本	452	fqef
 肉排	452	mjur
 杀鸡给猴看	452	briu
 榍石	452	ecms
 卢克	452	yccp
+北极光	452	aemg
 霍桑	452	turr
 脑电图	452	vorh
 领袖人物	452	jtjq
@@ -28010,8 +28014,10 @@ encoder:
 眨眨眼睛	452	qqqq
 内翻	452	mjtp
 南望	452	nmfv
+兴致盎然	452	kymv
 年轻美貌	452	eygm
 当然因为	452	yvri
+葵玲奈	452	lnmf
 巭孬嫑夯莪	452	uccl
 懒羊羊	452	hggy
 生食	452	lsqs
@@ -28563,6 +28569,15 @@ encoder:
 大魔	450	mdza
 老叔	450	qlyf
 悟了	450	hwrl
+一乃葵	450	fvlh
+金松季步	450	zexs
+由良佳奈	450	dijm
+皆月光	450	vvmg
+月野江翠	450	vdkz
+叮咚鸡	450	ddrx
+煲仔饭	450	jjqx
+耙耙柑	450	aaez
+糖画	450	pxfq
 女鬼	449	bnag
 阶下	448	tjfy
 女拳	448	bnhh
@@ -63370,6 +63385,7 @@ encoder:
 所说的	269	msun
 发现了	269	snrl
 找到了	269	uyrl
+朝日莉绪	269	noli
 客观规律	268	wrhw
 大中型	268	mdfl
 党代会	268	sjjb
@@ -63563,7 +63579,6 @@ encoder:
 躺卧	268	zsqy
 推回	268	uurd
 修鞋	268	jgtg
-感冒药	268	noli
 内退	268	mjiu
 银线	268	ziif
 瑜珈	268	njns
@@ -64158,6 +64173,7 @@ encoder:
 还有什么	266	cnjt
 不见了	266	cerl
 日起	266	orpv
+拼好饭	266	ubqx
 巨资	265	nnwe
 戴维斯	265	nizh
 骄人	265	ntjr
@@ -64469,7 +64485,6 @@ encoder:
 简阳	265	rato
 素未谋面	265	aasb
 三伏	265	tsjm
-白饭	265	ubqx
 被面	265	trbm
 失责	265	thao
 寒食	265	wqqs
@@ -71071,6 +71086,7 @@ encoder:
 只要你	243	dvjx
 严重的	243	flun
 的男人	243	uqjr
+青空光	243	aemg
 脱口	242	vhdk
 法网	242	kgmb
 罚球	242	ysnf
@@ -71386,7 +71402,6 @@ encoder:
 神情恍惚	242	fhhh
 无线电波	242	diok
 食肉动物	242	qmbq
-北极光	242	aemg
 钟乳石	242	zyms
 常青藤	242	salv
 顺顺当当	242	ooyy
@@ -86312,6 +86327,7 @@ encoder:
 发现自己	202	snov
 告诉自己	202	qsov
 尊嘟假嘟	202	hdjd
+钵钵鸡	202	zzrx
 阻燃	201	tfcv
 东站	201	ryiy
 平抑	201	ehub
@@ -86579,7 +86595,6 @@ encoder:
 金瓜	201	zjyg
 勤务员	201	lhdo
 师道尊严	201	phhf
-靡靡之音	201	zzrx
 宽绰	201	wliy
 红缨枪	201	iiej
 顾主	201	xzin
@@ -123122,6 +123137,7 @@ encoder:
 提供一个	51	ujfj
 她就知道	51	bgoh
 肉番	51	mjtp
+藤环奈	51	lnmf
 挂羊头卖狗肉	50	ugwm
 石景山区	50	movn
 富力	50	wfsl
@@ -124075,7 +124091,6 @@ encoder:
 夏希栗	50	fbve
 渋谷华	50	khjv
 涩谷华	50	khjv
-葵玲奈	50	lnmf
 椎名空	50	eleu
 北条麻妃	50	ahzb
 神波多一花	50	fkll
@@ -130993,6 +131008,7 @@ encoder:
 这就是个	47	vgoj
 不就知道	47	cgoh
 傈僳	47	jvjv
+九转大肠	47	kymv
 丽水市	46	fkzr
 国务院发展研究中心	46	rhth
 华夏银行	46	jfzp
@@ -132392,7 +132408,6 @@ encoder:
 修饰符	46	jqrj
 值得学习	46	jwkz
 假动作	46	jbjw
-兴致盎然	46	kymv
 利他主义	46	xjii
 变化很大	46	zjwm
 只字片语	46	dwas

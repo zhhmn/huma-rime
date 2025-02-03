@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2025.01.08"
+version: "2025.01.29"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -111427,6 +111427,8 @@ columns:
 ㇡	ae	0
 ㇢	ae	0
 ㇣	dk	0
+㇤	ae	0
+㇥	ae	0
 ㇯	rrfi	0
 ⺀	wb	0
 ⺁	xc	0

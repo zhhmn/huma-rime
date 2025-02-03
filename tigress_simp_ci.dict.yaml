@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2025.01.08"
+version: "2025.01.29"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1409,6 +1409,7 @@ encoder:
 快节奏	117	hla
 持力层	117	usc
 北伐军	117	ajw
+葵玲奈	117	lnm
 哥斯拉	117	zzu
 显眼包	117	oqn
 成都市	117	nqz
@@ -1507,6 +1508,8 @@ encoder:
 绝绝子	117	iih
 小孩姐	117	yhb
 哈集美	117	dug
+一乃葵	117	fvl
+皆月光	117	vvm
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -3061,6 +3064,7 @@ encoder:
 小舅子	84	yph
 贬义词	84	ois
 脸皮薄	84	vrl
+拼好饭	84	ubq
 戴维斯	84	niz
 家常菜	84	wsl
 印度教	84	bxq
