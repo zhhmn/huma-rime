@@ -228,7 +228,6 @@ def main():
             print(f'tag={tag}-pre')
     else:
         print(f'tag={tag}')
-    browser.close()
 
 if __name__ == "__main__":
     main()
