@@ -1,5 +1,5 @@
 name: tigress
-version: "2025.02.08"
+version: "2025.03.06"
 sort: by_weight
 columns:
   - text
@@ -11384,6 +11384,7 @@ import_tables:
 冔	257	odf
 冔	257	odfn
 冖	257	wg
+冞	257	wpm
 冧	257	wee
 冧	257	weem
 冫	257	wbb
@@ -12844,6 +12845,8 @@ import_tables:
 犭	257	mqq
 犭	256	mq
 犮	257	nrid
+犺	257	mzo
+犺	257	mzoj
 犼	257	mhae
 犽	257	mly
 狉	257	mcf
@@ -16600,7 +16603,6 @@ import_tables:
 冘	0	wpe
 冚	0	wvs
 冝	0	wfq
-冞	0	wpm
 冟	0	wuv
 冟	0	wuvb
 冡	0	wfj
@@ -21774,8 +21776,6 @@ import_tables:
 犲	0	mntp
 犳	0	mnid
 犵	0	meai
-犺	0	mzo
-犺	0	mzoj
 犻	0	mfr
 犻	0	mfrj
 犾	0	mmq

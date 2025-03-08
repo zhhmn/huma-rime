@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2025.02.08"
+version: "2025.03.06"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -10862,6 +10862,7 @@ columns:
 冔	odf	257
 冔	odfn	257
 冖	wg	257
+冞	wpm	257
 冧	wee	257
 冧	weem	257
 冫	wbb	257
@@ -12309,6 +12310,8 @@ columns:
 犨	uuqn	257
 犭	mqq	257
 犮	nrid	257
+犺	mzo	257
+犺	mzoj	257
 犼	mhae	257
 犽	mly	257
 狉	mcf	257
@@ -16793,7 +16796,6 @@ columns:
 冘	wpe	0
 冚	wvs	0
 冝	wfq	0
-冞	wpm	0
 冟	wuv	0
 冟	wuvb	0
 冡	wfj	0
@@ -21967,8 +21969,6 @@ columns:
 犲	mntp	0
 犳	mnid	0
 犵	meai	0
-犺	mzo	0
-犺	mzoj	0
 犻	mfr	0
 犻	mfrj	0
 犾	mmq	0

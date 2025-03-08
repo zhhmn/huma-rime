@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2025.02.08"
+version: "2025.03.06"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1003,6 +1003,7 @@ encoder:
 用得着	138	twg
 真心话	138	nhs
 不怕死	138	chg
+爱好者	138	ybq
 高素质	138	gax
 打麻将	138	uza
 真的吗	138	nud
@@ -1404,6 +1405,7 @@ encoder:
 成员国	117	ndr
 后勤部	117	xli
 性解放	117	hxl
+评论界	117	ssq
 急救站	117	xfi
 快节奏	117	hla
 持力层	117	usc
@@ -1513,6 +1515,13 @@ encoder:
 泉莉音	117	ulx
 玉虚宫	117	nzw
 天元鼎	117	fmq
+余大嘴	117	jmd
+雨田君	117	tqb
+李维刚	117	eim
+李行亮	117	epg
+郑秀斌	117	hxv
+禹瑟琪	117	tnn
+姜惠元	117	gnm
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -2077,7 +2086,6 @@ encoder:
 初中生	102	tdl
 月收入	102	vij
 废弃物	102	xbq
-设计者	102	ssq
 硬邦邦	102	maa
 上千万	102	ylf
 识时务	102	soh
