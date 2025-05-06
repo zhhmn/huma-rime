@@ -52,7 +52,7 @@ def find_by_tag(root, tag_name: str) -> WebElement:
             return ele
         except Exception as e:
             if i > timeout:
-                eprint(f"failed to find by id: {id}", repr(e))
+                eprint(f"failed to find by tag_name: {tag_name}", repr(e))
                 exit(1)
             time.sleep(1)
             i += 1
@@ -72,7 +72,7 @@ def find_elements_by_tag(root, tag_name: str) -> List[WebElement]:
 
 def find_item_in_list(items, starts: str) -> WebElement:
     for item in items:
-        if item.text.startswith(starts):
+        if item.text.strip().startswith(starts):
             return item
     eprint(f'failed to find elements starting with {starts}')
     exit(1)
@@ -116,7 +116,7 @@ def get_zip_and_extract(browser):
     target = find_item_in_list(items, "虎码秃版 鼠须管 （Mac）")
     a = find_by_tag(target, 'a')
     url = a.get_attribute('href')
-    name = target.text
+    name = target.text.strip()
 
     assert url is not None
     assert name != ''
@@ -151,7 +151,11 @@ def get_zip_and_extract(browser):
 
     def delete_removed(diff, par='.'):
         for file in diff.left_only:
-            os.unlink(os.path.join(par, file))
+            delete_path = os.path.join(par, file)
+            if os.path.isdir(delete_path):
+                rmtree(delete_path)
+            else:
+                os.unlink(delete_path)
         for d, cmp in diff.subdirs.items():
             delete_removed(cmp, d)
 
@@ -181,7 +185,7 @@ def get_changelog(browser):
     items = find_elements_by_tag(ul, 'li')
     target = find_item_in_list(items, "虎码更新日志 ")
     a_list = find_elements_by_tag(target, 'a')
-    name = target.text.splitlines()[0]
+    name = target.text.splitlines()[0].strip()
     url = None
     for a in a_list:
         url_ = a.get_attribute('href')
