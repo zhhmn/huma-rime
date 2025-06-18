@@ -1,5 +1,5 @@
 name: tigress
-version: "2025.03.06"
+version: "2025.06.18"
 sort: by_weight
 columns:
   - text
@@ -11245,6 +11245,8 @@ import_tables:
 乛	257	ae
 乸	257	ekm
 亅	257	gs
+亊	257	fhb
+亊	257	fhbv
 亖	257	mme
 亠	257	ztt
 亠	256	zt
@@ -11859,7 +11861,6 @@ import_tables:
 嫪	257	bzje
 嫭	257	bztn
 嫮	257	btma
-嫳	257	fhb
 嫳	257	fhbn
 嫽	257	bmhy
 嬛	257	byft
@@ -16185,7 +16186,6 @@ import_tables:
 亃	0	plva
 亄	0	gwza
 亇	0	xgs
-亊	0	fhbv
 亐	0	mae
 亗	0	vme
 亙	0	fvfi

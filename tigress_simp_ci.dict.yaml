@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2025.03.06"
+version: "2025.06.18"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1410,6 +1410,7 @@ encoder:
 快节奏	117	hla
 持力层	117	usc
 北伐军	117	ajw
+阿凡达	117	tom
 葵玲奈	117	lnm
 哥斯拉	117	zzu
 显眼包	117	oqn
@@ -1522,6 +1523,10 @@ encoder:
 郑秀斌	117	hxv
 禹瑟琪	117	tnn
 姜惠元	117	gnm
+岬光莉	117	vml
+碟中谍	117	mds
+阿汤哥	117	tkz
+韦东奕	117	grz
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
@@ -2714,7 +2719,6 @@ encoder:
 甲骨文	90	sfv
 花名册	90	lli
 比目鱼	90	vqw
-血汗钱	90	tkz
 北半球	90	ahn
 主考官	90	iqw
 林俊杰	90	eje

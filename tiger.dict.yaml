@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2025.03.06"
+version: "2025.06.18"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -10728,6 +10728,8 @@ columns:
 乛	ae	257
 乸	ekm	257
 亅	gs	257
+亊	fhb	257
+亊	fhbv	257
 亖	mme	257
 亠	ztt	257
 亶	zrdf	257
@@ -11332,7 +11334,6 @@ columns:
 嫪	bzje	257
 嫭	bztn	257
 嫮	btma	257
-嫳	fhb	257
 嫳	fhbn	257
 嫽	bmhy	257
 嬛	byft	257
@@ -16378,7 +16379,6 @@ columns:
 亃	plva	0
 亄	gwza	0
 亇	xgs	0
-亊	fhbv	0
 亐	mae	0
 亗	vme	0
 亙	fvfi	0

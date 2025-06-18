@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2025.03.06"
+version: "2025.06.18"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -27891,6 +27891,7 @@ encoder:
 翼虎	452	zqzh
 砝码	452	mgmn
 暗爽	452	oxmb
+凯蒂	452	vvli
 煲汤	452	jdka
 梁羽生	452	kzls
 暗色	452	oxxm
@@ -27944,6 +27945,7 @@ encoder:
 后勤部	452	xlid
 铜锈	452	zmzx
 英模	452	lmel
+名模	452	ldel
 冤鬼	452	wwag
 流年不利	452	kecx
 总合	452	hdjd
@@ -27982,6 +27984,7 @@ encoder:
 眨眨眼睛	452	qqqq
 内翻	452	mjtp
 南望	452	nmfv
+阿凡达	452	tomu
 旧世界	452	glqj
 兴致盎然	452	kymv
 年轻美貌	452	eygm
@@ -28600,6 +28603,36 @@ encoder:
 禹瑟琪	450	tnnz
 姜惠元	450	gnmp
 光北	450	mgav
+宫城理惠	450	wgnn
+天美萌亚	450	fglf
+盐见彩	450	geye
+伊东爱瑠	450	jryn
+白峰郁美	450	uvng
+新妻优香	450	ifjx
+白云雨	450	ubtv
+尾崎绘里香	450	cvix
+百田光希	450	fqmb
+一宫琉衣	450	fwnt
+姬川优奈	450	bojm
+宫本留衣	450	webt
+岬光莉	450	vmlx
+安位薰	450	wjll
+篠真有	450	rnnv
+增程	450	ghxd
+插混	450	ulko
+弗迪	450	tfdu
+玄戒	450	zipl
+泡泡玛特	450	kknq
+碟中谍	450	mdsl
+阿汤哥	450	tkzz
+韦东奕	450	grzc
+韦神	450	gwfo
+拉布布	450	unnr
+三池小春	450	tkya
+相叶美沙子	450	edgh
+苏超	450	lspp
+吊州	450	droo
+星耀	450	olmz
 女鬼	449	bnag
 阶下	448	tjfy
 女拳	448	bnhh
@@ -44475,6 +44508,7 @@ encoder:
 落英缤纷	314	llii
 团结一致	314	rify
 太多的	314	mlun
+栗山莉绪	314	vvli
 大祸	313	mdfd
 英特尔	313	lqxy
 集训	313	ueso
@@ -44780,7 +44814,6 @@ encoder:
 滨江	313	kwku
 配饰	313	yvqe
 旅行团	313	lprn
-凯蒂	313	vvli
 编辑器	313	iydd
 大枣	313	mdem
 熔断	313	cwpa
@@ -80133,6 +80166,7 @@ encoder:
 有其	214	nvzh
 的过程中	214	ukxd
 三折叠	214	turr
+藤咲舞	214	ldel
 乱填	213	aagn
 润发	213	kasr
 曾经沧海	213	hikk
@@ -80141,7 +80175,6 @@ encoder:
 托勒密	213	utwh
 减仓	213	wnjz
 劲旅	213	rule
-名模	213	ldel
 快攻	213	hnuh
 摊点	213	uryd
 达拉斯	213	muzh
@@ -122392,6 +122425,7 @@ encoder:
 截教	50	npqh
 宇野美玲	50	wdgn
 葵伊吹	50	ljde
+安子杏	50	whed
 小巴	49	yxmb
 奥卡姆	49	tybk
 别在意	49	dnxh
@@ -123341,6 +123375,7 @@ encoder:
 不就是一个	49	cgoj
 作家助手	49	jwfu
 马丽	49	nmfv
+欣旺达	49	tomu
 三家	48	tswj
 深田咏美	48	kqdg
 庆祝会	48	xfjb
@@ -124608,7 +124643,6 @@ encoder:
 一人做事一人当	48	fjjy
 整行	48	xhpx
 真丑	48	nqag
-阿凡达	48	tomu
 春蚕到死丝方尽	48	afyc
 朽腐	48	efxj
 沙文	48	kyvw
@@ -134203,7 +134237,6 @@ encoder:
 既不可能	43	iczk
 日利率	43	oxzi
 时代变了	43	ojzr
-旷世奇	43	olmz
 旺仔牛奶	43	ojqb
 春宵一刻值千金	43	awfz
 更适应	43	faxk
