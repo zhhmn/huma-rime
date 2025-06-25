@@ -4,7 +4,8 @@ import sys
 import time
 import zipfile
 import filecmp
-from typing import List, Tuple
+from datetime import datetime
+from typing import List, Optional, Tuple
 from shutil import copytree, rmtree
 from urllib.request import urlretrieve
 
@@ -212,6 +213,35 @@ def get_changelog(browser):
     urlretrieve(url, CHANGELOG_FILE)
     return r
 
+def try_parse_date(tag: str) -> Optional[datetime]:
+    if tag.startswith('v'):
+        tag = tag[1:]
+    try:
+        date = datetime.strptime(tag, "%Y.%m.%d")
+        return date
+    except Exception:
+        pass
+
+    try:
+        date = datetime.strptime(tag, "%Y-%m-%d")
+        return date
+    except Exception:
+        pass
+
+    try:
+        date = datetime.strptime(tag, "%Y%m%d")
+        return date
+    except Exception:
+        pass
+
+    return None
+
+def tag_compatible(tag: str, changelog_tag: str) -> bool:
+    tag_date = try_parse_date(tag)
+    changelog_date = try_parse_date(changelog_tag)
+    if tag_date is None or changelog_date is None:
+        return False
+    return tag_date == changelog_date
 
 def main():
     chrome_options = Options()
@@ -226,7 +256,7 @@ def main():
     changelog_tag = get_changelog(browser)
     eprint(f'got changelog tag {changelog_tag}')
     browser.close()
-    if tag != changelog_tag:
+    if tag != changelog_tag and not tag_compatible(tag, changelog_tag):
         eprint("zip tag and changelog tag mismatch, add a pre-version")
         if tag > changelog_tag: # might has error if not in date format?
             print(f'tag={tag}-pre')
