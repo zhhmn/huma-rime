@@ -236,13 +236,6 @@ def try_parse_date(tag: str) -> Optional[datetime]:
 
     return None
 
-def tag_compatible(tag: str, changelog_tag: str) -> bool:
-    tag_date = try_parse_date(tag)
-    changelog_date = try_parse_date(changelog_tag)
-    if tag_date is None or changelog_date is None:
-        return False
-    return tag_date == changelog_date
-
 def main():
     chrome_options = Options()
     chrome_options.add_argument("--headless")
@@ -256,12 +249,20 @@ def main():
     changelog_tag = get_changelog(browser)
     eprint(f'got changelog tag {changelog_tag}')
     browser.close()
-    if tag != changelog_tag and not tag_compatible(tag, changelog_tag):
-        eprint("zip tag and changelog tag mismatch, add a pre-version")
-        if tag > changelog_tag: # might has error if not in date format?
-            print(f'tag={tag}-pre')
-    else:
+
+    tag_date = try_parse_date(tag)
+    changelog_tag_date = try_parse_date(changelog_tag)
+    if tag_date is None:
+        eprint(f'special version {tag}, not a date')
         print(f'tag={tag}')
+    elif tag_date is not None and changelog_tag_date is None:
+        eprint(f'tag {tag} is a date, but changelog tag {changelog_tag} is not, skip')
+    elif tag_date == changelog_tag_date:
+        eprint(f'tag {tag} and changelog tag {changelog_tag} are the same date, add a normal version')
+        print(f'tag={tag}')
+    elif tag_date > changelog_tag_date: # type: ignore
+        eprint(f'tag {tag} is later than changelog tag {changelog_tag}, add a pre-version')
+        print(f'tag={tag}-pre')
 
 if __name__ == "__main__":
     main()
