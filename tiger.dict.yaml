@@ -1,6 +1,6 @@
 
 name: tiger
-version: "2025.06.18"
+version: "2025.11.11"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -4215,9 +4215,10 @@ columns:
 杳	eor	992
 犊	qna	992
 昙	oby	989
+粿	pqe	989
 闰	anw	989
 篆	rbj	988
-踝	pqe	988
+踝	pqem	988
 呷	dsj	987
 熹	hdc	986
 缨	ioo	985
@@ -7964,8 +7965,8 @@ columns:
 琏	nyuc	397
 娓	bcvm	397
 犊	qnam	397
+粿	pqem	397
 篆	rbjs	397
-踝	pqem	397
 熹	hdch	397
 缨	ioob	397
 璞	ncgi	397
@@ -10296,6 +10297,7 @@ columns:
 宀	wg	258
 岍	vfl	258
 岍	vflc	258
+峃	kwvs	258
 巯	rubo	258
 戤	vrap	258
 扌	uss	258
@@ -11382,7 +11384,6 @@ columns:
 岧	vpdk	257
 岨	vfq	257
 峂	vhwb	257
-峃	kwvs	257
 峉	vsg	257
 峎	vig	257
 峗	vxxz	257
@@ -11430,6 +11431,8 @@ columns:
 嶟	vhy	257
 嶟	vhyk	257
 嶦	vxxs	257
+嶨	pbb	257
+嶨	pbbv	257
 嶰	vxt	257
 嶰	vxtq	257
 嶲	vum	257
@@ -12664,6 +12667,7 @@ columns:
 礃	msus	257
 礌	mtq	257
 礌	mtqt	257
+礐	pbbm	257
 礞	mlwj	257
 礤	mlhf	257
 礳	mzm	257
@@ -12799,7 +12803,6 @@ columns:
 粄	pxr	257
 粄	pxry	257
 粔	pnnk	257
-粿	pqem	257
 糄	pmic	257
 糒	plt	257
 糒	pltt	257
@@ -15100,6 +15103,7 @@ columns:
 熿	cnhh	255
 汱	kmqs	255
 匜	neyk	255
+鸸	lxne	255
 微	wvfo	255
 赢	fdvo	255
 徽	wvfi	255
@@ -15176,7 +15180,6 @@ columns:
 聽	qnnh	212
 喫	dapm	211
 幫	ggkr	210
-學	pbb	209
 學	pbbh	209
 總	itr	208
 總	itrh	208
@@ -18576,7 +18579,6 @@ columns:
 嶤	vggp	0
 嶥	vxhe	0
 嶧	vygg	0
-嶨	pbbv	0
 嶩	vyfc	0
 嶪	vcgh	0
 嶫	vcgh	0
@@ -22979,7 +22981,6 @@ columns:
 礍	mlof	0
 礎	meet	0
 礏	mcgh	0
-礐	pbbm	0
 礑	msq	0
 礑	msqt	0
 礒	mgtp	0

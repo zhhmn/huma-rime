@@ -1,5 +1,5 @@
 name: tigress
-version: "2025.06.18"
+version: "2025.11.11"
 sort: by_weight
 columns:
   - text
@@ -6772,11 +6772,12 @@ import_tables:
 犊	992	qna
 犊	397	qnam
 昙	989	oby
+粿	989	pqe
+粿	397	pqem
 闰	989	anw
 篆	988	rbj
 篆	397	rbjs
-踝	988	pqe
-踝	397	pqem
+踝	988	pqem
 呷	987	dsj
 熹	986	hdc
 熹	397	hdch
@@ -10807,6 +10808,7 @@ import_tables:
 宀	258	wg
 岍	258	vfl
 岍	258	vflc
+峃	258	kwvs
 巯	258	rubo
 戤	258	vrap
 扌	258	uss
@@ -11910,7 +11912,6 @@ import_tables:
 岧	257	vpdk
 岨	257	vfq
 峂	257	vhwb
-峃	257	kwvs
 峉	257	vsg
 峎	257	vig
 峗	257	vxxz
@@ -11958,6 +11959,8 @@ import_tables:
 嶟	257	vhy
 嶟	257	vhyk
 嶦	257	vxxs
+嶨	257	pbb
+嶨	257	pbbv
 嶰	257	vxt
 嶰	257	vxtq
 嶲	257	vum
@@ -13200,6 +13203,7 @@ import_tables:
 礃	257	msus
 礌	257	mtq
 礌	257	mtqt
+礐	257	pbbm
 礞	257	mlwj
 礤	257	mlhf
 礳	257	mzm
@@ -13337,7 +13341,6 @@ import_tables:
 粄	257	pxr
 粄	257	pxry
 粔	257	pnnk
-粿	257	pqem
 糄	257	pmic
 糒	257	plt
 糒	257	pltt
@@ -15019,7 +15022,6 @@ import_tables:
 聽	212	qnnh
 喫	211	dapm
 幫	210	ggkr
-學	209	pbb
 學	209	pbbh
 總	208	itr
 總	208	itrh
@@ -18383,7 +18385,6 @@ import_tables:
 嶤	0	vggp
 嶥	0	vxhe
 嶧	0	vygg
-嶨	0	pbbv
 嶩	0	vyfc
 嶪	0	vcgh
 嶫	0	vcgh
@@ -22786,7 +22787,6 @@ import_tables:
 礍	0	mlof
 礎	0	meet
 礏	0	mcgh
-礐	0	pbbm
 礑	0	msq
 礑	0	msqt
 礒	0	mgtp
@@ -113191,6 +113191,7 @@ import_tables:
 熿	255	cnhh
 汱	255	kmqs
 匜	255	neyk
+鸸	255	lxne
 微	255	wvfo
 赢	255	fdvo
 徽	255	wvfi
