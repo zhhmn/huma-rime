@@ -86,6 +86,18 @@ def find_item_in_list_by_tagname(items, tag_name: str, starts: str) -> Tuple[Web
     eprint(f'failed to find item in list by tagname {tag_name} that starts with {starts}')
     exit(1)
 
+ignored_names = {
+    'crawler.py',      # The script itself
+    'README.md',       # Repo documentation
+    '.gitignore',      # Git config
+    'plum',            # The recipe folder itself
+    '.github',         # GitHub Actions/Workflows
+    '.git',            # Git metadata
+    '.venv',            # Python virtual env
+    '__pycache__',     # Python bytecode
+    '.DS_Store'        # macOS junk
+}
+
 def get_zip_and_extract(browser):
     browser.get(URL)
 
@@ -141,14 +153,6 @@ def get_zip_and_extract(browser):
     eprint(f"downloading {name} with url {url}")
 
     urlretrieve(url, ZIP_FILE)
-    ignore_files = [
-        ".git",
-        ".github",
-        ".gitignore",
-        "README.md",
-        "crawler.py",
-        "geckodriver.log",
-    ]
 
     def delete_removed(diff, par='.'):
         for file in diff.left_only:
@@ -164,7 +168,7 @@ def get_zip_and_extract(browser):
         folder = os.path.join("/tmp", zip_ref.filelist[0].filename[:-1])
         rmtree(folder, ignore_errors=True)
         zip_ref.extractall("/tmp")
-        diff = filecmp.dircmp(".", folder, ignore=ignore_files)
+        diff = filecmp.dircmp(".", folder, ignore=list(ignored_names))
         delete_removed(diff)
         copytree(folder, ".", dirs_exist_ok=True)
 
@@ -236,9 +240,46 @@ def try_parse_date(tag: str) -> Optional[datetime]:
 
     return None
 
+def update_plum_recipe():
+    """
+    Generates a Plum recipe by including EVERYTHING except a strictly defined blacklist.
+    """
+    import yaml
+    # 1. The Blacklist: Files and directories that should NEVER be in a user's Rime folder.
+    install_files = []
+
+    # 2. Walk the directory
+    for item in os.listdir('.'):
+        if item in ignored_names:
+            continue
+
+        if os.path.isdir(item):
+            install_files.append(f"{item}/*")
+        else:
+            install_files.append(item)
+
+    # 4. Construct the Recipe
+    recipe_data = {
+        'recipe': {
+            'Rx': 'zhhmn/huma',
+            'args': {
+                'description': '虎码 Rime 自动更新 (Dynamic Build)',
+                'install_files': sorted(install_files)
+            }
+        }
+    }
+
+    # 5. Write the file
+    os.makedirs('plum', exist_ok=True)
+    with open('plum/huma.recipe.yaml', 'w', encoding='utf-8') as f:
+        f.write('# encoding: utf-8\n---\n')
+        yaml.dump(recipe_data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
+
+    print(f"✅ Plum recipe synchronized. {len(install_files)} items included.")
+
 def main():
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    # chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     browser = webdriver.Chrome(options=chrome_options) # type: ignore
     tag = get_zip_and_extract(browser)
@@ -266,3 +307,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # not used for now
+    # update_plum_recipe()
