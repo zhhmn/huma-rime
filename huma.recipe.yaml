@@ -1,33 +1,33 @@
 # encoding: utf-8
 ---
 recipe:
-  Rx: zhhmn/huma-rime
+  Rx: huma
   args:
     description: 虎码 Rime 自动更新 (Dynamic Build)
-    install_files:
-    - 01 双拼反查配置（自然码 小鹤 微软）/*
-    - PY_c.dict.yaml
-    - PY_c.schema.yaml
-    - changelog.txt
-    - core2022.dict.yaml
-    - core2022.schema.yaml
-    - default.custom.yaml
-    - easy_english.dict.yaml
-    - easy_english.schema.yaml
-    - lua/*
-    - opencc/*
-    - rime.lua
-    - squirrel.custom.yaml
-    - stroke.dict.yaml
-    - stroke.schema.yaml
-    - symbols.yaml
-    - tiger.custom.yaml
-    - tiger.dict.yaml
-    - tiger.extended.dict.yaml
-    - tiger.schema.yaml
-    - tigress.custom.yaml
-    - tigress.dict.yaml
-    - tigress.extended.dict.yaml
-    - tigress.schema.yaml
-    - tigress_ci.dict.yaml
-    - tigress_simp_ci.dict.yaml
+install_files:
+  - 01 双拼反查配置（自然码 小鹤 微软）/*
+  - PY_c.dict.yaml
+  - PY_c.schema.yaml
+  - changelog.txt
+  - core2022.dict.yaml
+  - core2022.schema.yaml
+  - default.custom.yaml
+  - easy_english.dict.yaml
+  - easy_english.schema.yaml
+  - lua/*
+  - opencc/*
+  - rime.lua
+  - squirrel.custom.yaml
+  - stroke.dict.yaml
+  - stroke.schema.yaml
+  - symbols.yaml
+  - tiger.custom.yaml
+  - tiger.dict.yaml
+  - tiger.extended.dict.yaml
+  - tiger.schema.yaml
+  - tigress.custom.yaml
+  - tigress.dict.yaml
+  - tigress.extended.dict.yaml
+  - tigress.schema.yaml
+  - tigress_ci.dict.yaml
+  - tigress_simp_ci.dict.yaml
