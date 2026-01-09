@@ -90,7 +90,7 @@ ignored_names = {
     'crawler.py',      # The script itself
     'README.md',       # Repo documentation
     '.gitignore',      # Git config
-    'plum',            # The recipe folder itself
+    'huma.recipe.yaml',# The recipe itself
     '.github',         # GitHub Actions/Workflows
     '.git',            # Git metadata
     '.venv',            # Python virtual env
