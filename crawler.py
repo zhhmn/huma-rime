@@ -279,7 +279,7 @@ def update_plum_recipe():
 
 def main():
     chrome_options = Options()
-    # chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     browser = webdriver.Chrome(options=chrome_options) # type: ignore
     tag = get_zip_and_extract(browser)
