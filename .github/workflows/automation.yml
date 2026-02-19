@@ -9,7 +9,7 @@ permissions: write-all
 
 jobs:
   automate-task:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     container:
       image: c4r50nz/selenium-chrome:v20230701
 
