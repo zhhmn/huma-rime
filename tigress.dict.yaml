@@ -1,5 +1,5 @@
 name: tigress
-version: "2025.11.11"
+version: "2026.03.01"
 sort: by_weight
 columns:
   - text
@@ -11642,6 +11642,8 @@ import_tables:
 坉	257	gfsc
 坋	257	ghpd
 坒	257	vvgt
+坖	257	mpg
+坖	257	mpgt
 坢	257	ghu
 坢	257	ghus
 坥	257	gfq
@@ -13723,6 +13725,7 @@ import_tables:
 襫	257	tmf
 襫	257	tmfu
 襶	257	tnph
+覅	257	vbne
 覇	257	vtv
 覇	257	vtvy
 觃	257	ehi
@@ -17332,8 +17335,6 @@ import_tables:
 坓	0	qgt
 坔	0	kgt
 坕	0	ygt
-坖	0	mpg
-坖	0	mpgt
 坘	0	gfb
 坘	0	gfbj
 坙	0	fogt
@@ -25661,7 +25662,6 @@ import_tables:
 覂	0	vtri
 覄	0	vjm
 覄	0	vjmq
-覅	0	vbne
 覈	0	vul
 覈	0	vulh
 覉	0	vtmz

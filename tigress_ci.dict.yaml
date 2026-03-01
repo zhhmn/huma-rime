@@ -1,5 +1,5 @@
 name: tigress_ci
-version: "2025.11.11"
+version: "2026.03.01"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -27749,6 +27749,7 @@ encoder:
 光剑	453	mgjk
 斜斜	453	jxjx
 泥水	453	kcks
+喀嚓	453	dwdw
 泥人	453	kcjr
 造林	453	qdee
 批改	453	uvvh
@@ -28647,6 +28648,15 @@ encoder:
 三木环奈	450	tenm
 花衣椿	450	ltea
 三澄宁宁	450	tkww
+和香夏树	450	xxfe
+春乃露露	450	avtt
+竹内有纪	450	rmni
+高市早苗	450	gzol
+与田铃	450	fqzj
+斩杀线	450	ybif
+李在明	450	enov
+万岁山	450	fvvs
+南北绿豆	450	naiz
 女鬼	449	bnag
 共生	449	lhls
 阶下	448	tjfy
@@ -33447,6 +33457,7 @@ encoder:
 如命	392	bdjd
 民宿	392	dmwj
 脱色	392	vhxm
+噜噜	392	dwdw
 梁启超	391	kmpp
 肝胆	391	vevo
 僧道	391	jhho
@@ -33576,7 +33587,6 @@ encoder:
 活脱脱	390	kvvh
 圆球	390	rdnf
 神通广大	390	fkxm
-喀嚓	390	dwdw
 疆土	390	bggt
 浑水	390	kwks
 斑白	390	nvub
@@ -38661,6 +38671,7 @@ encoder:
 吹向	352	detm
 翻篇	352	tprm
 不必说	352	chsh
+嘧啶	352	dwdw
 多赢	352	llfd
 从实	351	jjww
 公顷	351	hkvw
@@ -38906,7 +38917,6 @@ encoder:
 守军	351	wkwy
 外资企业	351	lwjc
 二手车	351	muyc
-嘧啶	351	dwdw
 外汇储备	351	lkjh
 业务范围	351	chlr
 公权力	351	hesl

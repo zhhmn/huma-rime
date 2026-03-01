@@ -1,5 +1,5 @@
 name: tigress_simp_ci
-version: "2025.11.11"
+version: "2026.03.01"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -1527,6 +1527,8 @@ encoder:
 阿汤哥	117	tkz
 韦东奕	117	grz
 安卓猫	117	wym
+与田铃	117	fqz
+斩杀线	117	ybi
 地下水	117	gfk
 运动鞋	117	bbt
 适合于	117	ajf
