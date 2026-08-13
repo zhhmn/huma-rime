@@ -1,0 +1,16 @@
+name: HTTP Crawler Probe
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe huma.ysepan.com
+        run: python3 crawler_http.py --probe
