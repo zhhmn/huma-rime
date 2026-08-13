@@ -5,36 +5,41 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
-permissions: write-all
+permissions:
+  contents: write
 
 jobs:
   automate-task:
     runs-on: ubuntu-latest
-    container:
-      image: c4r50nz/selenium-chrome:v20230701
 
     steps:
-      - name: Clone repository
-        run: |
-          rm -rf huma-rime
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/zhhmn/huma-rime
-          cd huma-rime
-          git config user.name "Automated"
-          git config user.email "actions@users.noreply.github.com"
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
-      - name: Run script and capture output
-        id: script
+      - name: Update from huma.ysepan.com
+        id: crawler
         run: |
-          cd huma-rime
-          python crawler.py >> $GITHUB_OUTPUT
+          python3 crawler_http.py --update >> "$GITHUB_OUTPUT"
 
       - name: Commit and push if there are changes
+        env:
+          TAG: ${{ steps.crawler.outputs.tag }}
         run: |
-          cd huma-rime
-          git status
+          git status --short
+          if test -z "$(git status --porcelain)"; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
           DATE=$(date +"%Y-%m-%d")
-          git add .
-          git commit --all --verbose -m "Automated update on $DATE" || exit 0
-          git tag ${{ steps.script.outputs.tag }}
-          git tag
-          git push --tags origin HEAD:master
+          git add --all
+          git commit --verbose -m "Automated update on $DATE"
+          git check-ref-format "refs/tags/$TAG"
+          if git rev-parse --verify --quiet "refs/tags/$TAG"; then
+            echo "Tag already exists: $TAG" >&2
+            exit 1
+          fi
+          git tag "$TAG"
+          git push origin HEAD:master "refs/tags/$TAG"
