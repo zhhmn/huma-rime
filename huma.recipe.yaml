@@ -5,7 +5,6 @@ recipe:
   args:
     description: 虎码 Rime 自动更新 (Dynamic Build)
 install_files:
-  - 01 双拼反查配置（自然码 小鹤 微软）/*
   - PY_c.dict.yaml
   - PY_c.schema.yaml
   - changelog.txt
