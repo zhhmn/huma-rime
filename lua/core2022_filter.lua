@@ -9,6 +9,7 @@ local charsets = {
   { first = 0x30000, last = 0x3134f }, -- 扩G
   { first = 0x31350, last = 0x323af }, -- 扩H
   { first = 0x2EBF0, last = 0x2EE5D }, -- 扩I
+  { first = 0x323B0, last = 0x33479 }, -- 扩J
   { first = 0x31c0, last = 0x31ef }, -- 笔画
   { first = 0x2e80, last = 0x2eff }, -- 部首扩展
   { first = 0x2f00, last = 0x2fdf }, -- 康熙部首
