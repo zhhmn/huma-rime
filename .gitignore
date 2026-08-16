@@ -3,3 +3,4 @@ build
 installation.yaml
 user.yaml
 geckodriver.log
+__pycache__/

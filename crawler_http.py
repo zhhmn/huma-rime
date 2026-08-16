@@ -2,13 +2,16 @@
 
 import argparse
 from datetime import datetime
+import hashlib
 import http.cookiejar
 import json
 from pathlib import Path, PurePosixPath
 import re
 import shutil
+import socket
 import sys
 import tempfile
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -21,6 +24,8 @@ CHANGELOG_SPACE = "05 虎码测评 更新日志"
 ARCHIVE_PREFIX = "虎码秃版 鼠须管 （Mac）"
 CHANGELOG_PREFIX = "虎码更新日志 "
 TIMEOUT = 30
+HOMEPAGE_ATTEMPTS = 3
+HOMEPAGE_BODY_LOG_LIMIT = 4096
 USER_AGENT = "huma-rime-http-crawler/1"
 IGNORED_NAMES = {
     ".DS_Store",
@@ -33,6 +38,7 @@ IGNORED_NAMES = {
     "crawler.py",
     "crawler_http.py",
     "huma.recipe.yaml",
+    "test_crawler_http.py",
 }
 
 
@@ -40,14 +46,39 @@ def log(message):
     print(message, file=sys.stderr, flush=True)
 
 
+def log_transport_error(stage, url, error, started):
+    parsed = urllib.parse.urlsplit(url)
+    host = parsed.hostname
+    port = parsed.port or (443 if parsed.scheme == "https" else 80)
+    try:
+        addresses = sorted(
+            {
+                result[4][0]
+                for result in socket.getaddrinfo(
+                    host, port, type=socket.SOCK_STREAM
+                )
+            }
+        )
+    except OSError as dns_error:
+        addresses = [f"DNS error: {type(dns_error).__name__}: {dns_error}"]
+    reason = error.reason if isinstance(error, urllib.error.URLError) else error
+    log(
+        f"[{stage}] transport error after {time.monotonic() - started:.3f}s: "
+        f"host={host!r} port={port} addresses={addresses!r} "
+        f"reason_type={type(reason).__name__} reason={reason!r}"
+    )
+
+
 def open_url(opener, request, stage, read_limit=None):
     log(f"[{stage}] request: {request.full_url}")
+    started = time.monotonic()
     try:
         with opener.open(request, timeout=TIMEOUT) as response:
             body = response.read() if read_limit is None else response.read(read_limit)
             log(
                 f"[{stage}] response: status={response.status} "
-                f"type={response.headers.get('Content-Type', '')!r} bytes={len(body)}"
+                f"type={response.headers.get('Content-Type', '')!r} bytes={len(body)} "
+                f"elapsed={time.monotonic() - started:.3f}s"
             )
             return response.status, response.headers, body
     except urllib.error.HTTPError as error:
@@ -57,7 +88,10 @@ def open_url(opener, request, stage, read_limit=None):
             log(f"[{stage}] body: {detail!r}")
         raise
     except urllib.error.URLError as error:
-        log(f"[{stage}] URLError: reason={error.reason!r}")
+        log_transport_error(stage, request.full_url, error, started)
+        raise
+    except TimeoutError as error:
+        log_transport_error(stage, request.full_url, error, started)
         raise
     except Exception as error:
         log(f"[{stage}] {type(error).__name__}: {error}")
@@ -104,6 +138,43 @@ def download_url(site, space, item):
     )
 
 
+def open_homepage():
+    for attempt in range(1, HOMEPAGE_ATTEMPTS + 1):
+        jar = http.cookiejar.CookieJar()
+        opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
+        request = urllib.request.Request(
+            HOME_URL, headers={"User-Agent": USER_AGENT}
+        )
+        _, headers, home = open_url(opener, request, "homepage")
+        match = re.search(rb"window\.htxx\s*=\s*(\{.*?\});", home, re.DOTALL)
+        if match:
+            return opener, jar, json.loads(match.group(1))
+        diagnostic_headers = {
+            name: headers.get(name)
+            for name in ("Content-Type", "Content-Length", "Date", "Server", "Via")
+            if headers.get(name) is not None
+        }
+        log(
+            f"[homepage] unusable response: attempt={attempt}/{HOMEPAGE_ATTEMPTS} "
+            f"sha256={hashlib.sha256(home).hexdigest()} "
+            f"headers={diagnostic_headers!r} "
+            f"cookies={sorted(cookie.name for cookie in jar)!r}"
+        )
+        excerpt = home[:HOMEPAGE_BODY_LOG_LIMIT].decode("utf-8", "backslashreplace")
+        log(f"[homepage] body excerpt: {excerpt!r}")
+        if attempt == HOMEPAGE_ATTEMPTS:
+            break
+        delay = 2 ** (attempt - 1)
+        log(
+            f"[homepage] window.htxx was not found; "
+            f"retrying with a new session in {delay}s"
+        )
+        time.sleep(delay)
+    raise RuntimeError(
+        f"[homepage] window.htxx was not found after {HOMEPAGE_ATTEMPTS} attempts"
+    )
+
+
 def probe_download(opener, url, stage):
     request = urllib.request.Request(
         url,
@@ -122,17 +193,7 @@ def probe_download(opener, url, stage):
 
 
 def discover():
-    jar = http.cookiejar.CookieJar()
-    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
-    home_request = urllib.request.Request(
-        HOME_URL, headers={"User-Agent": USER_AGENT}
-    )
-    _, _, home = open_url(opener, home_request, "homepage")
-
-    match = re.search(rb"window\.htxx\s*=\s*(\{.*?\});", home, re.DOTALL)
-    if not match:
-        raise RuntimeError("[homepage] window.htxx was not found")
-    site = json.loads(match.group(1))
+    opener, jar, site = open_homepage()
     token_cookie = next(
         (cookie for cookie in jar if cookie.name == f"jwttk_{site['dlmc']}"),
         None,
@@ -206,6 +267,7 @@ def probe():
 def download_file(opener, url, destination, stage, expected_size):
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     log(f"[{stage}] request: {url}")
+    started = time.monotonic()
     try:
         with opener.open(request, timeout=TIMEOUT) as response:
             with destination.open("wb") as output:
@@ -213,7 +275,8 @@ def download_file(opener, url, destination, stage, expected_size):
             log(
                 f"[{stage}] response: status={response.status} "
                 f"type={response.headers.get('Content-Type', '')!r} "
-                f"bytes={destination.stat().st_size}"
+                f"bytes={destination.stat().st_size} "
+                f"elapsed={time.monotonic() - started:.3f}s"
             )
     except urllib.error.HTTPError as error:
         detail = error.read(1024).decode("utf-8", "replace")
@@ -222,7 +285,10 @@ def download_file(opener, url, destination, stage, expected_size):
             log(f"[{stage}] body: {detail!r}")
         raise
     except urllib.error.URLError as error:
-        log(f"[{stage}] URLError: reason={error.reason!r}")
+        log_transport_error(stage, url, error, started)
+        raise
+    except TimeoutError as error:
+        log_transport_error(stage, url, error, started)
         raise
     except Exception as error:
         log(f"[{stage}] {type(error).__name__}: {error}")
