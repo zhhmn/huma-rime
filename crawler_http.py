@@ -40,6 +40,7 @@ IGNORED_NAMES = {
     "crawler.py",
     "crawler_http.py",
     "huma.recipe.yaml",
+    "scf_relay",
     "test_crawler_http.py",
 }
 
