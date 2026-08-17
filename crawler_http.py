@@ -491,7 +491,7 @@ def update():
         download_via_relay(
             changelog_url,
             changelog_path,
-            f"changelog:{changelog_url}",
+            f"changelog:{changelog['fwq']}:{changelog['pz']}:{changelog['wjm']}",
             changelog["dx"],
         )
         archive_root = extract_archive(archive_path, temporary_path / "extracted")
