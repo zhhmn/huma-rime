@@ -1,3 +1,6 @@
+import hashlib
+from pathlib import Path
+import tempfile
 import unittest
 from unittest.mock import Mock, call, patch
 import urllib.error
@@ -84,6 +87,74 @@ class TransportDiagnosticsTest(unittest.TestCase):
         self.assertIn("after 30.000s", diagnostic)
         self.assertIn("addresses=['61.147.124.28']", diagnostic)
         self.assertIn("reason_type=TimeoutError", diagnostic)
+
+
+class RelayDownloadTest(unittest.TestCase):
+    @patch.dict(
+        "crawler_http.os.environ",
+        {"RELAY_URL": "https://relay.example", "RELAY_TOKEN": "secret"},
+    )
+    @patch("crawler_http.download_file")
+    @patch("crawler_http.load_json")
+    def test_downloads_and_verifies_relay_response(self, load_json, download_file):
+        content = b"changelog"
+        digest = hashlib.sha256(content).hexdigest()
+        load_json.return_value = {
+            "url": "https://cos.example/object?signature=secret",
+            "size": len(content),
+            "sha256": digest,
+            "cached": False,
+        }
+        download_file.side_effect = (
+            lambda _opener, _url, destination, _stage, _size, redact_url: (
+                destination.write_bytes(content)
+            )
+        )
+
+        with tempfile.TemporaryDirectory() as temporary:
+            destination = Path(temporary) / "changelog.txt"
+            crawler_http.download_via_relay(
+                "https://ys-L.ysepan.com/changelog.txt",
+                destination,
+                "changelog:test",
+                len(content),
+            )
+
+        payload = load_json.call_args.args[4]
+        self.assertEqual(payload["cache_key"], "changelog:test")
+        self.assertEqual(load_json.call_args.kwargs["timeout"], 190)
+        self.assertFalse(load_json.call_args.kwargs["log_body_on_error"])
+        self.assertTrue(download_file.call_args.kwargs["redact_url"])
+
+    @patch.dict(
+        "crawler_http.os.environ",
+        {"RELAY_URL": "https://relay.example", "RELAY_TOKEN": "secret"},
+    )
+    @patch("crawler_http.download_file")
+    @patch("crawler_http.load_json")
+    def test_rejects_download_with_wrong_digest(self, load_json, download_file):
+        content = b"changelog"
+        load_json.return_value = {
+            "url": "https://cos.example/object?signature=secret",
+            "size": len(content),
+            "sha256": "0" * 64,
+            "cached": False,
+        }
+        download_file.side_effect = (
+            lambda _opener, _url, destination, _stage, _size, redact_url: (
+                destination.write_bytes(content)
+            )
+        )
+
+        with tempfile.TemporaryDirectory() as temporary:
+            destination = Path(temporary) / "changelog.txt"
+            with self.assertRaisesRegex(RuntimeError, "SHA-256 mismatch"):
+                crawler_http.download_via_relay(
+                    "https://ys-L.ysepan.com/changelog.txt",
+                    destination,
+                    "changelog:test",
+                    len(content),
+                )
 
 
 if __name__ == "__main__":

@@ -4,3 +4,4 @@ installation.yaml
 user.yaml
 geckodriver.log
 __pycache__/
+scf_relay/dist/

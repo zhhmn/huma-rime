@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   automate-task:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v5
@@ -19,6 +19,9 @@ jobs:
 
       - name: Update from huma.ysepan.com
         id: crawler
+        env:
+          RELAY_URL: https://1251849890-cxi3qhhxz3.ap-guangzhou.tencentscf.com
+          RELAY_TOKEN: ${{ secrets.SCF_RELAY_TOKEN }}
         run: |
           python3 crawler_http.py --update >> "$GITHUB_OUTPUT"
 

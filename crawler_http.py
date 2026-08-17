@@ -5,6 +5,7 @@ from datetime import datetime
 import hashlib
 import http.cookiejar
 import json
+import os
 from pathlib import Path, PurePosixPath
 import re
 import shutil
@@ -24,6 +25,7 @@ CHANGELOG_SPACE = "05 虎码测评 更新日志"
 ARCHIVE_PREFIX = "虎码秃版 鼠须管 （Mac）"
 CHANGELOG_PREFIX = "虎码更新日志 "
 TIMEOUT = 30
+RELAY_TIMEOUT = 190
 HOMEPAGE_ATTEMPTS = 3
 HOMEPAGE_BODY_LOG_LIMIT = 4096
 USER_AGENT = "huma-rime-http-crawler/1"
@@ -69,11 +71,11 @@ def log_transport_error(stage, url, error, started):
     )
 
 
-def open_url(opener, request, stage, read_limit=None):
+def open_url(opener, request, stage, read_limit=None, timeout=TIMEOUT):
     log(f"[{stage}] request: {request.full_url}")
     started = time.monotonic()
     try:
-        with opener.open(request, timeout=TIMEOUT) as response:
+        with opener.open(request, timeout=timeout) as response:
             body = response.read() if read_limit is None else response.read(read_limit)
             log(
                 f"[{stage}] response: status={response.status} "
@@ -98,7 +100,15 @@ def open_url(opener, request, stage, read_limit=None):
         raise
 
 
-def load_json(opener, url, stage, token, payload):
+def load_json(
+    opener,
+    url,
+    stage,
+    token,
+    payload,
+    timeout=TIMEOUT,
+    log_body_on_error=True,
+):
     request = urllib.request.Request(
         url,
         data=json.dumps(payload).encode("utf-8"),
@@ -108,11 +118,12 @@ def load_json(opener, url, stage, token, payload):
             "User-Agent": USER_AGENT,
         },
     )
-    _, _, body = open_url(opener, request, stage)
+    _, _, body = open_url(opener, request, stage, timeout=timeout)
     try:
         result = json.loads(body)
     except json.JSONDecodeError as error:
-        log(f"[{stage}] JSONDecodeError: {error}; body={body[:1024]!r}")
+        detail = f"; body={body[:1024]!r}" if log_body_on_error else ""
+        log(f"[{stage}] JSONDecodeError: {error}{detail}")
         raise
     log(f"[{stage}] JSON keys: {sorted(result)}")
     return result
@@ -264,9 +275,11 @@ def probe():
     log("[probe] all connectivity checks passed")
 
 
-def download_file(opener, url, destination, stage, expected_size):
+def download_file(
+    opener, url, destination, stage, expected_size, redact_url=False
+):
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    log(f"[{stage}] request: {url}")
+    log(f"[{stage}] request: {'<redacted>' if redact_url else url}")
     started = time.monotonic()
     try:
         with opener.open(request, timeout=TIMEOUT) as response:
@@ -291,12 +304,78 @@ def download_file(opener, url, destination, stage, expected_size):
         log_transport_error(stage, url, error, started)
         raise
     except Exception as error:
-        log(f"[{stage}] {type(error).__name__}: {error}")
+        detail = "<redacted>" if redact_url else str(error)
+        log(f"[{stage}] {type(error).__name__}: {detail}")
         raise
     actual_size = destination.stat().st_size
     if actual_size != expected_size:
         raise RuntimeError(
             f"[{stage}] size mismatch: expected={expected_size}, actual={actual_size}"
+        )
+
+
+def file_sha256(path):
+    digest = hashlib.sha256()
+    with path.open("rb") as source:
+        for chunk in iter(lambda: source.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def download_via_relay(source_url, destination, cache_key, expected_size):
+    relay_url = os.environ.get("RELAY_URL")
+    relay_token = os.environ.get("RELAY_TOKEN")
+    if not relay_url or not relay_token:
+        raise RuntimeError("RELAY_URL and RELAY_TOKEN are required")
+
+    opener = urllib.request.build_opener()
+    result = load_json(
+        opener,
+        relay_url,
+        "changelog-relay",
+        relay_token,
+        {
+            "url": source_url,
+            "expected_size": expected_size,
+            "cache_key": cache_key,
+        },
+        timeout=RELAY_TIMEOUT,
+        log_body_on_error=False,
+    )
+    required = {"url", "size", "sha256", "cached"}
+    if not isinstance(result, dict) or set(result) != required:
+        raise RuntimeError("[changelog-relay] invalid response fields")
+    if type(result["size"]) is not int or result["size"] != expected_size:
+        raise RuntimeError("[changelog-relay] invalid response size")
+    if type(result["cached"]) is not bool:
+        raise RuntimeError("[changelog-relay] invalid cache status")
+    if not isinstance(result["sha256"], str) or re.fullmatch(
+        r"[0-9a-f]{64}", result["sha256"]
+    ) is None:
+        raise RuntimeError("[changelog-relay] invalid SHA-256")
+    if not isinstance(result["url"], str):
+        raise RuntimeError("[changelog-relay] invalid download URL")
+    signed_url = urllib.parse.urlsplit(result["url"])
+    if signed_url.scheme != "https" or not signed_url.hostname:
+        raise RuntimeError("[changelog-relay] invalid download URL")
+
+    log(
+        f"[changelog-relay] ready: cached={result['cached']} "
+        f"size={result['size']} sha256={result['sha256']}"
+    )
+    download_file(
+        opener,
+        result["url"],
+        destination,
+        "changelog-relay-download",
+        expected_size,
+        redact_url=True,
+    )
+    actual_sha256 = file_sha256(destination)
+    if actual_sha256 != result["sha256"]:
+        raise RuntimeError(
+            f"[changelog-relay-download] SHA-256 mismatch: "
+            f"expected={result['sha256']}, actual={actual_sha256}"
         )
 
 
@@ -407,11 +486,11 @@ def update():
             "archive-download",
             archive["dx"],
         )
-        download_file(
-            opener,
-            download_url(site, changelogs["ml"], changelog),
+        changelog_url = download_url(site, changelogs["ml"], changelog)
+        download_via_relay(
+            changelog_url,
             changelog_path,
-            "changelog-download",
+            f"changelog:{changelog_url}",
             changelog["dx"],
         )
         archive_root = extract_archive(archive_path, temporary_path / "extracted")
